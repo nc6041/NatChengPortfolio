@@ -16,7 +16,7 @@ const Designs = () => {
             {designs.map((design, index) => (
             <li
                 key={design.title}
-                className={`hover:scale-105 font-poppins font-bold text-[16px] sm:${index === designs.length - 1 ? "mr-0" : "mr-10"}`}
+                className={`hover:scale-105 font-poppins font-bold text-[16px] sm:${index === designs.length - 1 ? "mr-0" : "mr-2"}`}
             >
                 <img src={design.img} alt={design.title} className="w-[100%] h-[100%] relative mb-2 mt-6" />
                 {design.title}<br></br>
@@ -35,9 +35,9 @@ const Designs = () => {
             {posters.map((poster, index) => (
             <li
                 key={poster.title}
-                className={`hover:scale-105 font-poppins font-bold text-[16px] sm:${index === designs.length - 1 ? "mr-0" : "mr-10"}`}
+                className={`hover:scale-105 font-poppins font-bold text-[16px] sm:${index === designs.length - 1 ? "mr-0" : "mr-2"}`}
             >
-                <img src={poster.img} alt={poster.title} className="w-[100%] h-[100%] relative z-[5] mb-2 mt-6" />
+                <img src={poster.img} alt={poster.title} className="w-[100%] h-[100%] relative mb-2 mt-6" />
                 {poster.title}<br></br>
                 <p className="font-normal text-dimGrey">{poster.year}</p>
             </li>
