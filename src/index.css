@@ -138,7 +138,6 @@
 }
 
 
-@layer base{
   @font-face {
       font-family: 'Nohemi';
       font-weight: 900;
@@ -202,4 +201,4 @@
       font-display: block;
       font-style: normal;
   }
-  }
+  
