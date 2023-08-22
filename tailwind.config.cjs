@@ -12,7 +12,7 @@ module.exports = {
         dimGrey: "#898B8A",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        nohemi: "Nohemi",
       },
       rotate: {
         '130': '130deg',

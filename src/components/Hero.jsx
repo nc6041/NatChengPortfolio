@@ -7,7 +7,7 @@ const Hero = () => {
       <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6`}>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-bold text-center ss:text-[72px] text-[60px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-nohemi font-bold text-center ss:text-[72px] text-[60px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
             i'm{" "}
             <span className="text-dimCyan">nat</span>,
           </h1>

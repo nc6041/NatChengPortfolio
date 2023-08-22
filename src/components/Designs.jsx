@@ -7,7 +7,7 @@ const Designs = () => {
         <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
   
           <div className="flex flex-row justify-between items-center w-full">
-            <h1 className="flex-1 font-poppins font-medium text-start ss:text-[42px] text-[48px] text-dimBlack ss:leading-[150px] leading-[75px]">
+            <h1 className="flex-1 font-nohemi font-medium text-start ss:text-[42px] text-[48px] text-dimBlack ss:leading-[150px] leading-[75px]">
               club designs
             </h1>
           </div>
@@ -16,7 +16,7 @@ const Designs = () => {
             {designs.map((design, index) => (
             <li
                 key={design.title}
-                className={`hover:scale-105 font-poppins font-bold text-[16px] mx-3`}
+                className={`hover:scale-105 font-nohemi font-bold text-[16px] mx-3`}
             >
                 <img src={design.img} alt={design.title} className="w-[100%] h-[100%] relative mb-2 mt-6" />
                 {design.title}<br></br>
@@ -26,7 +26,7 @@ const Designs = () => {
           </ul>
 
           <div className="flex flex-row justify-between items-center w-full">
-            <h1 className="flex-1 font-poppins font-medium text-start ss:text-[42px] text-[48px] text-dimBlack ss:leading-[150px] leading-[75px]">
+            <h1 className="flex-1 font-nohemi font-medium text-start ss:text-[42px] text-[48px] text-dimBlack ss:leading-[150px] leading-[75px]">
               posters
             </h1>
           </div>
@@ -35,7 +35,7 @@ const Designs = () => {
             {posters.map((poster, index) => (
             <li
                 key={poster.title}
-                className={`hover:scale-105 font-poppins font-bold text-[16px] mx-2`}
+                className={`hover:scale-105 font-nohemi font-bold text-[16px] mx-2`}
             >
                 <img src={poster.img} alt={poster.title} className="w-[100%] h-[100%] relative mb-2 mt-6" />
                 {poster.title}<br></br>

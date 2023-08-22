@@ -5,7 +5,7 @@ const Footer = () => (
     <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6`}>
 
       <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 text-white font-poppins font-medium text-center ss:text-[32px] text-[24px] text-dimBlack">
+        <h1 className="flex-1 text-white font-nohemi font-medium text-center ss:text-[32px] text-[24px] text-dimBlack">
           Let's Talk!
         </h1>
       </div>

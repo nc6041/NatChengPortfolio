@@ -16,13 +16,13 @@ const Navbar = () => {
             onMouseEnter={() => setTitle(true)}
             onMouseLeave={() => setTitle(false)}
             >
-          <h1 className={`flex whitespace-pre font-poppins font-bold ss:text-[32px] text-[52px] text-dimBlack  ${
+          <h1 className={`flex whitespace-pre font-nohemi font-bold ss:text-[32px] text-[52px] text-dimBlack  ${
               title ? "text-dimCyan" : "text-dimBlack"
             }`}>
             nat{" "}
             <span className={`${title ? "text-dimBlack" : "text-dimCyan"}`}>cheng</span>
           </h1>
-          <p className={`flex whitespace-pre font-poppins font-normal ss:text-[15px] text-[24px] text-dimBlack  ${
+          <p className={`flex whitespace-pre font-nohemi font-normal ss:text-[15px] text-[24px] text-dimBlack  ${
               title ? "text-dimBlack" : "text-dimCyan"
             }`}>
             UX{" "}
@@ -35,7 +35,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+            className={`font-nohemi font-normal cursor-pointer text-[16px] ${
               active === nav.title || window.location.pathname.substring(1) === nav.id ? "text-dimCyan" : "text-dimBlack"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onMouseEnter={() => setActive(nav.title)}
@@ -63,7 +63,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                className={`font-nohemi font-medium cursor-pointer text-[16px] ${
                   active === nav.title ? "text-dimCyan" : "text-dimBlack"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onMouseEnter={() => setActive(nav.title)}

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,6 +8,10 @@
 
 * {
   scroll-behavior: smooth;
+}
+
+.App-Section{
+  font-family: NohemiRegular;
 }
 
 .text-gradient {
@@ -132,3 +134,70 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+
+@layer base{
+  @font-face {
+      font-family: 'Nohemi';
+      font-weight: 900;
+      src: url('./fonts/NohemiBlack.woff') format('woff');
+      font-display: swap;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Nohemi';
+      font-weight: 800;
+      src: url('./fonts/NohemiExtraBold.woff') format('woff');
+      font-display: swap;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Nohemi';
+      font-weight: 700;
+      src: url('./fonts/NohemiBold.woff') format('woff');
+      font-display: swap;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Nohemi';
+      font-weight: 600;
+      src: url('./fonts/NohemiSemibold.woff') format('woff');
+      font-display: swap;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Nohemi';
+      font-weight: 500;
+      src: url('./fonts/NohemiMedium.woff') format('woff');
+      font-display: swap;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Nohemi';
+      font-weight: 400;
+      src: url('./fonts/NohemiRegular.woff') format('woff');
+      font-display: swap;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Nohemi';
+      font-weight: 300;
+      src: url('./fonts/NohemiLight.woff') format('woff');
+      font-display: swap;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Nohemi';
+      font-weight: 200;
+      src: url('./fonts/NohemiExtraLight.woff') format('woff');
+      font-display: swap;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Nohemi';
+      font-weight: 100;
+      src: url('./fonts/NohemiThin.woff') format('woff');
+      font-display: swap;
+      font-style: normal;
+  }
+  }
