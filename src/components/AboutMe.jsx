@@ -1,4 +1,5 @@
 import styles from "../style";
+import { arrowUp } from "../assets";
 
 const pdfFile = 'natsresume.pdf'
 const AboutMe = () => {
@@ -45,9 +46,14 @@ const AboutMe = () => {
           professional intersection between my passions and my skills. 
         </p>
 
-        <button onClick={()=>{downloadFileAtURL(pdfFile)}} type="button" className={`mt-10 py-2 px-8 font-nohemi font-semibold text-[18px] text-dimCyan rounded-[10px] border border-dimCyan resume-button `}>
+        {/* <button onClick={()=>{downloadFileAtURL(pdfFile)}} type="button" className={`mt-10 py-2 px-8 font-poppins font-semibold text-[18px] text-dimCyan rounded-[10px] border border-dimCyan resume-button `}>
             Resume
-        </button>
+        </button> */}
+
+        <p aramonClick={()=>{downloadFileAtURL(pdfFile)}} className="text-dimCyan mt-6 flex">
+          View Resume
+          <img src={arrowUp} alt="viewstudy" className="-translate-x-5 w-[70px] h-[18px] rotate-40 mt-1" />
+        </p>
 
       </div>
 

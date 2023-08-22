@@ -3,10 +3,10 @@ const styles = {
   
   heading3: "font-nohemi font-medium xs:text-[40px] text-[30px] text-dimBlack xs:leading-[76.8px] leading-[66.8px] w-full",
   heading2: "font-nohemi font-semibold xs:text-[40px] text-[40px] text-dimBlack xs:leading-[76.8px] leading-[66.8px] w-full",
-  paragraph: "font-nohemi font-normal text-dimBlack ss:text-[22px] text-[14px] leading-[40px]",
-  paragraphSkills: "font-nohemi font-normal text-dimBlack ss:text-[24px] text-[22px] leading-[60px]",
-  paragraphCenter: "font-nohemi font-normal text-dimBlack text-center ss:text-[18px] text-[14px] leading-[30.8px]",
-  subtext: "font-nohemi font-normal text-dimGrey ss:text-[16px] text-[16px] mt-2",
+  paragraph: "font-poppins font-normal text-dimBlack ss:text-[22px] text-[14px] leading-[40px]",
+  paragraphSkills: "font-poppins font-normal text-dimBlack ss:text-[24px] text-[22px] leading-[60px]",
+  paragraphCenter: "font-poppins font-normal text-dimBlack text-center ss:text-[18px] text-[14px] leading-[30.8px]",
+  subtext: "font-poppins font-normal text-dimGrey ss:text-[16px] text-[16px] mt-2",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
