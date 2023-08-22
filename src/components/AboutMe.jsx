@@ -1,16 +1,16 @@
 import styles from "../style";
 import { arrowUp } from "../assets";
 
-const pdfFile = 'natsresume.pdf'
+// const pdfFile = 'natsresume.pdf'
 const AboutMe = () => {
-  const downloadFileAtURL=(url)=>{
-    const aTag = document.createElement('a')
-    aTag.href=url
-    aTag.setAttribute('download', '')
-    document.body.appendChild(aTag)
-    aTag.click()
-    aTag.remove()
-  }
+  // const downloadFileAtURL=(url)=>{
+  //   const aTag = document.createElement('a')
+  //   aTag.href=url
+  //   aTag.setAttribute('download', '')
+  //   document.body.appendChild(aTag)
+  //   aTag.click()
+  //   aTag.remove()
+  // }
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
@@ -46,11 +46,16 @@ const AboutMe = () => {
           professional intersection between my passions and my skills. 
         </p>
 
-        {/* <button onClick={()=>{downloadFileAtURL(pdfFile)}} type="button" className={`mt-10 py-2 px-8 font-poppins font-semibold text-[18px] text-dimCyan rounded-[10px] border border-dimCyan resume-button `}>
+        {/* <button onClick={()=>{downloadFileAtURL(pdfFile)}} type="button" className={`mt-10 py-2 px-8 font-poppins cursor-pointer font-semibold text-[18px] text-dimCyan rounded-[10px] border border-dimCyan resume-button `}>
             Resume
         </button> */}
 
-        <p aramonClick={()=>{downloadFileAtURL(pdfFile)}} className="text-dimCyan mt-6 flex">
+        {/* <p onClick={()=>{downloadFileAtURL(pdfFile)}} className="text-dimCyan mt-6 flex cursor-pointer">
+          View Resume
+          <img src={arrowUp} alt="viewstudy" className="-translate-x-5 w-[70px] h-[18px] rotate-40 mt-1" />
+        </p> */}
+
+        <p onClick={() => window.open("https://drive.google.com/file/d/1OHuqarcNXapF3gIT-WfRb6nOd6vDGxBq/view?usp=sharing")} className="text-dimCyan mt-6 flex cursor-pointer">
           View Resume
           <img src={arrowUp} alt="viewstudy" className="-translate-x-5 w-[70px] h-[18px] rotate-40 mt-1" />
         </p>
