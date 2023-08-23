@@ -23,7 +23,7 @@ const Hero = () => {
 
         <p className={`${styles.paragraphCenter} max-w-[700px] mt-7`}>
           currently studying computer science & graphic design at UW-Madison
-          <span className="text-dimCyan">.</span>{" "}
+          {/* <span className="text-dimCyan">.</span>{" "} */}
         </p>
         
         <a href={`#${"studies"}`}>
