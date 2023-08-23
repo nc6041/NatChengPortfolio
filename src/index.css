@@ -162,7 +162,7 @@
   @font-face {
       font-family: 'Nohemi';
       font-weight: 600;
-      src: url('./components/fonts/NohemiSemibold.woff') format('woff');
+      src: url('./components/fonts/NohemiSemiBold.woff') format('woff');
       font-display: block;
       font-style: normal;
   }

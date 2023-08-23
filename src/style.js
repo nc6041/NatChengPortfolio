@@ -5,7 +5,7 @@ const styles = {
   heading2: "font-nohemi font-semibold xs:text-[40px] text-[40px] text-dimBlack xs:leading-[76.8px] leading-[66.8px] w-full",
   paragraph: "font-avenir font-normal text-dimBlack ss:text-[22px] text-[14px] leading-[40px]",
   paragraphSkills: "font-avenir font-normal text-dimBlack ss:text-[24px] text-[22px] leading-[60px]",
-  paragraphCenter: "font-avenir font-medium text-dimBlack text-center ss:text-[18px] text-[14px] leading-[30.8px]",
+  paragraphCenter: "font-avenir font-normal text-dimBlack text-center ss:text-[18px] text-[14px] leading-[30.8px]",
   subtext: "font-avenir font-normal text-dimGrey ss:text-[16px] text-[16px] mt-2",
 
   flexCenter: "flex justify-center items-center",
