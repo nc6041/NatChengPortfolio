@@ -13,7 +13,7 @@ const Hero = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraphCenter} max-w-[600px] mt-10`}>
+        <p className={`${styles.paragraphCenterMedium} max-w-[600px] mt-10`}>
           a UX designer dedicated to creating{" "}
           <span className="text-dimCyan">simple</span>{" "}
           solutions <br className="sm:block hidden" />for a{" "}
