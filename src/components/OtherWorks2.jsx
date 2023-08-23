@@ -3,7 +3,7 @@ import { arrowUp } from "../assets";
 
 const OtherWorks2 = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} mb-80`}>
+    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} mb-96`}>
       <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6`}>
 
         <div className="flex flex-row justify-between items-center w-full">
@@ -13,7 +13,7 @@ const OtherWorks2 = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mt-10 mb-24`}>
+        <p className={`${styles.paragraph} mt-10 mb-10`}>
           Besides UX design, I enjoy doing{" "}
           <span className="text-dimCyan font-bold ">graphic design</span>{" "}
           and{" "}
