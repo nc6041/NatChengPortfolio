@@ -2,7 +2,7 @@ import styles from "../style";
 import { arrowUp, blue } from "../assets";
 
 const Cases1 = () => (
-  <section className={`flex lg:flex-row flex-col rounded-[20px]`}>
+  <section id="lis" className={`flex lg:flex-row flex-col rounded-[20px]`}>
     <div className="flex-1 flex flex-col lg:pl-0 pl-16 lg:pt-0 pt-16">
         <img src={blue} alt={"blue"} className="w-[100%] h-[100%] relative" />    
     </div>
@@ -19,7 +19,7 @@ const Cases1 = () => (
         </a>
       </div>
 
-      <h2 className={`${styles.heading3} text-dimBlack mt-10 mb-10`}>LIS 470: Interaction Design</h2>
+      <h2 className={`${styles.heading3} text-dimBlack mt-10 mb-5`}>LIS 470: Interaction Design</h2>
     </div>
 
 

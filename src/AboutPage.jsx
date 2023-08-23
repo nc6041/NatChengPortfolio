@@ -16,7 +16,7 @@ const AboutPage = () => (
       </div>
     </div>
 
-    <div className={`bg-white ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <FooterLight />
       </div>

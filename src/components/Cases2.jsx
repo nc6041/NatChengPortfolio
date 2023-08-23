@@ -2,13 +2,12 @@ import styles from "../style";
 import { arrowUp, benefitdesign } from "../assets";
 
 const Cases2 = () => (
-  <section className={`flex lg:flex-row flex-col rounded-[20px]`}>
-
+  <section id="educa11y" className={`flex lg:flex-row flex-col rounded-[20px]`}>
 
     <div className="justify-between flex-1 flex flex-col mr-16">
       <div>
-        <h2 className={`${styles.heading3} text-white mt-5`}>Digital Accessibility Website</h2>
-        <p className={`${styles.paragraph} text-white mt-5`}>
+        <h2 className={`${styles.heading3} text-primary mt-5`}>Digital Accessibility Website</h2>
+        <p className={`${styles.paragraph} text-primary mt-5`}>
         Helping non-profits provide education and resources for digital accessibility.
         </p>
         <a href={`${"otherworks"}`} className="text-dimCyan mt-3 flex">
@@ -17,7 +16,7 @@ const Cases2 = () => (
         </a>
       </div>
 
-      <h2 className={`${styles.heading3} text-white mt-10 mb-10`}>educa11y</h2>
+      <h2 className={`${styles.heading3} text-primary mt-10 mb-5`}>educa11y</h2>
     </div>
 
     <div className="flex-1 flex flex-col lg:pr-0 pr-16 lg:pb-0 pb-16">

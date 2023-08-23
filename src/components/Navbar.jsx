@@ -35,7 +35,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-nohemi font-normal cursor-pointer text-[16px] ${
+            className={`font-avenir font-normal cursor-pointer text-[16px] ${
               active === nav.title || window.location.pathname.substring(1) === nav.id ? "text-dimCyan" : "text-dimBlack"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onMouseEnter={() => setActive(nav.title)}

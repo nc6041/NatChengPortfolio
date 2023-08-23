@@ -21,7 +21,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-black pl-16 ${styles.flexCenter}`}>
+    <div className={`bg-dimBlack pl-16 ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Cases />
       </div>
@@ -33,7 +33,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-black pl-16 ${styles.flexCenter}`}>
+    <div className={`bg-dimBlack pl-16 ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Cases2 />
       </div>
@@ -45,13 +45,13 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-black border-b border-white ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-dimBlack border-b border-white ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <OW />
       </div>
     </div>
 
-    <div className={`bg-black ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-dimBlack ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Footer />
       </div>

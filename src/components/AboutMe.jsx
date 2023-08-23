@@ -24,11 +24,11 @@ const AboutMe = () => {
 
         <p className={`${styles.paragraph} mt-10`}>
           I'm currently a senior pursuing a B.A. in{" "}
-          <span className="text-dimCyan">computer science</span>{" "}
+          <span className="text-dimCyan font-bold ">computer science</span>{" "}
           and{" "}
-          <span className="text-dimCyan">graphic design</span>{" "}
+          <span className="text-dimCyan font-bold ">graphic design</span>{" "}
           certificate at{" "}
-          <span className="text-dimCyan">UW-Madison</span>
+          <span className="text-dimCyan font-bold ">UW-Madison</span>
           .
         </p>
 
