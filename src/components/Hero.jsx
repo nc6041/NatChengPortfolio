@@ -3,7 +3,7 @@ import { arrowUp } from "../assets";
 
 const Hero = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} mb-44`}>
+    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} mb-80`}>
       <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6`}>
 
         <div className="flex flex-row justify-between items-center w-full">
