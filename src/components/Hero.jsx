@@ -22,7 +22,7 @@ const Hero = () => {
         </p>
 
         <p className={`${styles.paragraphCenter} max-w-[700px] mt-7`}>
-          Currently studying computer science & graphic design at UW-Madison
+          currently studying computer science & graphic design at UW-Madison
           <span className="text-dimCyan">.</span>{" "}
         </p>
         

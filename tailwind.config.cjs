@@ -13,7 +13,7 @@ module.exports = {
       },
       fontFamily: {
         nohemi: ["Nohemi", "sans-serif"],
-        poppins: ["Poppins", "sans-serif"],
+        avenir: ["Avenir", "sans-serif"],
       },
       rotate: {
         '130': '130deg',

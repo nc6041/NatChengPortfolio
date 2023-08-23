@@ -201,4 +201,24 @@
       font-display: block;
       font-style: normal;
   }
-  
+  @font-face {
+    font-family: 'Avenir';
+    font-weight: 400;
+    src: url('./components/fonts/AvenirRegular.ttf') format('ttf');
+    font-display: block;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Avenir';
+    font-weight: 500;
+    src: url('./components/fonts/AvenirMedium.ttf') format('ttf');
+    font-display: block;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Avenir';
+    font-weight: 700;
+    src: url('./components/fonts/AvenirHeavy.ttf') format('ttf');
+    font-display: block;
+    font-style: normal;
+  }
