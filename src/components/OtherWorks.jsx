@@ -10,7 +10,7 @@ const OtherWorks = () => (
          dabbled in many mediums from drawing and painting to collage and animation, I particularly enjoy
          graphic design and photography. 
       </p>
-      <a href={`${"other"}`} className="text-dimCyan mt-3 flex">
+      <a href={`${"other"}`} className="text-dimCyan font-bold mt-3 flex">
         View other works
         <img src={arrowUp} alt="otherworks" className="-translate-x-5 w-[70px] h-[18px] rotate-40 mt-1" />
       </a>

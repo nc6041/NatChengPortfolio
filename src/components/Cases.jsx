@@ -9,7 +9,7 @@ const Cases = () => (
         <p className={`${styles.paragraph} text-primary mt-5`}>
          Rethinking Uline's welcome campaign to keep new customers coming back for more.
         </p>
-        <a href={`${"otherworks"}`} className="text-dimCyan mt-3 flex">
+        <a href={`${"otherworks"}`} className="text-dimCyan mt-3 flex font-bold">
           View study
           <img src={arrowUp} alt="viewstudy" className="-translate-x-5 w-[70px] h-[18px] rotate-40 mt-1" />
         </a>

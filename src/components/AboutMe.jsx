@@ -55,7 +55,7 @@ const AboutMe = () => {
           <img src={arrowUp} alt="viewstudy" className="-translate-x-5 w-[70px] h-[18px] rotate-40 mt-1" />
         </p> */}
 
-        <p onClick={() => window.open("https://drive.google.com/file/d/1OHuqarcNXapF3gIT-WfRb6nOd6vDGxBq/view?usp=sharing")} className="text-dimCyan mt-6 flex cursor-pointer">
+        <p onClick={() => window.open("https://drive.google.com/file/d/1OHuqarcNXapF3gIT-WfRb6nOd6vDGxBq/view?usp=sharing")} className="text-dimCyan mt-6 flex cursor-pointer font-bold">
           View Resume
           <img src={arrowUp} alt="viewstudy" className="-translate-x-5 w-[70px] h-[18px] rotate-40 mt-1" />
         </p>
