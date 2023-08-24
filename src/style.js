@@ -12,6 +12,7 @@ const styles = {
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
+  flexEnd: "flex justify-evenly items-start",
   flexColumns: "flex items-start",
 
   paddingX: "sm:px-16 px-6",

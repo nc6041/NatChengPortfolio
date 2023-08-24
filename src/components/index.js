@@ -13,6 +13,8 @@ import Cases from "./Cases";
 import Cases1 from "./Cases1";
 import Cases2 from "./Cases2";
 import Cases3 from "./Cases3";
+import UlineHero from "./UlineHero";
+import UlineWhy from "./UlineWhy";
 
 export {
   Navbar,
@@ -29,5 +31,8 @@ export {
   About, 
   Skills,
   Designs,
-  Photography
+  Photography,
+  UlineHero,
+  UlineWhy, 
+  
 };
