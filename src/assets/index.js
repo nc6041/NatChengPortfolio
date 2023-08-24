@@ -1,5 +1,6 @@
 import send from "./Send.svg";
 import shield from "./Shield.svg";
+import hcm from "./hcm.jpg";
 import star from "./Star.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -62,4 +63,5 @@ export {
   facebookdark,
   linkedindark,
   twitterdark,
+  hcm,
 };

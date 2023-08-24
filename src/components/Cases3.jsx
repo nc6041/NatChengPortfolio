@@ -1,10 +1,10 @@
 import styles from "../style";
-import { arrowUp, medicoin } from "../assets";
+import { arrowUp, hcm } from "../assets";
 
 const Cases3 = () => (
   <section id="harvest" className={`flex lg:flex-row flex-col rounded-[20px]`}>
     <div className="flex-1 flex flex-col lg:pl-0 pl-16 lg:pt-0 pt-16">
-        <img src={medicoin} alt={"medicoin"} className="w-[100%] h-[100%] relative" />    
+        <img src={hcm} alt={"hcm"} className="w-[100%] h-[100%] relative" />    
     </div>
 
     <div className="justify-between flex-1 flex flex-col ml-16">
