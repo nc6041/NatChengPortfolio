@@ -13,7 +13,7 @@ const OtherWorks2 = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mt-10 mb-10`}>
+        <p className={`${styles.paragraph} mt-10 mb-10 w-full`}>
           Besides UX design, I enjoy doing{" "}
           <span className="text-dimCyan font-bold ">graphic design</span>{" "}
           and{" "}

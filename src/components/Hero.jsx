@@ -3,11 +3,11 @@ import { arrowUp } from "../assets";
 
 const Hero = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} mb-96`}>
+    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} mb-96 mt-20`}>
       <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6`}>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-nohemi font-bold text-center ss:text-[72px] text-[60px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-nohemi font-bold text-center ss:text-[90px] text-[60px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
             i'm{" "}
             <span className="text-dimCyan">nat</span>,
           </h1>
@@ -21,7 +21,7 @@ const Hero = () => {
           world.
         </p>
 
-        <p className={`${styles.paragraphCenter} max-w-[700px] mt-7`}>
+        <p className={`${styles.paragraphCenterMediumHero} max-w-[700px] mt-7`}>
           currently studying computer science & graphic design at UW-Madison
           {/* <span className="text-dimCyan">.</span>{" "} */}
         </p>
