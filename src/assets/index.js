@@ -40,7 +40,7 @@ import affinitydiagram from "./affinitydiagram.jpg";
 import brainstorming from "./brainstorming.jpg";
 import finals from "./finals.png";
 import paperprototype from "./paperprototype.png";
-import sketch from "./sketch.jpg";
+import sketch from "./sketch.png";
 import storyboard from "./storyboard.png";
 import taskflows from "./taskflows.png";
 import video1 from "./video1.mp4";

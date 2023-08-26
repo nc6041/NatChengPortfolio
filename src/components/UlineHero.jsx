@@ -47,17 +47,17 @@ const UlineHero = () => {
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
           In the summer of 2023, I worked as a{" "}
-          <span className="font-bold ">web design intern</span>{" "}
+          <span className="font-bold text-dimCyan">web design intern</span>{" "}
           at{" "}
-          <span className="font-bold ">Uline</span>
+          <span className="font-bold text-dimCyan">Uline</span>
           , a shipping and distribution company. My job mainly consisted of designing
             emails, homepage banners, and internal site banners. However, the creative interns
             were also tasked with a project to complete over the couse of 2 months: creating
             a new welcome campaign targeted to a spcific industry to improve new customer
             retention from that industry. I was only required to{" "}
-          <span className="font-bold ">design new emails</span>{" "}
+          <span className="font-bold text-dimCyan">design new emails</span>{" "}
           and{" "}
-          <span className="font-bold ">landing page banners</span>{" "}
+          <span className="font-bold text-dimCyan">landing page banners</span>{" "}
           for the project, but I also took on the role of coding the landing pages and designing
            a print piece since we didn't have a web production or print design intern. I will
            describe the overview and process of this project, but unfortunately, cannot share
