@@ -117,7 +117,7 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex-1 flex flex-col pb-32 pt-4">
-          <video autoPlay loop muted playsinline>
+          <video autoPlay loop muted playsInline>
             <source src={video1} alt={"video1"} className="w-[100%] h-[100%] relative" type="video/mp4"/>    
           </video>
         </div>
@@ -133,7 +133,7 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex-1 flex flex-col pb-32 pt-4">
-          <video autoPlay loop muted playsinline>
+          <video autoPlay loop muted playsInline>
             <source src={video2} alt={"video2"} className="w-[100%] h-[100%] relative" type="video/mp4"/>    
           </video>
         </div>
@@ -149,7 +149,7 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex-1 flex flex-col pb-56 pt-4">
-          <video autoPlay loop muted playsinline>
+          <video autoPlay loop muted playsInline>
             <source src={video3} alt={"video3"} className="w-[100%] h-[100%] relative" type="video/mp4"/>    
           </video>
         </div>
