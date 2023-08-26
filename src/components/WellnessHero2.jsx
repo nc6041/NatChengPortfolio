@@ -90,20 +90,20 @@ const UlineHero2 = () => {
 
         <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey w-full`}>
           1.{" "}
-          <span className="text-dimGrey font-bold ">Accessible care:</span>{" "}
-          We found that it is difficult for people to find accessible avenues to healthcare and wellness. These include things like finding doctors, hobbies to de-stress, managing time to put self-care into their schedule, and more.
+          <span className="text-dimGrey font-bold ">Accessible care</span>
+          : We found that it is difficult for people to find accessible avenues to healthcare and wellness. These include things like finding doctors, hobbies to de-stress, managing time to put self-care into their schedule, and more.
         </p>
 
         <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey mb-3 w-full`}>
           2.{" "}
-          <span className="text-dimGrey font-bold ">Self-care is not a priority:</span>{" "}
-          Many of our participants did not see self-care as necessary, which most mentioned led to illness and burn out.
+          <span className="text-dimGrey font-bold ">Self-care is not a priority</span>
+          : Many of our participants did not see self-care as necessary, which most mentioned led to illness and burn out.
         </p>
 
         <p className={`${styles.paragraph} mb-24 ml-3 text-dimGrey mb-32 w-full`}>
           3.{" "}
-          <span className="text-dimGrey font-bold ">Expansion of self-care:</span>{" "}
-          Many of the participants included mental, emotional, and spiritual care under the umbrella of self-care as opposed to only physical care.
+          <span className="text-dimGrey font-bold ">Expansion of self-care</span>
+          : Many of the participants included mental, emotional, and spiritual care under the umbrella of self-care as opposed to only physical care.
         </p>
 
 

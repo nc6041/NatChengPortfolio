@@ -21,6 +21,9 @@ import WellnessHero2 from "./WellnessHero2";
 import WellnessHero3 from "./WellnessHero3";
 import WellnessWhy from "./WellnessWhy";
 import WellnessSketchStory from "./WellnessSketchStory";
+import HarvestHero from "./HarvestHero";
+import HarvestHero2 from "./HarvestHero2";
+import HarvestWhy from "./HarvestWhy";
 
 export {
   Navbar,
@@ -46,5 +49,8 @@ export {
   WellnessHero3,
   WellnessWhy, 
   WellnessSketchStory,
-
+  HarvestHero, 
+  HarvestHero2, 
+  HarvestWhy, 
+  
 };
