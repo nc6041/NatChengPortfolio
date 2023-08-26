@@ -64,7 +64,7 @@ const UlineHero = () => {
            all the specifics.
         </p>
 
-        <div className="flex-1 flex flex-col px-20 lg:pb-0 pb-10 pt-20">
+        <div className="flex-1 flex flex-col lg:px-20 lg:pb-0 pb-10 pt-20">
             <img src={initialfinaldesign} alt={"initialfinaldesign"} className="w-[100%] h-[100%] relative" />    
         </div>
 
