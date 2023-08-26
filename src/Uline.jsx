@@ -21,7 +21,7 @@ const Uline = () => (
       </div>
     </div>
 
-    <div className={`border-b border-dimBlack  bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`border-b border-dimBlack bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <UlineHero2 />
       </div>
