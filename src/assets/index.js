@@ -43,9 +43,9 @@ import paperprototype from "./paperprototype.png";
 import sketch from "./sketch.jpg";
 import storyboard from "./storyboard.png";
 import taskflows from "./taskflows.png";
-// import video1 from "./video1.mov";
-// import video2 from "./video2.mov";
-// import video3 from "./video3.mov";
+import video1 from "./video1.mp4";
+import video2 from "./video2.mp4";
+import video3 from "./video3.mp4";
 import wireframes from "./wireframes.png";
 
 import about from "./about.png";
@@ -80,9 +80,9 @@ export {
   sketch,
   storyboard,
   taskflows,
-  // video1,
-  // video2,
-  // video3,
+  video1,
+  video2,
+  video3,
   wireframes,
   finalheaderdesign, 
   followupemail, 

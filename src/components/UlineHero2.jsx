@@ -37,7 +37,7 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimCyan`}>
+          <h1 className={`${styles.heading1} flex-1 text-dimCyan`}>
             Research
           </h1>
         </div>
@@ -79,7 +79,7 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimCyan`}>
+          <h1 className={`${styles.heading1} flex-1 text-dimCyan`}>
             Ideation
           </h1>
         </div>
@@ -160,7 +160,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimCyan`}>
+          <h1 className={`${styles.heading1} flex-1 text-dimCyan`}>
             Prototyping
           </h1>
         </div>
@@ -183,7 +183,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimCyan`}>
+          <h1 className={`${styles.heading1} flex-1 text-dimCyan`}>
             Reflection
           </h1>
         </div>

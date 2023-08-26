@@ -5,6 +5,7 @@ import App from './App';
 import AboutPage from './AboutPage';
 import OtherPage from './OtherPage';
 import Uline from './Uline';
+import Wellness from './Wellness';
 import './index.css';
 
 import {createBrowserRouter, RouterProvider, Route } from "react-router-dom";
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "uline", 
   element: <Uline/>,
+  },
+  {
+    path: "wellness", 
+  element: <Wellness/>,
   },
 ])
 
