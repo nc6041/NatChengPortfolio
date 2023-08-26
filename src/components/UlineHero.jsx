@@ -1,5 +1,5 @@
 import styles from "../style";
-import { arrowUp } from "../assets";
+import { arrowUp, initialfinaldesign } from "../assets";
 
 const UlineHero = () => {
   return (
@@ -63,6 +63,10 @@ const UlineHero = () => {
            describe the overview and process of this project, but unfortunately, cannot share
            all the specifics.
         </p>
+
+        <div className="flex-1 flex flex-col px-20 lg:pb-0 pb-10 pt-20">
+            <img src={initialfinaldesign} alt={"initialfinaldesign"} className="w-[100%] h-[100%] relative" />    
+        </div>
 
       </div>
 

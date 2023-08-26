@@ -14,6 +14,7 @@ import Cases1 from "./Cases1";
 import Cases2 from "./Cases2";
 import Cases3 from "./Cases3";
 import UlineHero from "./UlineHero";
+import UlineHero2 from "./UlineHero2";
 import UlineWhy from "./UlineWhy";
 
 export {
@@ -33,6 +34,7 @@ export {
   Designs,
   Photography,
   UlineHero,
+  UlineHero2,
   UlineWhy, 
-  
+
 };

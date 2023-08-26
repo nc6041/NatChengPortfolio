@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Navbar, FooterLight, UlineHero, UlineWhy } from "./components";
+import { Navbar, FooterLight, UlineHero, UlineHero2, UlineWhy } from "./components";
 
 const Uline = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -18,6 +18,12 @@ const Uline = () => (
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <UlineWhy />
+      </div>
+    </div>
+
+    <div className={`border-b border-dimBlack  bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <UlineHero2 />
       </div>
     </div>
 
