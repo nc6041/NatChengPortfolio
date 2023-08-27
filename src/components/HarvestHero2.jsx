@@ -76,7 +76,7 @@ const UlineHero2 = () => {
           After looking at all the survey answers I realized that both an app and website redesign may be beneficial for recurring members and newcomers, respectively. Currently we are targeting recurring members, but will be looking into targeting newcomers in the future!
         </p>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`${styles.paragraph} mb-24 w-full`}>
           As we finish up the research stage, we will begin ideating and brainstorming which pieces of information will be most important to display on the app upfront.
         </p>
 

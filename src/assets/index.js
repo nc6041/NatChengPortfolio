@@ -59,6 +59,7 @@ import userjourneymap1 from "./userjourneymap1.png";
 import userjourneymap2 from "./userjourneymap2.png";
 import userpersonas from "./userpersonas.png";
 import volunteers from "./volunteers.png";
+import beforeheader from "./beforeheader.jpg";
 
 
 export {
@@ -121,4 +122,6 @@ export {
   linkedindark,
   twitterdark,
   hcm,
+  beforeheader, 
+  
 };

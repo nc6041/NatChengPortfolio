@@ -1,5 +1,5 @@
 import styles from "../style";
-import { followupemail, headersketch, finalheaderdesign, prototyping } from "../assets";
+import { followupemail, headersketch, finalheaderdesign, prototyping, beforeheader } from "../assets";
 
 const UlineHero2 = () => {
   return (
@@ -98,10 +98,20 @@ const UlineHero2 = () => {
           project.
         </p>
 
-        <div className="flex flex-row justify-between items-center w-full">
+        <div className="flex flex-row justify-between items-center w-full mb-10">
           <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
             Welcome Email Process
           </h1>
+        </div>
+
+        <div className="flex flex-row justify-between items-center w-full">
+          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
+            Before
+          </h1>
+        </div>
+
+        <div className="flex-1 flex flex-col pb-32 pt-6">
+            <img src={beforeheader} alt={"beforeheader"} className="w-[100%] h-[100%] relative" />    
         </div>
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
@@ -203,7 +213,7 @@ const UlineHero2 = () => {
           process looks like in larger scale. 
         </p>
 
-        <p className={`${styles.paragraph} mb-96 w-full`}>
+        <p className={`${styles.paragraph} mb-24 w-full`}>
           I hope to apply the design skills I picked up on this project and at this internship to create even 
           better user-centric designs in the future.
         </p>

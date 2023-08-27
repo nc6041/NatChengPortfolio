@@ -169,7 +169,7 @@ const UlineHero2 = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-56 w-full`}>
+        <p className={`${styles.paragraph} mb-24 w-full`}>
           Despite losing contact with my team and stakeholder, this was still an amazing learning experience as my first time going through the design process on an actual project. I learned important techniques in empathizing with users like making user journey maps and working with user personas for the first time, as well as how to work with other designers in a remote setting. Ideally I would have liked to finish up the project with the stakeholder, but the project was still a valuable experience regardless.
         </p>
 
