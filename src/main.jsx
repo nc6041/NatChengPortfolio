@@ -7,6 +7,7 @@ import OtherPage from './OtherPage';
 import Uline from './Uline';
 import Wellness from './Wellness';
 import Harvest from './Harvest';
+import Benefit from './Benefit';
 import './index.css';
 
 import {createBrowserRouter, RouterProvider, Route } from "react-router-dom";
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
   {
     path: "harvest", 
   element: <Harvest/>,
+  },
+  {
+    path: "benefit", 
+  element: <Benefit/>,
   },
 ])
 

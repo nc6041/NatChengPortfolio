@@ -25,6 +25,10 @@ import HarvestHero from "./HarvestHero";
 import HarvestHero2 from "./HarvestHero2";
 import HarvestWhy from "./HarvestWhy";
 
+import BenefitHero from "./BenefitHero";
+import BenefitHero2 from "./BenefitHero2";
+import BenefitWhy from "./BenefitWhy";
+
 export {
   Navbar,
   OW,
@@ -52,5 +56,8 @@ export {
   HarvestHero, 
   HarvestHero2, 
   HarvestWhy, 
-  
+  BenefitHero, 
+  BenefitHero2, 
+  BenefitWhy, 
+
 };
