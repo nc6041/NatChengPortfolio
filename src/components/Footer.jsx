@@ -12,7 +12,11 @@ const Footer = () => (
       <p className={`${styles.paragraphCenter} text-primary max-w-[600px]`}>
         Chat with me about anything.
         <br></br>
-        <span className="text-dimCyan">nataliec6041@gmail.com</span>
+        <a href="mailto:nataliec6041@gmail.com">
+          <span className="text-dimCyan cursor-pointer hover:underline">nataliec6041@gmail.com</span>
+        </a>
+        <br></br>
+        <span className="text-dimGrey cursor-pointer hover:underline">coded by Jason Fu</span>
       </p>
 
     </div>
