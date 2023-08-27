@@ -16,9 +16,11 @@ const Footer = () => (
           <span className="text-dimCyan cursor-pointer hover:underline">nataliec6041@gmail.com</span>
         </a>
         <br></br>
-        <span className="text-dimGrey cursor-pointer hover:underline">coded by Jason Fu</span>
+        <a href="https://github.com/fujiason">
+          <span className="text-dimGrey cursor-pointer hover:underline">coded by Jason Fu</span>
+        </a>
       </p>
-
+      
     </div>
 
     <div className="w-full flex justify-center items-center md:flex-row flex-col pt-6">
