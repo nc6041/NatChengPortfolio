@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import { close, menu } from "../assets";
 import { navLinks } from "../constants";
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -16,13 +17,13 @@ const Navbar = () => {
             onMouseEnter={() => setTitle(true)}
             onMouseLeave={() => setTitle(false)}
             >
-          <h1 className={`flex whitespace-pre font-nohemi font-bold ss:text-[32px] text-[52px] text-dimBlack  ${
+          <h1 className={`flex whitespace-pre font-nohemi font-bold ss:text-[32px] text-[32px] text-dimBlack  ${
               title ? "text-dimCyan" : "text-dimBlack"
             }`}>
             nat{" "}
             <span className={`${title ? "text-dimBlack" : "text-dimCyan"}`}>cheng</span>
           </h1>
-          <p className={`flex whitespace-pre font-nohemi font-normal ss:text-[15px] text-[24px] text-dimBlack  ${
+          <p className={`flex whitespace-pre font-nohemi font-normal ss:text-[15px] text-[15px] text-dimBlack  ${
               title ? "text-dimBlack" : "text-dimCyan"
             }`}>
             UX{" "}
@@ -41,7 +42,7 @@ const Navbar = () => {
             onMouseEnter={() => setActive(nav.title)}
             onMouseLeave={() => setActive("")}
           >
-            <a href={`${nav.id}`}>{nav.title}</a>
+            <HashLink to={`${nav.id}`}>{nav.title}</HashLink>
           </li>
         ))}
       </ul>

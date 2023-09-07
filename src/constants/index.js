@@ -2,11 +2,15 @@ import { facebook, linkedin, twitter, facebookdark, linkedindark, twitterdark, k
 
 export const navLinks = [
   {
-    id: "about",
+    id: "/#studies",
+    title: "CASE STUDIES",
+  },
+  {
+    id: "/about",
     title: "ABOUT",
   },
   {
-    id: "other",
+    id: "/other",
     title: "OTHER WORKS",
   },
   {

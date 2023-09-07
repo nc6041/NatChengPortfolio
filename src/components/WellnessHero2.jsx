@@ -17,16 +17,16 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimGrey`}>
+          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimCyan`}>
             Actionables
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan w-full`}>
           1. Understand different care routines and opinions on self-care through observational interviews. 
         </p>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey mb-32 w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan mb-32 w-full`}>
           2. Design a mobile interface that uses an AI chatbot to give users the most personalized and relative information possible.
         </p>
 
@@ -45,20 +45,20 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimGrey`}>
+          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimCyan`}>
             Some of our interview quesitons:
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan w-full`}>
           1. What are some ways that you take care of yourself?
         </p>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey mb-3 w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan mb-3 w-full`}>
           2. What is self-care by your definition?
         </p>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey mb-14 w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan mb-14 w-full`}>
           3. Do you think self-care is important? Why or why not?
         </p>
 
@@ -83,26 +83,26 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimGrey`}>
+          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimCyan`}>
             Key Insights
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan w-full`}>
           1.{" "}
-          <span className="text-dimGrey font-bold ">Accessible care</span>
+          <span className="text-dimCyan font-bold ">Accessible care</span>
           : We found that it is difficult for people to find accessible avenues to healthcare and wellness. These include things like finding doctors, hobbies to de-stress, managing time to put self-care into their schedule, and more.
         </p>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey mb-3 w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan mb-3 w-full`}>
           2.{" "}
-          <span className="text-dimGrey font-bold ">Self-care is not a priority</span>
+          <span className="text-dimCyan font-bold ">Self-care is not a priority</span>
           : Many of our participants did not see self-care as necessary, which most mentioned led to illness and burn out.
         </p>
 
-        <p className={`${styles.paragraph} mb-24 ml-3 text-dimGrey mb-32 w-full`}>
+        <p className={`${styles.paragraph} mb-24 ml-3 text-dimCyan mb-32 w-full`}>
           3.{" "}
-          <span className="text-dimGrey font-bold ">Expansion of self-care</span>
+          <span className="text-dimCyan font-bold ">Expansion of self-care</span>
           : Many of the participants included mental, emotional, and spiritual care under the umbrella of self-care as opposed to only physical care.
         </p>
 
@@ -127,7 +127,7 @@ const UlineHero2 = () => {
           phase with a brain dump of any and all ideas. We put all of our ideas on post it notes and grouped them again similarly to the affinity diagramming. To settle on a few ideas, we used dot voting to select 3 main ideas to focus on. Most of the ideas emphasized personalization to the user because we found that people typically care for themselves in a way that is best suited to their lifestyle.
         </p>
 
-        <div className="flex-1 flex flex-col pb-10 lg:px-20 pt-4">
+        <div className="flex-1 flex flex-col mb-32 lg:px-20 pt-4">
             <img src={brainstorming} alt={"brainstorming"} className="w-[100%] h-[100%] relative" />    
         </div>
 

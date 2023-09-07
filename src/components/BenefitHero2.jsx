@@ -17,20 +17,20 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimGrey`}>
+          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimCyan`}>
             Actionables
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey w-full`}>
-          1. perform research to understand possible users and their pain points. 
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan w-full`}>
+          1. Perform research to understand possible users and their pain points. 
         </p>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey mb-3 w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan mb-3 w-full`}>
           2. Map user journey flows and conduct competitive analysis to better understand the market. 
         </p>
 
-        <p className={`${styles.paragraph} mb-44 ml-3 text-dimGrey mb-3 w-full`}>
+        <p className={`${styles.paragraph} mb-44 ml-3 text-dimCyan mb-3 w-full`}>
           3. Learn and iterate on designs as the design process proceeds. 
         </p>
 

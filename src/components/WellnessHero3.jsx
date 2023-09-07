@@ -19,20 +19,20 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimGrey`}>
+          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimCyan`}>
             App Solutions
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan w-full`}>
           1. Allows user to find doctors, specialists, classes, and more, that are perfectly fit to the users' needs by the user answering questions (e.g. male or female doctor, insurance, etc.). 
         </p>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan w-full`}>
           2. AI will allow the user to automatically schedule the activities it recommends. 
         </p>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey mb-32 w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan mb-32 w-full`}>
           3. The user can save and favorite activities that they participated in and enjoyed or want to view at a later date.
         </p>
         
@@ -56,7 +56,7 @@ const UlineHero2 = () => {
         the design quickly and with low time commitment. We instructed participants to find a new doctor and schedule an appointment with them using the prototypes. We also had them voice out again their thought process as well as any feedback they had about using the prototype.
         </p>
 
-        <div className="flex-1 flex flex-col lg:px-20 pt-20 pb-24">
+        <div className="flex-1 flex flex-col lg:px-20 pt-20 mb-32">
             <img src={paperprototype} alt={"paperprototype"} className="w-[100%] h-[100%] relative" />    
         </div>
 
@@ -72,7 +72,7 @@ const UlineHero2 = () => {
           and blocking out basic elements for the screens that would be needed to complete 3 different tasks.
         </p>
 
-        <div className="flex-1 flex flex-col lg:px-20 pt-20 pb-24">
+        <div className="flex-1 flex flex-col lg:px-20 pt-20 mb-32">
             <img src={taskflows} alt={"taskflows"} className="w-[100%] h-[100%] relative" />    
         </div>
 

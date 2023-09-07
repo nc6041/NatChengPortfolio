@@ -66,6 +66,9 @@ const UlineHero = () => {
 
         <div className="flex-1 flex flex-col lg:px-20 lg:pb-0 pb-10 pt-20">
             <img src={initialfinaldesign} alt={"initialfinaldesign"} className="w-[100%] h-[100%] relative" />    
+            <p className={`${styles.subtext} mt-5`}>
+              Final Designs
+            </p>
         </div>
 
       </div>

@@ -17,20 +17,20 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimGrey`}>
+          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimCyan`}>
             Actionables
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan w-full`}>
           1. Understand member pain points and how they obtain information about church news and events.
         </p>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan w-full`}>
           2. Brainstorm helpful features and prioritize information to display in navigation.
         </p>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey mb-32 w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan mb-32 w-full`}>
           3. Design under the current style.
         </p>
 
@@ -49,26 +49,26 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimGrey`}>
+          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimCyan`}>
             Key Insights
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan w-full`}>
           1. {" "}
-          <span className="text-dimGrey font-bold ">Convenience</span>
+          <span className="text-dimCyan font-bold ">Convenience</span>
           : People like apps because it's easier to view on mobile on the go or in service versus opening a website that has been built mainly for desktop.
         </p>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey mb-3 w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan mb-3 w-full`}>
           2. {" "}
-          <span className="text-dimGrey font-bold ">Commitment</span>
+          <span className="text-dimCyan font-bold ">Commitment</span>
           : Apps are too much of a commitment to those who are just checking out the church, it's a lot easier to just send a link. 
         </p>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey mb-6 w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan mb-6 w-full`}>
           3. {" "}
-          <span className="text-dimGrey font-bold ">Communication</span>
+          <span className="text-dimCyan font-bold ">Communication</span>
           : It's hard to reach out or communicate with members who don't have or aren't active on social media.
         </p>
 

@@ -9,6 +9,8 @@ module.exports = {
         dimBlack: "#101413",
         dimCyan: "#03AEAE",
         dimGrey: "#898B8A",
+        dimHover: "#D9D9D9",
+        
       },
       fontFamily: {
         nohemi: ["Nohemi", "sans-serif"],

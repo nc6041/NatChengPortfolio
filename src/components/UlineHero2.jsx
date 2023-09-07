@@ -18,21 +18,21 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimGrey`}>
+          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimCyan`}>
             Actionables
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan w-full`}>
           1. Select an industry to target and suitable products to advertise in the campaign.
         </p>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey mb-3 w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan mb-3 w-full`}>
           2. Design and develop emails and landing pages that will be beneficial to send to the
            customer within the 3 months following their first purchase. 
         </p>
 
-        <p className={`${styles.paragraph} mb-44 ml-3 text-dimGrey mb-3 w-full`}>
+        <p className={`${styles.paragraph} mb-32 ml-3 text-dimCyan mb-3 w-full`}>
           3. Create a circulation timeline of when to send out each email and print piece.
         </p>
 
@@ -43,37 +43,32 @@ const UlineHero2 = () => {
         </div>
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
-          We selected an industry to target for our campaign using Standard Industrial Classification (SIC)
-           codes, which are codes that identify the type of industry a business or company is under. The more
-            digits that are added, the more specific the industry gets. 
+          We selected an industry to target for our campaign using Standard Industrial Classification (SIC) codes, which are codes that identify the type of industry a business or company is under. The more digits that are added, the more specific the industry gets. 
         </p>
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
-          The goal was to choose an industry that is growing quickly in business with Uline, but also had a good
-           variety of mostly high selling products to advertise in the campaign. Using Power BI to explore these
-           statistics, we settled on SIC code 58, Eating and Drinking Places. 
+          The goal was to choose an industry that is growing quickly in business with Uline, but also had a good variety of mostly high selling products to advertise in the campaign. Using Power BI to do market analysis, we settled on SIC code 58, Eating and Drinking Places, which had projected growing sales with Uline. 
         </p>
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
-          From there, the Product Marketing and Web Merchandising Interns collaborated to select suitable products 
-          to use in the campaign emails and landing pages. 
+          From there, the Product Marketing and Web Merchandising Interns collaborated to select suitable products to use in the campaign emails and landing pages.
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimGrey`}>
-            Key Insignts and Considerations
+          <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimCyan`}>
+            Key Insights and Considerations
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan w-full`}>
           1. Customers under SIC 58 purchased many items listed under janitorial and retail. 
         </p>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-dimGrey mb-3 w-full`}>
+        <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan mb-3 w-full`}>
           2. The single-use plastic ban in Canada affects the types of products that can be used in our campaign. 
         </p>
 
-        <p className={`${styles.paragraph} mb-24 ml-3 text-dimGrey mb-3 w-full`}>
+        <p className={`${styles.paragraph} mb-24 ml-3 text-dimCyan mb-32 w-full`}>
           3. There are some products related to food service with lower GPs that would still be good to advertise 
           since customers may not know that Uline sells them.
         </p>
@@ -84,26 +79,30 @@ const UlineHero2 = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        {/* <p className={`${styles.paragraph} mb-6 w-full`}>
           The design process at Uline starts with web merchandising. They select products to be displayed along with 
           possible concepts for an email design and place all the information in a content sheet which then gets
           passed along to web designers to bring to life. 
+        </p> */}
+
+        <p className={`${styles.paragraph} mb-32 w-full`}>
+          Us interns mimicked the workflow that the creative department normally follows. As a team we decided to redesign the welcome email that gets sent immediately following the creation of an account as well as some follow up emails and print pieces that would be sent to the customer after they make their first purchase. I brainstormed designs for the welcome email redesign on my own and was given content sheets containing products to use and copy for the follow up emails as they were the main deliverables for the project.
         </p>
 
-        <p className={`${styles.paragraph} mb-24 w-full`}>
-          Us interns mimicked this workflow. As a team we decided to redesign the welcome email that gets sent 
-          immediately following the creation of an account as well as some follow up emails that would be sent to 
-          the customer after they make their first purchase. I brainstormed designs for the welcome email redesign 
-          on my own and was given content sheets for the follow up emails as they were the main deliverables for the 
-          project.
-        </p>
-
-        <div className="flex flex-row justify-between items-center w-full mb-10">
+        <div className="flex flex-row justify-between items-center w-full mb-5">
           <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
             Welcome Email Process
           </h1>
         </div>
 
+        <p className={`${styles.paragraph} mb-6 w-full`}>
+          For the welcome email header redesign I wanted to change the products from boxes to food service products that would be on the landing pages that the follow up emails would lead to make the design more personalized to the customer's business. I also created a generic header to send to customers who are not shopping for a specific industry, or for personal needs.
+        </p>
+
+        <p className={`${styles.paragraph} mb-32 w-full`}>
+          The initial redesign strayed too far from Uline's brand style so to reel it back in I simplified the product composition and changed the color scheme to match Uline's most recognizable colors. The products I featured were some of the industry's highest selling products that we found during our research stage. This makes the design more relevant to customers and exposes them to our products for that industry early on.
+        </p>
+        
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
             Before
@@ -149,7 +148,7 @@ const UlineHero2 = () => {
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
           I created the follow up emails using the content sheets I was given as a guideline in my design
-          process. For both designs, I started with a sketch ebfore submitting a photo request to Uline's in-house 
+          process. For both designs, I started with a sketch before submitting a photo request to Uline's in-house 
           photo studio to shoot the composition of the products that I wanted. The first email I created addresses 
           the back end needs of a restaurant, focusing on things like kitched supplies and packaging. 
         </p>

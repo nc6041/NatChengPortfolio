@@ -16,9 +16,9 @@ const Footer = () => (
           <span className="text-dimCyan cursor-pointer hover:underline">nataliec6041@gmail.com</span>
         </a>
         <br></br>
-        <a href="https://github.com/fujiason">
+        <div onClick={() => window.open("https://github.com/fujiason")}>
           <span className="text-dimGrey cursor-pointer hover:underline">coded by Jason Fu</span>
-        </a>
+        </div>
       </p>
       
     </div>
