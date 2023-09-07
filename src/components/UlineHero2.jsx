@@ -131,14 +131,28 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Final Header Design
+          <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>
+            Header After
           </h1>
         </div>
 
         <div className="flex-1 flex flex-col pb-32 pt-4">
             <img src={finalheaderdesign} alt={"finalheaderdesign"} className="w-[100%] h-[100%] relative" />    
         </div>
+
+        <div className="flex flex-row justify-between items-center w-full mb-5">
+          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
+            Additional Changes
+          </h1>
+        </div>
+
+        <p className={`${styles.paragraph} mb-6 w-full`}>
+          I also changed the typeface of the content of the email to match the custom typeface that Uline uses in all their designs in order to make the designs more cohesive across the board as well as help the customer become more familiar with the Uline brand and style.
+        </p>
+
+        <p className={`${styles.paragraph} mb-32 w-full`}>
+          I also changed the footer to match Uline's other emails since the welcome email footer differs from the promotional emails Uline currently sends out.
+        </p>
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
@@ -159,10 +173,16 @@ const UlineHero2 = () => {
           quality packaging and organization that Uline typically displays. 
         </p>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`${styles.paragraph} mb-32 w-full`}>
           The second follow up email targets the front end necessities of a restaurant using items like outdoor
           furniture and plastic A-frames.  
         </p>
+
+        <div className="flex flex-row justify-between items-center w-full">
+          <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>
+            Follow Up Email Final Designs
+          </h1>
+        </div>
 
         <div className="flex-1 flex flex-col pb-32 pt-4">
             <img src={followupemail} alt={"followupemail"} className="w-[100%] h-[100%] relative" />    
@@ -184,7 +204,9 @@ const UlineHero2 = () => {
         <p className={`${styles.paragraph} mb-6 w-full`}>
           During the development of the landing pages i worked with the web merchandising intern to 
           ensure that all the item thumbnails were placed in a logical and visually appealing way. Additionally, 
-          we made sure that the layout of the landing page looked good on both desktop and mobile.
+          we made sure that the layout of the landing page looked good on both{" "}
+          <span className="font-bold text-dimCyan">desktop and mobile</span>
+          .
         </p>
 
         <div className="flex-1 flex flex-col pb-32 pt-4">
