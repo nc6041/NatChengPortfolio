@@ -55,10 +55,17 @@ const AboutMe = () => {
           <img src={arrowUp} alt="viewstudy" className="-translate-x-5 w-[70px] h-[18px] rotate-40 mt-1" />
         </p> */}
 
-        <p onClick={() => window.open("https://drive.google.com/file/d/1OHuqarcNXapF3gIT-WfRb6nOd6vDGxBq/view?usp=sharing")} className="text-dimCyan mt-6 flex cursor-pointer font-bold">
+        {/* <p onClick={() => window.open("https://drive.google.com/file/d/1OHuqarcNXapF3gIT-WfRb6nOd6vDGxBq/view?usp=sharing")} className="text-dimCyan mt-6 flex cursor-pointer font-bold">
           View Resume
           <img src={arrowUp} alt="viewstudy" className="-translate-x-5 w-[70px] h-[18px] rotate-40 mt-1" />
-        </p>
+        </p> */}
+
+        <button onClick={() => window.open("https://drive.google.com/file/d/1OHuqarcNXapF3gIT-WfRb6nOd6vDGxBq/view?usp=sharing")} type="button" className={`mt-10 py-2 pl-5 pr-7 font-poppins cursor-pointer font-semibold text-[18px] hover:text-dimBlack text-primary rounded-[10px] hover:bg-dimHover bg-dimBlack flex`}>
+          View Resume
+          <svg className="translate-x-2 w-[25px] h-[25x]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+            <path className="stroke-1 stroke-current" fill="#101413" d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"/>
+          </svg>
+        </button>
 
       </div>
 
