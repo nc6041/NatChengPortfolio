@@ -27,7 +27,7 @@ const UlineHero = () => {
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
           <span className="font-bold ">Team:</span>{" "}
-          Uline Creative Interns
+          Uline Creative Interns (10 members total)
         </p>
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
