@@ -23,7 +23,7 @@ const BenefitHero = () => {
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
           <span className="font-bold ">Team:</span>{" "}
-          educa11y Volunteer Web and Brand Design Team
+          educa11y Volunteer Web and Brand Design Team (8 members total)
         </p>
 
         <p className={`${styles.paragraph} mb-6 w-full`}>

@@ -4,9 +4,6 @@ import { arrowUp, finals } from "../assets";
 const WellnessHero = () => {
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-
-
-
       {/* <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6`}> */}
       <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}>
 
