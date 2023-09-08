@@ -3,7 +3,7 @@ const styles = {
   
   heading1: "font-nohemi font-semibold xs:text-[45px] text-[50px] text-dimBlack xs:leading-[76.8px] leading-[66.8px] w-full",
   heading3: "font-nohemi font-mediumn xs:text-[40px] text-[30px] text-dimBlack xs:leading-[76.8px] leading-[66.8px] w-full",
-  heading2: "font-nohemi font-semibold xs:text-[40px] text-[40px] text-dimBlack xs:leading-[76.8px] leading-[66.8px] w-full",
+  heading2: "font-nohemi font-semibold xs:text-[36px] text-[36px] text-dimBlack xs:leading-[76.8px] leading-[66.8px] w-full",
   paragraph: "font-avenir font-normal text-dimBlack ss:text-[22px] text-[14px] leading-[40px]",
   paragraphSkills: "font-avenir font-normal text-dimBlack ss:text-[20px] text-[18px] leading-[60px]",
   paragraphCenterMedium: "font-avenir font-medium text-dimBlack text-center ss:text-[24px] text-[14px] leading-[30.8px]",

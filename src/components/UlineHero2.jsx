@@ -1,5 +1,5 @@
 import styles from "../style";
-import { followupemail, headersketch, finalheaderdesign, prototyping, beforeheader } from "../assets";
+import { followupemail, headersketch, finalheaderdesign, prototyping, beforeheader, fu2raw, fu1sketch, fu2sketch, fu1raw, genericwelcome, foodservice, welcomebefore, footerbefore, headerinitialsketch, versionsuline, contentbefore, contentafter, footerafter } from "../assets";
 
 const UlineHero2 = () => {
   return (
@@ -103,7 +103,33 @@ const UlineHero2 = () => {
           The initial redesign strayed too far from Uline's brand style so to reel it back in I simplified the product composition and changed the color scheme to match Uline's most recognizable colors. The products I featured were some of the industry's highest selling products that we found during our research stage. This makes the design more relevant to customers and exposes them to our products for that industry early on.
         </p>
         
-        <div className="flex flex-row justify-between items-center w-full">
+        <ul className="list-none sm:flex justify-end items-center flex-initial mb-32">
+            <li className="">
+              <div className="flex flex-row justify-between items-center w-full">
+                <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>
+                  Before
+                </h1>
+              </div>
+              <img src={welcomebefore} alt={"welcomebefore"} className="mb-2" />
+              {/* <img src={footerbefore} alt={"footerbefore"} className="mb-2 mr-3" /> */}
+            </li>
+            <li className="ss:ml-3 ml-0 xs:w-auto sm:w-[580px] md:w-[620px] w-[600px]">
+              <div className="flex flex-row justify-between items-center w-full">
+                <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>
+                  Sketch
+                </h1>
+              </div>
+              <img src={headerinitialsketch} alt={"headerinitialsketch"} className="mb-2" />
+              <div className="flex flex-row justify-between items-center w-full">
+                <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>
+                  Versions
+                </h1>
+              </div>
+              <img src={versionsuline} alt={"versionsuline"} className="mb-2" />
+            </li>
+          </ul>
+
+        {/* <div className="flex flex-row justify-between items-center w-full">
           <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
             Before
           </h1>
@@ -128,7 +154,7 @@ const UlineHero2 = () => {
 
         <div className="flex-1 flex flex-col pb-32 pt-6">
             <img src={headersketch} alt={"headersketch"} className="w-[100%] h-[100%] relative" />    
-        </div>
+        </div> */}
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>
@@ -154,6 +180,66 @@ const UlineHero2 = () => {
           I also changed the footer to match Uline's other emails since the welcome email footer differs from the promotional emails Uline currently sends out.
         </p>
 
+        <ul className="list-none sm:flex justify-end items-center flex-1 mb-32">
+            <li className="sm:mr-2 mr-0">
+              <div className="flex flex-row justify-between items-center w-full">
+                <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>
+                  Content Before
+                </h1>
+              </div>
+              <img src={contentbefore} alt={"contentbefore"} className="mb-2  md:mr-3 mr-0" />
+            </li>
+            <li>
+              <div className="flex flex-row justify-between items-center w-full">
+                <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>
+                  Content After
+                </h1>
+              </div>
+              <img src={contentafter} alt={"contentafter"} className="mb-2 md:ml-3 ml-0 w-[92%]" />
+            </li>
+          </ul>
+
+          <ul className="list-none sm:flex justify-between items-center flex-1 mb-3">
+            <li className="sm:mr-2 mr-0">
+              <div className="flex flex-row justify-between items-center w-full">
+                <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>
+                  Footer Before
+                </h1>
+              </div>
+            </li>
+            <li>
+              <img src={footerbefore} alt={"footerbefore"} className="mb-2 md:ml-3 ml-0" />
+            </li>
+          </ul>
+
+          <ul className="list-none sm:flex justify-between items-center flex-1 mb-32">
+            <li className="sm:mr-2 mr-0">
+              <div className="flex flex-row justify-between items-center w-full">
+                <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>
+                  Footer After
+                </h1>
+              </div>
+            </li>
+            <li>
+              <img src={footerafter} alt={"footerafter"} className="mb-2 md:ml-3 ml-0" />
+            </li>
+          </ul>
+
+        <div className="flex flex-row justify-between items-center w-full">
+            <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>
+              Welcome Email Final Designs
+            </h1>
+        </div>
+
+        <ul className="list-none sm:flex justify-end items-center flex-1 mb-32">
+            <li className="sm:mr-2 mr-0">
+              <img src={genericwelcome} alt={"genericwelcome"} className="mb-2 md:mr-3 mr-0" />
+            </li>
+            <li>
+              <img src={foodservice} alt={"foodservice"} className="mb-2 md:ml-3 ml-0" />
+            </li>
+        </ul>
+
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
             Follow Up Email Process
@@ -177,6 +263,44 @@ const UlineHero2 = () => {
           The second follow up email targets the front end necessities of a restaurant using items like outdoor
           furniture and plastic A-frames.  
         </p>
+
+        <ul className="list-none sm:flex justify-end items-center flex-1 mb-32">
+            <li className="sm:mr-2 mr-0">
+              <div className="flex flex-row justify-between items-center w-full">
+                <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>
+                  Follow Up 1 Sketch
+                </h1>
+              </div>
+              <img src={fu1sketch} alt={"fu1sketch"} className="mb-2  md:mr-3 mr-0" />
+            </li>
+            <li>
+              <div className="flex flex-row justify-between items-center w-full">
+                <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>
+                  Follow Up 1 Raws
+                </h1>
+              </div>
+              <img src={fu1raw} alt={"fu1raw"} className="mb-2 md:ml-3 ml-0" />
+            </li>
+          </ul>
+
+        <ul className="list-none sm:flex justify-end items-center flex-1 mb-32">
+            <li className="sm:mr-2 mr-0">
+              <div className="flex flex-row justify-between items-center w-full">
+                <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>
+                  Follow Up 2 Sketch
+                </h1>
+              </div>
+              <img src={fu2sketch} alt={"fu2sketch"} className="mb-2 mr-3" />
+            </li>
+            <li>
+              <div className="flex flex-row justify-between items-center w-full">
+                <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>
+                  Follow Up 2 Raws
+                </h1>
+              </div>
+              <img src={fu2raw} alt={"fu2raw"} className="mb-2 ml-3" />
+            </li>
+        </ul>
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className={`${styles.heading2} flex justify-center text-dimBlack`}>

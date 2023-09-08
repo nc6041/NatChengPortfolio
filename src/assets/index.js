@@ -62,8 +62,32 @@ import userpersonas from "./userpersonas.png";
 import volunteers from "./volunteers.png";
 import beforeheader from "./beforeheader.jpg";
 
+import fu1raw from "./FU1RAW.png"
+import fu2raw from "./FU2RAW.png"
+import fu1sketch from "./FU1SKETCH.png"
+import fu2sketch from "./FU2SKETCH.png"
+import genericwelcome from "./genericwelcomefinal.jpg"
+import foodservice from "./foodservicewelcomefinal.jpg"
+
+import headerinitialsketch from "./headerinitialsketch.png"
+import footerbefore from "./footerbefore.png"
+import welcomebefore from "./welcomebefore.png"
+import versionsuline from "./versionsuline.png"
+
+import footerafter from "./footerafter.png"
+import contentbefore from "./contentbefore.png"
+import contentafter from "./contentafter.png"
 
 export {
+  footerafter, 
+  contentbefore, 
+  contentafter,
+  headerinitialsketch, 
+  footerbefore,
+  welcomebefore,
+  versionsuline,
+  genericwelcome, 
+  foodservice,
   about, 
   companalysis,
   contactus,
@@ -125,4 +149,9 @@ export {
   hcm,
   beforeheader, 
   arrowSide, 
+  fu1raw, 
+  fu2raw, 
+  fu1sketch, 
+  fu2sketch, 
+  
 };
