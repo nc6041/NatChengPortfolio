@@ -25,7 +25,7 @@ const Cases = () => (
     </div>
 
     <a href={`${"uline"}`} className="flex-1 flex flex-col lg:px-0 px-16 lg:pb-0 pb-16">
-        <img src={uline} alt={"uline"} className="w-[100%] h-[100%] relative md:rounded-none rounded-[20px] md:rounded-r-[20px]" />    
+        <img src={uline} alt={"uline"} className="w-[100%] h-[100%] relative lg:rounded-none rounded-[20px] xl:rounded-r-[20px] lg:rounded-r-none" />    
     </a>
 
   </section>

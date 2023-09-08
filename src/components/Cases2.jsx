@@ -24,7 +24,7 @@ const Cases2 = () => (
     </div>
 
     <a href={`${"benefit"}`} className="flex-1 flex flex-col lg:pr-0 px-16 lg:pb-0 pb-16">
-        <img src={benefitdesign} alt={"benefitdesign"} className="w-[100%] h-[100%] relative md:rounded-none rounded-[20px] md:rounded-r-[20px]" />    
+        <img src={benefitdesign} alt={"benefitdesign"} className="w-[100%] h-[100%] relative lg:rounded-none rounded-[20px] xl:rounded-r-[20px] lg:rounded-r-none" />    
     </a>
 
   </section>
