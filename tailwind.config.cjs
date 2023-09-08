@@ -10,6 +10,7 @@ module.exports = {
         dimCyan: "#03AEAE",
         dimGrey: "#898B8A",
         dimHover: "#D9D9D9",
+        dimCard: "#FAFCFF",
         
       },
       fontFamily: {

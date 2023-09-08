@@ -2,8 +2,8 @@ import styles from "../style";
 import { arrowUp, uline, arrowSide } from "../assets";
 
 const Cases = () => (
-  <section id="uline" className={`flex lg:flex-row flex-col rounded-[20px]`}>
-    <div className="justify-between flex-1 flex flex-col mr-16">
+  <section id="uline" className={`bg-dimBlack flex lg:flex-row flex-col xl:rounded-[20px] rounded-[0px] xl:mb-5 mb-0`}>
+    <div className="justify-between flex-1 flex flex-col mx-16">
       <div>
         <h2 className={`${styles.heading3} text-primary mt-5`}>New Customer Retention</h2>
         <p className={`${styles.paragraph} text-primary mt-5`}>
@@ -24,8 +24,8 @@ const Cases = () => (
       <h2 className={`${styles.heading3} text-primary mt-10 mb-5`}>Uline Intern Project</h2>
     </div>
 
-    <a href={`${"uline"}`} className="flex-1 flex flex-col lg:pr-0 pr-16 lg:pb-0 pb-16">
-        <img src={uline} alt={"uline"} className="w-[100%] h-[100%] relative" />    
+    <a href={`${"uline"}`} className="flex-1 flex flex-col lg:px-0 px-16 lg:pb-0 pb-16">
+        <img src={uline} alt={"uline"} className="w-[100%] h-[100%] relative md:rounded-none rounded-[20px] md:rounded-r-[20px]" />    
     </a>
 
   </section>

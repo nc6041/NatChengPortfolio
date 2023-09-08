@@ -2,12 +2,12 @@ import styles from "../style";
 import { arrowUp, hcm } from "../assets";
 
 const Cases3 = () => (
-  <section id="harvest" className={`flex lg:flex-row flex-col rounded-[20px]`}>
-    <a href={`${"harvest"}`} className="flex-1 flex flex-col lg:pl-0 pl-16 lg:pt-0 pt-16">
-        <img src={hcm} alt={"hcm"} className="w-[100%] h-[100%] relative" />    
+  <section id="harvest" className={`bg-dimCard flex lg:flex-row flex-col xl:rounded-[20px] rounded-[0px] xl:mb-5 mb-0`}>
+    <a href={`${"harvest"}`} className="flex-1 flex flex-col lg:px-0 px-16 lg:pt-0 pt-16">
+        <img src={hcm} alt={"hcm"} className="w-[100%] h-[100%] relative md:rounded-none rounded-[20px] md:rounded-l-[20px]" />    
     </a>
 
-    <div className="justify-between flex-1 flex flex-col ml-16">
+    <div className="justify-between flex-1 flex flex-col mx-16">
       <div>
         <h2 className={`${styles.heading3} text-dimBlack mt-5`}>Harvest Church App</h2>
         <p className={`${styles.paragraph} text-dimBlack mt-5`}>
