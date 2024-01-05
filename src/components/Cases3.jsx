@@ -4,7 +4,7 @@ import { arrowUp, hcm } from "../assets";
 const Cases3 = () => (
   <section id="harvest" className={`bg-dimCard flex lg:flex-row flex-col xl:rounded-[20px] rounded-[0px] xl:mb-5 mb-0`}>
     <a href={`${"harvest"}`} className="flex-1 flex flex-col lg:px-0 px-16 lg:pt-0 pt-16">
-        <img src={hcm} alt={"hcm"} className="w-[100%] h-[100%] relative lg:rounded-none rounded-[20px] xl:rounded-l-[20px] lg:rounded-l-none" />    
+        <img src={PureGreenHero} alt={"hcm"} className="w-[100%] h-[100%] relative lg:rounded-none rounded-[20px] xl:rounded-l-[20px] lg:rounded-l-none" />    
     </a>
 
     <div className="justify-between flex-1 flex flex-col mx-16">
