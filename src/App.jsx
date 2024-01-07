@@ -21,6 +21,12 @@ const App = () => (
       </div>
     </div>
 
+    <div className={`bg-primary pr-0 ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Cases3 />
+      </div>
+    </div>
+
     <div className={`bg-primary pl-0 ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Cases />
@@ -39,11 +45,6 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-primary pr-0 ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Cases3 />
-      </div>
-    </div>
 
     <div className={`bg-dimBlack border-b border-white ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
