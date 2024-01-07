@@ -1,5 +1,5 @@
 import styles from "../style";
-import { arrowUp, hcm } from "../assets";
+import { arrowUp, PureGreenHero } from "../assets";
 
 const Cases3 = () => (
   <section id="harvest" className={`bg-dimCard flex lg:flex-row flex-col xl:rounded-[20px] rounded-[0px] xl:mb-5 mb-0`}>
