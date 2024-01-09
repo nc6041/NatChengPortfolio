@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Navbar, OW, Hero, Footer, CaseStudies, Cases, Cases1, Cases2, Cases3 } from "./components";
+import { Navbar, OW, Hero, FooterLight, CaseStudies, Cases, Cases1, Cases2, Cases3 } from "./components";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -46,15 +46,15 @@ const App = () => (
     </div>
 
 
-    <div className={`bg-dimBlack border-b border-white ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-primary border-b border-white${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <OW />
       </div>
     </div>
 
-    <div className={`bg-dimBlack ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Footer />
+        <FooterLight/>
       </div>
     </div>
 

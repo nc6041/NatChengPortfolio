@@ -13,7 +13,7 @@ const UlineHero2 = () => {
         </div>
 
         <p className={`${styles.paragraph} mb-3 w-full`}>
-          Design an app for the Harvest Church community so that members can access all important information in one place.
+          Design an app for PureGreen that allows users to conveniently select and order items ahead according to their needs while reinforcing brand identity and appeal.
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
@@ -23,7 +23,7 @@ const UlineHero2 = () => {
         </div>
 
         <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan w-full`}>
-          1. Understand member pain points and how they obtain information about church news and events.
+          1. Define target audience and pain points when using other drink and food apps.
         </p>
 
         <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan w-full`}>
@@ -31,7 +31,7 @@ const UlineHero2 = () => {
         </p>
 
         <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan mb-32 w-full`}>
-          3. Design under the current style.
+          3. Develop interfaces and prototypes aligned with PureGreen's currently style.
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
@@ -41,11 +41,12 @@ const UlineHero2 = () => {
         </div>
 
         <p className={`${styles.paragraph} mb-12 w-full`}>
-          To kick off this project I started by creating a survey to send out to the church members to better understand the demographic and where they get their information. We got about 25 responses from a variety of life stages.
+          To kick off this project each team member started by coming up with a set of interview questions that we would later ask to customers inside the store to better understand the demographic of customers and how they have interacted with food and drink ordering apps before. 
         </p>
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
-          While looking at the different places that Harvest Church posts their news like their website and Facebook group page, I found that the website already has a lot of the information I was already thinking about including in the app. I added a question to the survey asking if members would prefer and app or a website revamp and why, and to my surprise more people than I expected answered with website.
+          We asked typical demographic questions like occupation, age, location on campus, etc. Some additional questions we asked related more to previous experience with apps such as, "What are the factors that influence your decision to order in person or mobile?" or "Walk me through your process of making a mobile order". 
+          Questions like these provided us with valuable information and understanding of PureGreen's typical customers and what they might look for in a mobile app.
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
@@ -57,28 +58,29 @@ const UlineHero2 = () => {
         <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan w-full`}>
           1. {" "}
           <span className="text-dimCyan font-bold ">Convenience</span>
-          : People like apps because it's easier to view on mobile on the go or in service versus opening a website that has been built mainly for desktop.
+          : People like apps because it's easier to view on mobile on the go versus opening a website that has been built mainly for desktop.
         </p>
 
         <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan mb-3 w-full`}>
           2. {" "}
-          <span className="text-dimCyan font-bold ">Commitment</span>
-          : Apps are too much of a commitment to those who are just checking out the church, it's a lot easier to just send a link. 
+          <span className="text-dimCyan font-bold ">Lifestyle</span>
+          : Many customers are busy people who want something quick to get them through the day, but even waiting in the store for the smoothie to be made sometimes took up too much time. Additionally, we found it 
+          was also important to customers the ingredients and macronutrients of an item, and they would often compare these things before making a decision.
         </p>
 
         <p className={`${styles.paragraph} mb-3 ml-3 text-dimCyan mb-6 w-full`}>
           3. {" "}
-          <span className="text-dimCyan font-bold ">Communication</span>
-          : It's hard to reach out or communicate with members who don't have or aren't active on social media.
+          <span className="text-dimCyan font-bold ">Familiarity</span>
+          : Using a mobile app for ordering allows people to see their order history as well as deals and new items that would not be immediately obvious through the website or unavailable if ordering in person.
         </p>
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
-          After looking at all the survey answers I realized that both an app and website redesign may be beneficial for recurring members and newcomers, respectively. Currently we are targeting recurring members, but will be looking into targeting newcomers in the future!
+          After deriving these insights, we created user personas and user journey maps to further explore the minds of our potential users and identify highlights and pain points they might experience while engaging with the app.
         </p>
 
-        <p className={`${styles.paragraph} mb-24 w-full`}>
+        {/* <p className={`${styles.paragraph} mb-24 w-full`}>
           As we finish up the research stage, we will begin ideating and brainstorming which pieces of information will be most important to display on the app upfront.
-        </p>
+        </p> */}
 
       </div>
 

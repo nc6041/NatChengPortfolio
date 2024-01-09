@@ -9,9 +9,9 @@ const Cases3 = () => (
 
     <div className="justify-between flex-1 flex flex-col mx-16">
       <div>
-        <h2 className={`${styles.heading3} text-dimBlack mt-5`}>Harvest Church App</h2>
+        <h2 className={`${styles.heading3} text-dimBlack mt-5`}>PureGreen App</h2>
         <p className={`${styles.paragraph} text-dimBlack mt-5`}>
-          Providing a consolidated space for Harvest church members to communicate and obtain information.
+          A mobile app that allows users to smoothly and quickly order from PureGreen, a smoothie shop.
         </p>
         <a href={`${"harvest"}`}>
           <button type="button" className={`mt-10 py-2 pl-5 pr-7 font-poppins cursor-pointer font-semibold text-[18px] hover:text-dimBlack text-primary rounded-[10px] hover:bg-dimHover bg-dimBlack flex`}>
@@ -23,7 +23,7 @@ const Cases3 = () => (
         </a>
       </div>
 
-      <h2 className={`${styles.heading3} text-dimBlack mt-10 mb-5`}>PureGreen</h2>
+      <h2 className={`${styles.heading3} text-dimBlack mt-10 mb-5`}>Art 575: UX for Graphic Design</h2>
     </div>
 
   </section>

@@ -1,5 +1,5 @@
 import styles from "../style";
-import { arrowUp, finals } from "../assets";
+import { arrowUp, PGFinals } from "../assets";
 
 const WellnessHero = () => {
   return (
@@ -16,27 +16,27 @@ const WellnessHero = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-nohemi font-bold text-start ss:text-[50px] text-[40px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
-          Harvest Church App
+          PureGreen App
           </h1>
         </div>
 
         <p className={`${styles.paragraph} mb-10 w-full`}>
-          A single space to access church news, live streams, events, get connected, and more.
+          A simple way to view, compare, and order items from PureGreen.
         </p>
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
           <span className="font-bold ">Team:</span>{" "}
-          Kevin Lee, Jason Fu, Sangwon Lee, Sam Lu
+          Atilano Escobar, Caroline Marx, Jamie Wolfson
         </p>
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
           <span className="font-bold ">My Role:</span>{" "}
-          UI/UX Design, Research
+          Team Lead, UI/UX Design, Research
         </p>
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
           <span className="font-bold ">Timeline:</span>{" "}
-          July 2023 - Present
+          September 2023 - December 2023
         </p>
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
@@ -45,8 +45,16 @@ const WellnessHero = () => {
         </p>
 
         <p className={`${styles.paragraph} mb-6 w-full`}>
-          I began working on this app after realizing that there is no singular and consistently updated place for Harvest Church's information. Most of the information about events, community group signups, and other things are communicated by word of mouth which can be unreliable and difficult to get a hold of. Getting information about a single thing could mean having to go to multiple people, sites, and social media pages. The app is primarily meant for regular/familiar members of the church to have a place they can confidently rely on to get any information they need.
+        In the 2023 fall semester, I enrolled in a class called User Experience for Graphic Design which allowed graphic design students to explore the field of UX.
+        In the beginning of a class, each team picked a local coffee or smoothie shop to design an app for and we took off. My team was tasked with creating an app for 
+        PureGreen, a new smoothie shop in town. Although PureGreen is a chain, it does not have an app yet. Stepping through each phase of the design process,
+        our team identified a natural user base, pain points, and possible solutions. We finished the semester with working prototypes of our app, following a task flow for 
+        a pre-identified user persona.
         </p>
+
+        <div className="flex-1 flex flex-col lg:px-20 pt-20">
+            <img src={PGFinals} alt={"puregreen finals"} className="w-[100%] h-[100%] relative" />    
+        </div>
 
       </div>
 

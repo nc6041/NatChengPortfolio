@@ -10,7 +10,8 @@ const UlineWhy = () => {
             </h1>
           </div>
           <p className={`${styles.paragraph} w-full`}>
-            Members of the community primarily rely on word of mouth and service attendance to get information about events and other news, which is unreliable and can be difficult to obtain.
+            PureGreen is a popular national smoothie and health food chain with a website, but no mobile application. 
+            How might we create an app for PureGreen that makes on-the-go ordering easier for users and aligns with the current brand's identity?
           </p>
         </div>
 
@@ -21,7 +22,9 @@ const UlineWhy = () => {
             </h1>
           </div>
           <p className={`${styles.paragraph} w-full`}>
-            Having a consolidated space for all information provides a reliable means of access to said information which can enhance communication and connectivity among the community.
+            Many PureGreens are located in populous towns and are bound to attract health-conscious busybodies.
+            Being able to order ahead of time is important for the audience that PureGreen is marketed towards and having an app would also help
+            maintain customer loyalty through a highly competitive landscape of food and drink options. 
           </p>
         </div>
 

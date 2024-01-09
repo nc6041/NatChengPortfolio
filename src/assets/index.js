@@ -1,6 +1,8 @@
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import hcm from "./hcm.jpg";
+import PureGreenHero from "./PureGreenHero.png"
+import PGFinals from "./PGFinals.png"
 import star from "./Star.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -153,5 +155,6 @@ export {
   fu2raw, 
   fu1sketch, 
   fu2sketch, 
-  
+  PureGreenHero,
+  PGFinals
 };
