@@ -52,7 +52,7 @@ const UlineHero = () => {
           <span className="font-bold text-dimCyan">Uline</span>
           , a shipping and distribution company. My job mainly consisted of designing
             emails, homepage banners, and internal site banners. However, the creative interns
-            were also tasked with a project to complete over the couse of 2 months: creating
+            were also tasked with a project to complete over the course of 2 months: creating
             a new welcome campaign targeted to a spcific industry to improve new customer
             retention from that industry. I was only required to{" "}
           <span className="font-bold text-dimCyan">design new emails</span>{" "}

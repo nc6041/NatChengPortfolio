@@ -26,7 +26,7 @@ const Hero = () => {
           {/* <span className="text-dimCyan">.</span>{" "} */}
         </p>
         
-        <a href={`#${"studies"}`} className="mb-12">
+        <a href={`#${"studies"}`} className="mb-0">
           <img src={arrowUp} alt="studies" className="w-[124px] h-[32px] rotate-130 mt-20" />
         </a>
 
