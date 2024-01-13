@@ -38,6 +38,16 @@ import followupemail from "./followupemail.png";
 import headersketch from "./headersketch.png";
 import initialfinaldesign from "./initialfinaldesign.png";
 import prototyping from "./prototyping.png";
+import Frame4 from "./Frame4.png";
+import Frame7 from "./Frame7.png";
+import PGsketches from "./PGsketches.png";
+import PGwireframes from "./PGwireframes.png";
+import PGfinalwireframes from "./PGfinalwireframes.png";
+import Style from "./Style.png";
+import PGmocks from "./PGmocks.png"
+import PGallmocks from "./PGallmocks.png"
+
+
 
 import affinitydiagram from "./affinitydiagram.jpg";
 import brainstorming from "./brainstorming.jpg";
@@ -49,6 +59,7 @@ import taskflows from "./taskflows.png";
 import video1 from "./video1.mp4";
 import video2 from "./video2.mp4";
 import video3 from "./video3.mp4";
+import PGDemo from "./PGDemo.mp4";
 import wireframes from "./wireframes.png";
 
 import about from "./about.png";
@@ -156,5 +167,14 @@ export {
   fu1sketch, 
   fu2sketch, 
   PureGreenHero,
-  PGFinals
+  PGFinals,
+  Frame4,
+  Frame7,
+  PGsketches,
+  PGwireframes,
+  PGfinalwireframes,
+  Style,
+  PGmocks,
+  PGallmocks,
+  PGDemo,
 };

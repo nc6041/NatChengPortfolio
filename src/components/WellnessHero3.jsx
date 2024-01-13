@@ -100,7 +100,7 @@ const UlineHero2 = () => {
 
         <p className={`${styles.paragraph} mb-10 w-full`}>
           After some revision we turned the low-level details into{" "}
-          <span className="text-dimCyan font-bold ">high fidelity mockups</span>
+          <span className="text-dimCyan font-bold ">high-fidelity wireframes</span>
           , implementing a color palette, text styles, logos, actual images, and more components. Our designs changed a bit with the menu bar initially being blue, but we changed it to pink and white to simplify the design. We also changed our info boxes and buttons to match throughout the app, as there were different styles of the same element across multiple screens. This helps the user{" "}
           <span className="text-dimCyan font-bold ">draw on past experiences</span>
           , like filling out the login boxes, to fill out boxes in the future such as insurance info.

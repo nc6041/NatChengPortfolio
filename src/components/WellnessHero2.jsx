@@ -46,7 +46,7 @@ const UlineHero2 = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className={`font-nohemi font-light xs:text-[30px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full flex-1 text-dimCyan`}>
-            Some of our interview quesitons:
+            Some of our interview questions:
           </h1>
         </div>
 
