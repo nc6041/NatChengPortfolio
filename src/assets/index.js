@@ -1,7 +1,7 @@
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import hcm from "./hcm.jpg";
-import PureGreenHero from "./PureGreenHero.png"
+import PureGreenHero from "./PGHero.png"
 import PGFinals from "./PGFinals.png"
 import star from "./Star.svg";
 import menu from "./menu.svg";
@@ -46,6 +46,8 @@ import PGfinalwireframes from "./PGfinalwireframes.png";
 import Style from "./Style.png";
 import PGmocks from "./PGmocks.png"
 import PGallmocks from "./PGallmocks.png"
+import PGFinalMocks from "./PGFinalMocks.jpg"
+
 
 
 
@@ -177,4 +179,5 @@ export {
   PGmocks,
   PGallmocks,
   PGDemo,
+  PGFinalMocks,
 };

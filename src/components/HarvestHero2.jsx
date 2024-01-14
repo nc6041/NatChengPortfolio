@@ -1,5 +1,5 @@
 import styles from "../style";
-import { Frame4, Frame7, PGfinalwireframes, PGsketches, PGwireframes, Style, PGmocks, PGallmocks, PGDemo } from "../assets";
+import { Frame4, Frame7, PGfinalwireframes, PGsketches, PGwireframes, Style, PGmocks, PGallmocks, PGDemo, } from "../assets";
 
 const UlineHero2 = () => {
   return (
