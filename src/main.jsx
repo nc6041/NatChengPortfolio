@@ -34,7 +34,7 @@ const router = createBrowserRouter([
   element: <Wellness/>,
   },
   {
-    path: "harvest", 
+    path: "puregreen", 
   element: <Harvest/>,
   },
   {
