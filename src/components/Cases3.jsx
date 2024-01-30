@@ -13,7 +13,7 @@ const Cases3 = () => (
         <p className={`${styles.paragraph} text-dimBlack mt-5`}>
           A mobile app that allows users to smoothly and quickly order from PureGreen, a smoothie shop.
         </p>
-        <a href={`${"harvest"}`}>
+        <a href={`${"puregreen"}`}>
           <button type="button" className={`mt-10 py-2 pl-5 pr-7 font-poppins cursor-pointer font-semibold text-[18px] hover:text-dimBlack text-primary rounded-[10px] hover:bg-dimHover bg-dimBlack flex`}>
             View Study
             <svg className="translate-x-2 w-[25px] h-[25x]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
