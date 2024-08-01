@@ -6,6 +6,7 @@ import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
+  // Whether the title link is being hovered over
   const [title, setTitle] = useState(false);
   const [toggle, setToggle] = useState(false);
 

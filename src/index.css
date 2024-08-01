@@ -8,12 +8,16 @@
   --shadow: rgba(66, 71, 91, 0.1);
 }
 
-* {
-  scroll-behavior: smooth;
+/* Outermost DIV where all React is rendered */
+#root {
+  /* This sets the default font for all elements because below we have * { font-family: inherit; }
+  */
+  @apply font-work-sans;
 }
 
-.App-Section{
-  font-family: NohemiRegular;
+* {
+  scroll-behavior: smooth;
+  font-family: inherit;
 }
 
 .text-gradient {
@@ -222,3 +226,15 @@
     font-display: block;
     font-style: normal;
   }
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('./components/fonts/WorkSans-Italic-VariableFont_wght.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 100 900;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url('./components/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+}

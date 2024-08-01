@@ -11,16 +11,16 @@ module.exports = {
         dimGrey: "#898B8A",
         dimHover: "#D9D9D9",
         dimCard: "#FAFCFF",
-        
       },
       fontFamily: {
         nohemi: ["Nohemi", "sans-serif"],
         avenir: ["Avenir", "sans-serif"],
+        "work-sans": ["Work Sans", "sans-serif"],
       },
       rotate: {
-        '130': '130deg',
-        '40': '40deg',
-        '220': '220deg',
+        130: "130deg",
+        40: "40deg",
+        220: "220deg",
       },
     },
     screens: {
@@ -32,7 +32,7 @@ module.exports = {
       xl: "1700px",
     },
     variants: {
-      fill: ['hover', 'focus'], // this line does the trick
+      fill: ["hover", "focus"], // this line does the trick
     },
   },
   plugins: [],
