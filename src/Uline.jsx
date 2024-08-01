@@ -3,7 +3,7 @@ import { Navbar, FooterLight, UlineHero, UlineHero2, UlineWhy } from "./componen
 
 const Uline = () => (
   <div className="bg-primary w-full overflow-hidden">
-    <div className={`border-b border-dimBlack ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
@@ -21,7 +21,9 @@ const Uline = () => (
       </div>
     </div>
 
-    <div className={`border-b border-dimBlack bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+    <div
+      className={`border-b border-dimBlack bg-primary ${styles.paddingX} ${styles.flexStart}`}
+    >
       <div className={`${styles.boxWidth}`}>
         <UlineHero2 />
       </div>
@@ -32,8 +34,7 @@ const Uline = () => (
         <FooterLight />
       </div>
     </div>
-
   </div>
-);
+)
 
 export default Uline;

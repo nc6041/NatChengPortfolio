@@ -12,12 +12,13 @@
 #root {
   /* This sets the default font for all elements because below we have * { font-family: inherit; }
   */
-  @apply font-work-sans;
+  @apply font-work-sans text-neutral-700;
 }
 
 * {
   scroll-behavior: smooth;
   font-family: inherit;
+  color: inherit;
 }
 
 .text-gradient {

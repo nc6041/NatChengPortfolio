@@ -3,7 +3,7 @@ import { Navbar, FooterLight, WellnessHero, WellnessHero2, WellnessHero3, Wellne
 
 const Wellness = () => (
   <div className="bg-primary w-full overflow-hidden">
-    <div className={`border-b border-dimBlack ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
@@ -33,9 +33,11 @@ const Wellness = () => (
       </div>
     </div>
 
-    <div className={`border-b border-dimBlack bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+    <div
+      className={`border-b border-dimBlack bg-primary ${styles.paddingX} ${styles.flexStart}`}
+    >
       <div className={`${styles.boxWidth}`}>
-      <WellnessHero3 />
+        <WellnessHero3 />
       </div>
     </div>
 
@@ -44,8 +46,7 @@ const Wellness = () => (
         <FooterLight />
       </div>
     </div>
-
   </div>
-);
+)
 
 export default Wellness;

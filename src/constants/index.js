@@ -16,6 +16,8 @@ export const navLinks = [
   {
     id: "mailto:nataliec6041@gmail.com",
     title: "CONTACT",
+    // Just a little hack to style the contact link like a button
+    styleButton: true,
   },
 ];
 

@@ -1,34 +1,44 @@
-import { useState } from "react";
+import { useState } from 'react'
 
-import { close, menu } from "../assets";
-import { navLinks } from "../constants";
-import { HashLink } from 'react-router-hash-link';
+import { close, menu } from '../assets'
+import { navLinks } from '../constants'
+import { HashLink } from 'react-router-hash-link'
+import classNames from 'classnames'
+import styles from '../style'
 
 const Navbar = () => {
-  const [active, setActive] = useState("");
+  const [active, setActive] = useState('')
   // Whether the title link is being hovered over
-  const [title, setTitle] = useState(false);
-  const [toggle, setToggle] = useState(false);
+  const [title, setTitle] = useState(false)
+  const [toggle, setToggle] = useState(false)
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-
-      <a href={"/"}>
-        <div className={`cursor-pointer object-contain`}
-            onMouseEnter={() => setTitle(true)}
-            onMouseLeave={() => setTitle(false)}
-            >
-          <h1 className={`flex whitespace-pre font-nohemi font-bold ss:text-[32px] text-[32px] text-dimBlack  ${
-              title ? "text-dimCyan" : "text-dimBlack"
-            }`}>
-            nat{" "}
-            <span className={`${title ? "text-dimBlack" : "text-dimCyan"}`}>cheng</span>
+      <a href={'/'}>
+        <div
+          className={`cursor-pointer object-contain`}
+          onMouseEnter={() => setTitle(true)}
+          onMouseLeave={() => setTitle(false)}
+        >
+          <h1
+            className={`flex whitespace-pre font-nohemi font-bold ss:text-[32px] text-[32px] text-dimBlack  ${
+              title ? 'text-malibu-300' : 'text-dimBlack'
+            }`}
+          >
+            nat{' '}
+            <span className={`${title ? 'text-dimBlack' : 'text-malibu-300'}`}>
+              cheng
+            </span>
           </h1>
-          <p className={`flex whitespace-pre font-nohemi font-normal ss:text-[15px] text-[15px] text-dimBlack  ${
-              title ? "text-dimBlack" : "text-dimCyan"
-            }`}>
-            UX{" "}
-            <span className={`${title ? "text-dimCyan" : "text-dimBlack"}`}>designer</span>
+          <p
+            className={`flex whitespace-pre font-nohemi font-normal ss:text-[15px] text-[15px] text-dimBlack  ${
+              title ? 'text-dimBlack' : 'text-malibu-300'
+            }`}
+          >
+            UX{' '}
+            <span className={`${title ? 'text-malibu-300' : 'text-dimBlack'}`}>
+              designer
+            </span>
           </p>
         </div>
       </a>
@@ -37,11 +47,17 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-normal cursor-pointer text-[20px] ${
-              active === nav.title || window.location.pathname.substring(1) === nav.id ? "text-dimCyan" : "text-dimBlack"
-            } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
+            className={classNames(
+              'font-normal',
+              'cursor-pointer',
+              (active === nav.title ||
+                window.location.pathname.substring(1) === nav.id) &&
+                'text-malibu-300',
+              index === navLinks.length - 1 ? 'mr-0' : 'mr-10',
+              nav.styleButton ? styles.button : 'text-[20px]',
+            )}
             onMouseEnter={() => setActive(nav.title)}
-            onMouseLeave={() => setActive("")}
+            onMouseLeave={() => setActive('')}
           >
             <HashLink to={`${nav.id}`}>{nav.title}</HashLink>
           </li>
@@ -58,18 +74,20 @@ const Navbar = () => {
 
         <div
           className={`${
-            !toggle ? "hidden" : "flex"
+            !toggle ? 'hidden' : 'flex'
           } p-6 bg-primary absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-lg border border-dimBlack`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-nohemi font-medium cursor-pointer text-[16px] ${
-                  active === nav.title ? "text-dimCyan" : "text-dimBlack"
-                } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
+                className={classNames(
+                  'font-nohemi font-medium cursor-pointer text-[16px]',
+                  active === nav.title && 'text-malibu-300',
+                  index === navLinks.length - 1 ? 'mb-0' : 'mb-4',
+                )}
                 onMouseEnter={() => setActive(nav.title)}
-                onMouseLeave={() => setActive("")}
+                onMouseLeave={() => setActive('')}
               >
                 <a href={`${nav.id}`}>{nav.title}</a>
               </li>
@@ -78,7 +96,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

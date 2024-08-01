@@ -3,7 +3,7 @@ import { Navbar, BenefitHero, BenefitHero2, BenefitWhy, FooterLight } from "./co
 
 const Benefit = () => (
   <div className="bg-primary w-full overflow-hidden">
-    <div className={`border-b border-dimBlack ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
@@ -21,7 +21,9 @@ const Benefit = () => (
       </div>
     </div>
 
-    <div className={`border-b border-dimBlack bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+    <div
+      className={`border-b border-dimBlack bg-primary ${styles.paddingX} ${styles.flexCenter}`}
+    >
       <div className={`${styles.boxWidth}`}>
         <BenefitHero2 />
       </div>
@@ -32,8 +34,7 @@ const Benefit = () => (
         <FooterLight />
       </div>
     </div>
-
   </div>
-);
+)
 
 export default Benefit;

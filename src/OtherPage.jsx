@@ -3,7 +3,7 @@ import { Navbar, OW2, FooterLight, Designs, Photography} from "./components";
 
 const OtherPage = () => (
   <div className="bg-primary w-full overflow-hidden">
-    <div className={`border-b border-dimBlack ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
@@ -22,8 +22,7 @@ const OtherPage = () => (
         <FooterLight />
       </div>
     </div>
-
   </div>
-);
+)
 
 export default OtherPage;

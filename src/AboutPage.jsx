@@ -3,7 +3,7 @@ import { Navbar, FooterLight, About, Skills } from "./components";
 
 const AboutPage = () => (
   <div className="bg-primary w-full overflow-hidden">
-    <div className={`border-b border-dimBlack ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
@@ -21,8 +21,7 @@ const AboutPage = () => (
         <FooterLight />
       </div>
     </div>
-
   </div>
-);
+)
 
 export default AboutPage;

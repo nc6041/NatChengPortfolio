@@ -3,17 +3,13 @@ import { Navbar, OW, Hero, FooterLight, CaseStudies, Cases, Cases1, Cases2, Case
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
-    <div className={`border-b border-dimBlack ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
     </div>
 
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
-      </div>
-    </div>
+    <Hero />
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
@@ -45,8 +41,9 @@ const App = () => (
       </div>
     </div>
 
-
-    <div className={`bg-primary border-b border-white${styles.paddingX} ${styles.flexCenter}`}>
+    <div
+      className={`bg-primary border-b border-white${styles.paddingX} ${styles.flexCenter}`}
+    >
       <div className={`${styles.boxWidth}`}>
         <OW />
       </div>
@@ -54,11 +51,10 @@ const App = () => (
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <FooterLight/>
+        <FooterLight />
       </div>
     </div>
-
   </div>
-);
+)
 
 export default App;
