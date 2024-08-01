@@ -1,12 +1,12 @@
-import styles from "../style";
-import { arrowUp } from "../assets";
+import styles from '../style'
+import { arrowUp } from '../assets'
 
-const OtherWorks = () => (
+const OtherWork = () => (
   <section
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col rounded-[20px]`}
   >
     <div className="flex-1 flex flex-col bg-primary">
-      <h2 className={`${styles.heading3} text-dimBlack`}>Other Works</h2>
+      <h2 className={`${styles.heading3} text-dimBlack`}>Other Work</h2>
       <p className={`${styles.paragraph} text-dimBlack mt-5`}>
         On top of UX design, I enjoy exercising my creativity through various
         outlets. Although I've dabbled in many mediums from drawing and painting
@@ -14,10 +14,10 @@ const OtherWorks = () => (
         photography.
       </p>
       <a href={`${'other'}`} className="text-malibu-300 font-bold mt-3 flex">
-        View other works
+        View other work
         <img
           src={arrowUp}
-          alt="otherworks"
+          alt="otherwork"
           className="-translate-x-5 w-[70px] h-[18px] rotate-40 mt-1"
         />
       </a>
@@ -25,4 +25,4 @@ const OtherWorks = () => (
   </section>
 )
 
-export default OtherWorks;
+export default OtherWork

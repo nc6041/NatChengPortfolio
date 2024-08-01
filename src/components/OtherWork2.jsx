@@ -1,7 +1,7 @@
-import styles from "../style";
-import { arrowUp } from "../assets";
+import styles from '../style'
+import { arrowUp } from '../assets'
 
-const OtherWorks2 = () => {
+const OtherWork2 = () => {
   return (
     <section
       id="home"
@@ -12,7 +12,7 @@ const OtherWorks2 = () => {
       >
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-nohemi font-bold text-start ss:text-[72px] text-[60px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
-            other <span className="text-malibu-300">works</span>
+            other <span className="text-malibu-300">work</span>
           </h1>
         </div>
 
@@ -20,7 +20,7 @@ const OtherWorks2 = () => {
           Besides UX design, I enjoy doing{' '}
           <span className="text-malibu-300 font-bold ">graphic design</span> and{' '}
           <span className="text-malibu-300 font-bold ">photography</span> on the
-          side. This is a collection of my graphic design works and photos.
+          side. This is a collection of my graphic design work and photos.
         </p>
 
         <a href={`#${'designs'}`}>
@@ -33,6 +33,6 @@ const OtherWorks2 = () => {
       </div>
     </section>
   )
-};
+}
 
-export default OtherWorks2;
+export default OtherWork2

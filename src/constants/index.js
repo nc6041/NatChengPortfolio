@@ -2,24 +2,24 @@ import { facebook, linkedin, twitter, facebookdark, linkedindark, twitterdark, k
 
 export const navLinks = [
   {
-    id: "/#studies",
-    title: "CASE STUDIES",
+    id: '/#studies',
+    title: 'CASE STUDIES',
   },
   {
-    id: "/about",
-    title: "ABOUT",
+    id: '/about',
+    title: 'ABOUT',
   },
   {
-    id: "/other",
-    title: "OTHER WORKS",
+    id: '/other',
+    title: 'OTHER WORK',
   },
   {
-    id: "mailto:nataliec6041@gmail.com",
-    title: "CONTACT",
+    id: 'mailto:nataliec6041@gmail.com',
+    title: 'CONTACT',
     // Just a little hack to style the contact link like a button
     styleButton: true,
   },
-];
+]
 
 export const skills = [
   {
