@@ -1,11 +1,15 @@
 import { benefitdesign, blue, PureGreenHero, uline } from '../assets'
 import styles from '../style'
 import CaseCard from './CaseCard'
+import { navbarHeight } from './Navbar'
 
 const CaseStudies = () => (
   <section
     id="studies"
     className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6 pt-6`}
+    style={{
+      scrollMarginTop: navbarHeight,
+    }}
   >
     <h2 className="font-work-sans font-medium uppercase xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] mt-0 mb-20">
       Case Studies

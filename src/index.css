@@ -13,7 +13,6 @@
   /* This sets the default font for all elements because below we have * { font-family: inherit; }
   */
   @apply font-work-sans text-neutral-700 text-base;
-  --header-height: 104px;
 }
 
 * {

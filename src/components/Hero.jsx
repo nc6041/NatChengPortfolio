@@ -1,15 +1,19 @@
 import styles from '../style'
 import classNames from 'classnames'
 import { homepageHeader } from '../assets'
+import { navbarHeight } from './Navbar'
 
 const Hero = () => {
   return (
     <section
       id="home"
       className="flex flex-col items-stretch gap-3 text-center min-h-screen"
+      style={{
+        minHeight: `calc(100vh - ${navbarHeight}`,
+      }}
     >
-      {/* mt-32 is for the fixed header */}
-      <div className="mt-32 md:mt-40 flex-1 flex flex-col justify-center items-center py-16 px-8 md:px-16 relative">
+      {/* This div exists solely to make md:mt-8 possible */}
+      <div className="md:mt-8 flex-1 flex flex-col justify-center items-center py-16 px-8 md:px-16 relative">
         {/* Absolutely positioned for background */}
         <img
           src={homepageHeader}
