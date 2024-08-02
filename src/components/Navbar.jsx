@@ -25,20 +25,20 @@ const Navbar = () => {
                 <span
                   className={classNames(
                     'whitespace-pre',
-                    !title && 'text-malibu-300',
+                    title && 'text-malibu-300',
                   )}
                 >
                   nat{' '}
                 </span>
-                <span className={classNames(title && 'text-malibu-300')}>
+                <span className={classNames(!title && 'text-malibu-300')}>
                   cheng
                 </span>
               </h1>
               <p>
-                <span className={classNames(title && 'text-malibu-300')}>
+                <span className={classNames(!title && 'text-malibu-300')}>
                   UX{' '}
                 </span>
-                <span className={classNames(!title && 'text-malibu-300')}>
+                <span className={classNames(title && 'text-malibu-300')}>
                   designer
                 </span>
               </p>
