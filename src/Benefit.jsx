@@ -3,11 +3,7 @@ import { Navbar, BenefitHero, BenefitHero2, BenefitWhy, FooterLight } from "./co
 
 const Benefit = () => (
   <div className="w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar />
-      </div>
-    </div>
+    <Navbar />
 
     <div className={`${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
