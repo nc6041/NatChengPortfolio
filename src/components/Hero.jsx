@@ -18,8 +18,14 @@ const Hero = () => {
         className="absolute -z-10 top-0 left-0 min-w-full min-h-full object-cover mb-8"
       />
 
-      <h1 className="font-bold text-center ss:text-[90px] text-[60px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
-        Hi, <span className="text-malibu-300">I'm Nat</span>
+      <h1 className="font-nat text-center ss:text-[90px] text-[60px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
+        Hi,{' '}
+        <span className="text-malibu-300">
+          I'm Nat
+          <span className="font-nat-symbol" aria-hidden>
+            {/* 2 is a moon */}2
+          </span>
+        </span>
       </h1>
 
       <p className={`${styles.paragraphCenterMedium} max-w-[900px] mt-10`}>

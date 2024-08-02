@@ -30,6 +30,8 @@ module.exports = {
         nohemi: ['Nohemi', 'sans-serif'],
         avenir: ['Avenir', 'sans-serif'],
         'work-sans': ['Work Sans', 'sans-serif'],
+        nat: ['Nat', 'sans-serif'],
+        'nat-symbol': ['Nat Symbol', 'sans-serif'],
       },
       rotate: {
         130: '130deg',
