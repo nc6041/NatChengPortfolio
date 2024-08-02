@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Navbar, OW2, FooterLight, Designs, Photography} from "./components";
+import { Navbar, OW2, Footer, Designs, Photography } from './components'
 
 const OtherPage = () => (
   <div className="w-full overflow-hidden">
@@ -13,11 +13,7 @@ const OtherPage = () => (
       </div>
     </div>
 
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <FooterLight />
-      </div>
-    </div>
+    <Footer />
   </div>
 )
 

@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Navbar, OW, Hero, FooterLight, CaseStudies } from './components'
+import { Navbar, OW, Hero, Footer, CaseStudies } from './components'
 
 const App = () => (
   <div className="w-full overflow-hidden">
@@ -21,11 +21,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <FooterLight />
-      </div>
-    </div>
+    <Footer />
   </div>
 )
 

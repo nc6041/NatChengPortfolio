@@ -91,6 +91,7 @@ import contentbefore from './contentbefore.png'
 import contentafter from './contentafter.png'
 
 import homepageHeader from './homepage-header.png'
+import footerBackground from './footer-background.png'
 
 export {
   footerafter,
@@ -180,4 +181,5 @@ export {
   PGDemo,
   PGFinalMocks,
   homepageHeader,
+  footerBackground,
 }

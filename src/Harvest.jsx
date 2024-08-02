@@ -1,5 +1,11 @@
 import styles from "./style";
-import { Navbar, FooterLight, HarvestHero, HarvestHero2, HarvestWhy } from "./components";
+import {
+  Navbar,
+  Footer,
+  HarvestHero,
+  HarvestHero2,
+  HarvestWhy,
+} from './components'
 
 const Harvest = () => (
   <div className="w-full overflow-hidden">
@@ -25,11 +31,7 @@ const Harvest = () => (
       </div>
     </div>
 
-    <div className={`${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <FooterLight />
-      </div>
-    </div>
+    <Footer />
   </div>
 )
 

@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Navbar, FooterLight, UlineHero, UlineHero2, UlineWhy } from "./components";
+import { Navbar, Footer, UlineHero, UlineHero2, UlineWhy } from './components'
 
 const Uline = () => (
   <div className="w-full overflow-hidden">
@@ -25,11 +25,7 @@ const Uline = () => (
       </div>
     </div>
 
-    <div className={`${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <FooterLight />
-      </div>
-    </div>
+    <Footer />
   </div>
 )
 

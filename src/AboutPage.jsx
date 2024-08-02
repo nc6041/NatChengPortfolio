@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Navbar, FooterLight, About, Skills } from "./components";
+import { Navbar, Footer, About, Skills } from './components'
 
 const AboutPage = () => (
   <div className="w-full overflow-hidden">
@@ -12,11 +12,7 @@ const AboutPage = () => (
       </div>
     </div>
 
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <FooterLight />
-      </div>
-    </div>
+    <Footer />
   </div>
 )
 

@@ -2,8 +2,7 @@ import Navbar from "./Navbar";
 import OW from './OtherWork'
 import OW2 from './OtherWork2'
 import CaseStudies from "./CaseStudies";
-import Footer from "./Footer";
-import FooterLight from "./FooterLight";
+import Footer from './Footer'
 import Hero from "./Hero";
 import About from "./AboutMe";
 import Skills from "./Skills";
@@ -31,7 +30,6 @@ export {
   OW2,
   CaseStudies,
   Footer,
-  FooterLight,
   Hero,
   About,
   Skills,
