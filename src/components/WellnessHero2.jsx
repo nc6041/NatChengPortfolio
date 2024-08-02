@@ -9,12 +9,10 @@ const UlineHero2 = () => {
     >
       <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            The Goal
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>The Goal</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           Create an app that will help users to understand the importance of
           health and wellness, as well as find accessible resources to implement
           it into their lives.
@@ -28,25 +26,21 @@ const UlineHero2 = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 w-full`}>
+        <p className={`mb-3 ml-3 text-malibu-300 w-full`}>
           1. Understand different care routines and opinions on self-care
           through observational interviews.
         </p>
 
-        <p
-          className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 mb-32 w-full`}
-        >
+        <p className={`mb-3 ml-3 text-malibu-300 mb-32 w-full`}>
           2. Design a mobile interface that uses an AI chatbot to give users the
           most personalized and relative information possible.
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading1} flex-1 text-malibu-300`}>
-            Research
-          </h1>
+          <h1 className={`flex-1 text-malibu-300`}>Research</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           We started our project with conducting 6{' '}
           <span className="text-malibu-300 font-bold ">
             observational studies
@@ -65,23 +59,19 @@ const UlineHero2 = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 w-full`}>
+        <p className={`mb-3 ml-3 text-malibu-300 w-full`}>
           1. What are some ways that you take care of yourself?
         </p>
 
-        <p
-          className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 mb-3 w-full`}
-        >
+        <p className={`mb-3 ml-3 text-malibu-300 mb-3 w-full`}>
           2. What is self-care by your definition?
         </p>
 
-        <p
-          className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 mb-14 w-full`}
-        >
+        <p className={`mb-3 ml-3 text-malibu-300 mb-14 w-full`}>
           3. Do you think self-care is important? Why or why not?
         </p>
 
-        <p className={`${styles.paragraph} mb-32 w-full`}>
+        <p className={`mb-32 w-full`}>
           For the observational studies, our participants walked us through
           their “self-care” activities which ranged from things like their
           skin-care routine, to a session at the gym together. During the
@@ -91,12 +81,10 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Data Collection
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>Data Collection</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           We used{' '}
           <span className="text-malibu-300 font-bold ">
             affinity diagramming
@@ -122,7 +110,7 @@ const UlineHero2 = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 w-full`}>
+        <p className={`mb-3 ml-3 text-malibu-300 w-full`}>
           1. <span className="text-malibu-300 font-bold ">Accessible care</span>
           : We found that it is difficult for people to find accessible avenues
           to healthcare and wellness. These include things like finding doctors,
@@ -130,9 +118,7 @@ const UlineHero2 = () => {
           schedule, and more.
         </p>
 
-        <p
-          className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 mb-3 w-full`}
-        >
+        <p className={`mb-3 ml-3 text-malibu-300 mb-3 w-full`}>
           2.{' '}
           <span className="text-malibu-300 font-bold ">
             Self-care is not a priority
@@ -141,9 +127,7 @@ const UlineHero2 = () => {
           most mentioned led to illness and burn out.
         </p>
 
-        <p
-          className={`${styles.paragraph} mb-24 ml-3 text-malibu-300 mb-32 w-full`}
-        >
+        <p className={`mb-24 ml-3 text-malibu-300 mb-32 w-full`}>
           3.{' '}
           <span className="text-malibu-300 font-bold ">
             Expansion of self-care
@@ -153,18 +137,14 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full mb-10">
-          <h1 className={`${styles.heading1} flex-1 text-malibu-300`}>
-            Ideation
-          </h1>
+          <h1 className={`flex-1 text-malibu-300`}>Ideation</h1>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Brainstorming
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>Brainstorming</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           Using our insights and notes from affinity diagramming we started our{' '}
           <span className="text-malibu-300 font-bold ">brainstorming</span>{' '}
           phase with a brain dump of any and all ideas. We put all of our ideas
@@ -184,12 +164,10 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Sketching + Storyboarding
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>Sketching + Storyboarding</h1>
         </div>
 
-        <p className={`${styles.paragraph} w-full`}>
+        <p className={`w-full`}>
           Each group member sketched out 3 potential ideas based on the main
           ideas we selected during brainstorming.
         </p>

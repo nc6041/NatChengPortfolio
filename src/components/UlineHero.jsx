@@ -23,31 +23,31 @@ const UlineHero = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           Rethinking Uline's welcome campaign by targetting specific industries
           in order to improve new customer retention.
         </p>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           <span className="font-bold ">Team:</span> Uline Creative Interns (10
           members total)
         </p>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           <span className="font-bold ">My Role:</span> Web Design, Web
           Production, UX Design, Print Design
         </p>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           <span className="font-bold ">Timeline:</span> June 2023 - August 2023
         </p>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           <span className="font-bold ">Tools:</span> Adobe Photoshop, Adobe
           InDesign, VSCode
         </p>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           In the summer of 2023, I worked as a{' '}
           <span className="font-bold text-malibu-300">web design intern</span>{' '}
           at <span className="font-bold text-malibu-300">Uline</span>, a

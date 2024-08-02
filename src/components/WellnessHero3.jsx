@@ -9,12 +9,10 @@ const UlineHero2 = () => {
     >
       <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Final Decision
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>Final Decision</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           We decided on creating an{' '}
           <span className="text-malibu-300 font-bold ">AI assistant</span> that
           will help with all of the issues we found in our research including
@@ -32,37 +30,31 @@ const UlineHero2 = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 w-full`}>
+        <p className={`mb-3 ml-3 text-malibu-300 w-full`}>
           1. Allows user to find doctors, specialists, classes, and more, that
           are perfectly fit to the users' needs by the user answering questions
           (e.g. male or female doctor, insurance, etc.).
         </p>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 w-full`}>
+        <p className={`mb-3 ml-3 text-malibu-300 w-full`}>
           2. AI will allow the user to automatically schedule the activities it
           recommends.
         </p>
 
-        <p
-          className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 mb-32 w-full`}
-        >
+        <p className={`mb-3 ml-3 text-malibu-300 mb-32 w-full`}>
           3. The user can save and favorite activities that they participated in
           and enjoyed or want to view at a later date.
         </p>
 
         <div className="flex flex-row justify-between items-center w-full mb-10">
-          <h1 className={`${styles.heading1} flex-1 text-malibu-300`}>
-            Prototyping
-          </h1>
+          <h1 className={`flex-1 text-malibu-300`}>Prototyping</h1>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Paper Prototyping
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>Paper Prototyping</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           To visualize what our design could end up looking like we made{' '}
           <span className="text-malibu-300 font-bold ">paper prototypes</span>{' '}
           to <span className="text-malibu-300 font-bold ">test</span> the design
@@ -81,12 +73,10 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Task Flows
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>Task Flows</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           We began digital prototyping by creating{' '}
           <span className="text-malibu-300 font-bold ">task flows</span> and
           blocking out basic elements for the screens that would be needed to
@@ -102,12 +92,10 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Wireframes
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>Wireframes</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           We created{' '}
           <span className="text-malibu-300 font-bold ">
             low fidelity prototypes
@@ -128,12 +116,10 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Interactive Mockups
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>Interactive Mockups</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           After some revision we turned the low-level details into{' '}
           <span className="text-malibu-300 font-bold ">
             high-fidelity wireframes
@@ -152,12 +138,12 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
+          <h1 className={`flex-1 text-dimBlack`}>
             Flow 1: Onboard and Customization
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           Users can easily create an account by entering their email and a
           password, or by using Google, Facebook, or Apple. The process is
           straightforward and quick so users can start chatting right away. We
@@ -177,12 +163,10 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Flow 2: Getting Help
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>Flow 2: Getting Help</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           The recommended chat feature allows users to quickly find resources
           without even having to type. The personalized bot helps users find
           specialists that are perfect for them and users can explore, save, or
@@ -201,12 +185,10 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Flow 3: Personal Info
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>Flow 3: Personal Info</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           The profile section is what allows the chat bot to understand the user
           quickly and target their needs perfectly. Users can fill out their
           personal information such as insurance that lets them get exactly what
@@ -225,12 +207,10 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading1} flex-1 text-malibu-300`}>
-            Reflection
-          </h1>
+          <h1 className={`flex-1 text-malibu-300`}>Reflection</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-24 w-full`}>
+        <p className={`mb-24 w-full`}>
           Looking back, this project has given me a strong grasp of how users
           and apps interact. Guided by established design heuristics, I was able
           to design an app to help people learn and integrate healthier habits

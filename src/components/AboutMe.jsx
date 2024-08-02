@@ -25,7 +25,7 @@ const AboutMe = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mt-10`}>
+        <p className={`mt-10`}>
           I'm currently a senior pursuing a B.A. in{' '}
           <span className="text-malibu-300 font-bold ">computer science</span>{' '}
           and <span className="text-malibu-300 font-bold ">graphic design</span>{' '}
@@ -33,14 +33,14 @@ const AboutMe = () => {
           <span className="text-malibu-300 font-bold ">UW-Madison</span>.
         </p>
 
-        <p className={`${styles.paragraph} mt-7`}>
+        <p className={`mt-7`}>
           My most recent role was at ULINE as a web design intern where I
           created brand-consistent designs for their web homepage, internal
           platform, and emails to increase user engagement with the site and
           product sales across multiple industries.
         </p>
 
-        <p className={`${styles.paragraph} mt-7`}>
+        <p className={`mt-7`}>
           I grew up loving all things creative and was raised in a culture
           that's all about caring for others. In college, I discovered the field
           of user experience design where I fell in love with the concept of

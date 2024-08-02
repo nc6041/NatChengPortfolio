@@ -5,46 +5,41 @@ import { natcheng } from "../assets"
 const Skills = () => {
   return (
     <section className={`flex lg:flex-row flex-col mb-28 ${styles.paddingY}`}>
-      <div className={`flex-1 ${styles.flexColumns} flex-col xl:px-0 sm:pl-16 pl-6 pb-10`}>
-
+      <div
+        className={`flex-1 ${styles.flexColumns} flex-col xl:px-0 sm:pl-16 pl-6 pb-10`}
+      >
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading3} flex-1 text-dimBlack`}>
-            skills
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>skills</h1>
         </div>
-        
+
         <ul className={`list-none ${styles.paragraphSkills}`}>
-        {skills.map((skill, index) => (
-          <li key={skill.id}>
-            {skill.title}
-          </li>
-        ))}
+          {skills.map((skill, index) => (
+            <li key={skill.id}>{skill.title}</li>
+          ))}
         </ul>
       </div>
 
-      <div className={`flex-1 ${styles.flexColumns} flex-col xl:px-0 sm:pl-16 pl-6 pb-10`}>
-
+      <div
+        className={`flex-1 ${styles.flexColumns} flex-col xl:px-0 sm:pl-16 pl-6 pb-10`}
+      >
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading3} flex-1 text-dimBlack`}>
-            hobbies
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>hobbies</h1>
         </div>
-        
+
         <ul className={`list-none ${styles.paragraphSkills}`}>
-        {hobbies.map((hobby, index) => (
-          <li key={hobby.id}>
-            {hobby.title}
-          </li>
-        ))}
+          {hobbies.map((hobby, index) => (
+            <li key={hobby.id}>{hobby.title}</li>
+          ))}
         </ul>
       </div>
 
-      <div className={`flex-1 ${styles.flexColumns} flex-col xl:px-0 md:${styles.flexCenter} sm:px-16 px-6`}>
-        <img src={natcheng} alt="natcheng"/>
+      <div
+        className={`flex-1 ${styles.flexColumns} flex-col xl:px-0 md:${styles.flexCenter} sm:px-16 px-6`}
+      >
+        <img src={natcheng} alt="natcheng" />
       </div>
-
     </section>
-  );
+  )
 };
 
 export default Skills;

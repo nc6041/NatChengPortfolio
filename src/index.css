@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -12,13 +12,28 @@
 #root {
   /* This sets the default font for all elements because below we have * { font-family: inherit; }
   */
-  @apply font-work-sans text-neutral-700;
+  @apply font-work-sans text-neutral-700 text-base;
+  --header-height: 104px;
 }
 
 * {
   scroll-behavior: smooth;
   font-family: inherit;
   color: inherit;
+  box-sizing: border-box;
+}
+
+h1 {
+  @apply text-6xl;
+}
+h2 {
+  @apply text-5xl;
+}
+h3 {
+  @apply font-medium text-4xl uppercase;
+}
+h4 {
+  @apply font-medium text-2xl;
 }
 
 .text-gradient {
@@ -142,102 +157,103 @@
   filter: blur(750px);
 }
 
-
-  @font-face {
-      font-family: 'Nohemi';
-      font-weight: 900;
-      src: url('./components/fonts/NohemiBlack.woff') format('woff');
-      font-display: block;
-      font-style: normal;
-  }
-  @font-face {
-      font-family: 'Nohemi';
-      font-weight: 800;
-      src: url('./components/fonts/NohemiExtraBold.woff') format('woff');
-      font-display: block;
-      font-style: normal;
-  }
-  @font-face {
-      font-family: 'Nohemi';
-      font-weight: 700;
-      src: url('./components/fonts/NohemiBold.woff') format('woff');
-      font-display: block;
-      font-style: normal;
-  }
-  @font-face {
-      font-family: 'Nohemi';
-      font-weight: 600;
-      src: url('./components/fonts/NohemiSemiBold.woff') format('woff');
-      font-display: block;
-      font-style: normal;
-  }
-  @font-face {
-      font-family: 'Nohemi';
-      font-weight: 500;
-      src: url('./components/fonts/NohemiMedium.woff') format('woff');
-      font-display: block;
-      font-style: normal;
-  }
-  @font-face {
-      font-family: 'Nohemi';
-      font-weight: 400;
-      src: url('./components/fonts/NohemiRegular.woff') format('woff');
-      font-display: block;
-      font-style: normal;
-  }
-  @font-face {
-      font-family: 'Nohemi';
-      font-weight: 300;
-      src: url('./components/fonts/NohemiLight.woff') format('woff');
-      font-display: block;
-      font-style: normal;
-  }
-  @font-face {
-      font-family: 'Nohemi';
-      font-weight: 200;
-      src: url('./components/fonts/NohemiExtraLight.woff') format('woff');
-      font-display: block;
-      font-style: normal;
-  }
-  @font-face {
-      font-family: 'Nohemi';
-      font-weight: 100;
-      src: url('./components/fonts/NohemiThin.woff') format('woff');
-      font-display: block;
-      font-style: normal;
-  }
-  @font-face {
-    font-family: 'Avenir';
-    font-weight: 400;
-    src: url('./components/fonts/AvenirRegular.ttf') format('ttf');
-    font-display: block;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Avenir';
-    font-weight: 500;
-    src: url('./components/fonts/AvenirMedium.ttf') format('ttf');
-    font-display: block;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Avenir';
-    font-weight: 700;
-    src: url('./components/fonts/AvenirHeavy.ttf') format('ttf');
-    font-display: block;
-    font-style: normal;
-  }
-
 @font-face {
-    font-family: 'Work Sans';
-    src: url('./components/fonts/WorkSans-Italic-VariableFont_wght.ttf') format('truetype');
-    font-style: italic;
-    font-weight: 100 900;
+  font-family: 'Nohemi';
+  font-weight: 900;
+  src: url('./components/fonts/NohemiBlack.woff') format('woff');
+  font-display: block;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'Work Sans';
-    src: url('./components/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
-    font-weight: 100 900;
+  font-family: 'Nohemi';
+  font-weight: 800;
+  src: url('./components/fonts/NohemiExtraBold.woff') format('woff');
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nohemi';
+  font-weight: 700;
+  src: url('./components/fonts/NohemiBold.woff') format('woff');
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nohemi';
+  font-weight: 600;
+  src: url('./components/fonts/NohemiSemiBold.woff') format('woff');
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nohemi';
+  font-weight: 500;
+  src: url('./components/fonts/NohemiMedium.woff') format('woff');
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nohemi';
+  font-weight: 400;
+  src: url('./components/fonts/NohemiRegular.woff') format('woff');
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nohemi';
+  font-weight: 300;
+  src: url('./components/fonts/NohemiLight.woff') format('woff');
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nohemi';
+  font-weight: 200;
+  src: url('./components/fonts/NohemiExtraLight.woff') format('woff');
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nohemi';
+  font-weight: 100;
+  src: url('./components/fonts/NohemiThin.woff') format('woff');
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir';
+  font-weight: 400;
+  src: url('./components/fonts/AvenirRegular.ttf') format('ttf');
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir';
+  font-weight: 500;
+  src: url('./components/fonts/AvenirMedium.ttf') format('ttf');
+  font-display: block;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir';
+  font-weight: 700;
+  src: url('./components/fonts/AvenirHeavy.ttf') format('ttf');
+  font-display: block;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('./components/fonts/WorkSans-Italic-VariableFont_wght.ttf')
+    format('truetype');
+  font-style: italic;
+  font-weight: 100 900;
+}
+@font-face {
+  font-family: 'Work Sans';
+  src: url('./components/fonts/WorkSans-VariableFont_wght.ttf')
+    format('truetype');
+  font-weight: 100 900;
 }
 @font-face {
   font-family: 'NatSymbolFont-Regular';

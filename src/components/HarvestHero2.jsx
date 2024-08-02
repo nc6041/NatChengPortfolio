@@ -9,12 +9,10 @@ const UlineHero2 = () => {
     >
       <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            The Goal
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>The Goal</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 w-full`}>
+        <p className={`mb-3 w-full`}>
           Design an app for PureGreen that allows users to conveniently select
           and order items ahead according to their needs while reinforcing brand
           identity and appeal.
@@ -28,37 +26,33 @@ const UlineHero2 = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 w-full`}>
+        <p className={`mb-3 ml-3 text-malibu-300 w-full`}>
           1. Define target audience and pain points when using other drink and
           food apps.
         </p>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 w-full`}>
+        <p className={`mb-3 ml-3 text-malibu-300 w-full`}>
           2. Brainstorm helpful features and prioritize information to display
           in navigation.
         </p>
 
-        <p
-          className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 mb-32 w-full`}
-        >
+        <p className={`mb-3 ml-3 text-malibu-300 mb-32 w-full`}>
           3. Develop interfaces and prototypes aligned with PureGreen's
           currently style.
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading1} flex-1 text-malibu-300`}>
-            Research
-          </h1>
+          <h1 className={`flex-1 text-malibu-300`}>Research</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-12 w-full`}>
+        <p className={`mb-12 w-full`}>
           To kick off this project each team member started by coming up with a
           set of interview questions that we would later ask to customers inside
           the store to better understand the demographic of customers and how
           they have interacted with food and drink ordering apps before.
         </p>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           We asked typical demographic questions like occupation, age, location
           on campus, etc. Some additional questions we asked related more to
           previous experience with apps such as, "What are the factors that
@@ -76,15 +70,13 @@ const UlineHero2 = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 w-full`}>
+        <p className={`mb-3 ml-3 text-malibu-300 w-full`}>
           1. <span className="text-malibu-300 font-bold ">Convenience</span>:
           People like apps because it's easier to view on mobile on the go
           versus opening a website that has been built mainly for desktop.
         </p>
 
-        <p
-          className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 mb-3 w-full`}
-        >
+        <p className={`mb-3 ml-3 text-malibu-300 mb-3 w-full`}>
           2. <span className="text-malibu-300 font-bold ">Lifestyle</span>: Many
           customers are busy people who want something quick to get them through
           the day, but even waiting in the store for the smoothie to be made
@@ -93,16 +85,14 @@ const UlineHero2 = () => {
           and they would often compare these things before making a decision.
         </p>
 
-        <p
-          className={`${styles.paragraph} mb-3 ml-3 text-malibu-300 mb-6 w-full`}
-        >
+        <p className={`mb-3 ml-3 text-malibu-300 mb-6 w-full`}>
           3. <span className="text-malibu-300 font-bold ">Familiarity</span>:
           Using a mobile app for ordering allows people to see their order
           history as well as deals and new items that would not be immediately
           obvious through the website or unavailable if ordering in person.
         </p>
 
-        <p className={`${styles.paragraph} mb-32 w-full`}>
+        <p className={`mb-32 w-full`}>
           After deriving these insights, we created user personas and user
           journey maps to further explore the minds of our potential users and
           identify highlights and pain points they might experience while
@@ -110,12 +100,10 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            User Personas
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>User Personas</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           We created four{' '}
           <span className="text-malibu-300 font-bold ">user personas</span> to
           help us visualize our target audience, including basic demographic
@@ -134,12 +122,10 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            User Journey Maps
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>User Journey Maps</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           After drafting our personas, we created{' '}
           <span className="text-malibu-300 font-bold ">user journey maps</span>{' '}
           for each of them to track their feelings throughout the possible app
@@ -158,18 +144,14 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full mb-10">
-          <h1 className={`${styles.heading1} flex-1 text-malibu-300`}>
-            Ideation
-          </h1>
+          <h1 className={`flex-1 text-malibu-300`}>Ideation</h1>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Sketching
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>Sketching</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           Using our insights and notes from personas and journey maps we started
           a timed <span className="text-malibu-300 font-bold ">sketching</span>{' '}
           exercise to visuzlize possible solutions for our app. The short time
@@ -190,12 +172,10 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Wireframing
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>Wireframing</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           Following the sketching, we moved into the{' '}
           <span className="text-malibu-300 font-bold">wireframing</span> phase
           to generate even more ideas. Over the span of a few classes, each team
@@ -206,7 +186,7 @@ const UlineHero2 = () => {
           necessary screens for the task of placing an order.
         </p>
 
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           The following image shows the wireframes we narrowed down togethers
           from our sets. The first row, from left to right, contains a splash
           screen, two dashboard options, and one menu screen. The second row
@@ -222,12 +202,10 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Continuing Wireframes
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>Continuing Wireframes</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           After narrowing down our options, we polished these wireframes and
           created new{' '}
           <span className="text-malibu-300 font-bold">
@@ -241,7 +219,7 @@ const UlineHero2 = () => {
           most important features from the wireframes lie in the dashboard,
           menu, and item detail pages.
         </p>
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           The dashboard has hero shots and would contain different specials,
           announcements, and more, so that a user can easily see these things
           right when they open the app. The menu page allows users to expand
@@ -264,18 +242,14 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full mb-10">
-          <h1 className={`${styles.heading1} flex-1 text-malibu-300`}>
-            Prototyping
-          </h1>
+          <h1 className={`flex-1 text-malibu-300`}>Prototyping</h1>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Typography & Colors
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>Typography & Colors</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           To start the prototyping stage, we began by implementing a style guide
           with colors and type. We chose typefaces that mimicked the ones on
           PureGreen's site and logo. The colors also were taken from their
@@ -294,12 +268,10 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            In-Depth Glance
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>In-Depth Glance</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           The mockups below offer some more in-depth descriptions on specific
           features of the app in some of our more important screens.
         </p>
@@ -312,9 +284,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`${styles.heading2} flex-1 text-dimBlack`}>
-            Final Designs & Prototype
-          </h1>
+          <h1 className={`flex-1 text-dimBlack`}>Final Designs & Prototype</h1>
         </div>
         <div className="flex-1 flex flex-col pb-56 pt-4">
           <video autoPlay loop muted playsInline>
@@ -335,12 +305,10 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full mb-10">
-          <h1 className={`${styles.heading1} flex-1 text-malibu-300`}>
-            Reflection
-          </h1>
+          <h1 className={`flex-1 text-malibu-300`}>Reflection</h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           This project was a more unique process for me, as the team dynamic was
           slightly different than I have experienced before. The class is
           targeted towards graphic designers, so my team members did not have
@@ -353,7 +321,7 @@ const UlineHero2 = () => {
           of the design process in a timely manner without too much difficulty.
         </p>
 
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           The more difficult part of the process for me was trying to coordinate
           four different design styles into one. As shown in the wireframes, we
           each have vastly different design styles, so when we were splitting up
@@ -361,7 +329,7 @@ const UlineHero2 = () => {
           sure the end designs were all cohesive and matched the original
           PureGreen style.
         </p>
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           In the end, this project was extremely valuable, as it taught me
           collaborative skills such as team leading and communication that I
           haven't had the opportunity to pick up in other projects. If we had

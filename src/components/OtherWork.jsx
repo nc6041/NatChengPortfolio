@@ -5,9 +5,9 @@ const OtherWork = () => (
   <section
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col rounded-[20px]`}
   >
-    <div className="flex-1 flex flex-col bg-primary">
-      <h2 className={`${styles.heading3} text-dimBlack`}>Other Work</h2>
-      <p className={`${styles.paragraph} text-dimBlack mt-5`}>
+    <div className="flex-1 flex flex-col ">
+      <h2 className={`text-dimBlack`}>Other Work</h2>
+      <p className={`text-dimBlack mt-5`}>
         On top of UX design, I enjoy exercising my creativity through various
         outlets. Although I've dabbled in many mediums from drawing and painting
         to collage and animation, I particularly enjoy graphic design and

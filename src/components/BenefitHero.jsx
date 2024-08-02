@@ -22,30 +22,30 @@ const BenefitHero = () => {
           </h1>
         </div>
 
-        <p className={`${styles.paragraph} mb-10 w-full`}>
+        <p className={`mb-10 w-full`}>
           Providing non-profits with accessible design resources through the
           benefit.design volunteer program.
         </p>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           <span className="font-bold ">Team:</span> educa11y Volunteer Web and
           Brand Design Team (8 members total)
         </p>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           <span className="font-bold ">My Role:</span> Web Design
         </p>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           <span className="font-bold ">Timeline:</span> January 2023 - March
           2023
         </p>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           <span className="font-bold ">Tools:</span> Figma, FigJam
         </p>
 
-        <p className={`${styles.paragraph} mb-6 w-full`}>
+        <p className={`mb-6 w-full`}>
           In efforts to gain real world experience in design and working in a
           team, I searched for volunteer design opportunities to develop these
           skills while also making an impact on the community. I found an
