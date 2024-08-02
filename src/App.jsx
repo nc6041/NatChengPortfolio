@@ -2,7 +2,7 @@ import styles from "./style";
 import { Navbar, OW, Hero, Footer, CaseStudies } from './components'
 
 const App = () => (
-  <div className="w-full overflow-hidden">
+  <div className="w-screen overflow-hidden flex flex-col items-stretch">
     <Navbar />
 
     <Hero />

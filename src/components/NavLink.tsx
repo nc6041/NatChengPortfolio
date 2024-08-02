@@ -19,9 +19,9 @@ export const NavLink = ({
 }: NavLinkProps) => {
   const isActive = window.location.pathname.substring(1) === href
   const classes = classNames(
-    'block font-normal cursor-pointer hover:text-malibu-300',
+    'block font-normal cursor-pointer hover:text-malibu-300 py-2 px-4',
     isActive && 'text-malibu-300',
-    styleButton ? styles.button : 'text-xl',
+    styleButton ? styles.button : 'text-xl md:px-0',
   )
 
   if (nativeAnchor) {
