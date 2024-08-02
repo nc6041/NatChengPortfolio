@@ -17,7 +17,7 @@ const BenefitHero = () => {
         </a>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-nohemi font-bold text-start ss:text-[50px] text-[40px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-nohemi font-bold text-start ss:text-[50px] text-[40px] ss:leading-[100.8px] leading-[75px]">
             educa11y Website Redesign
           </h1>
         </div>

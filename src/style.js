@@ -2,13 +2,9 @@ const styles = {
   boxWidth: 'xl:max-w-[1280px] w-full',
 
   paragraphSkills:
-    'font-work-sans font-normal text-dimBlack ss:text-[20px] text-[18px] leading-[60px]',
-  paragraphCenterMedium:
-    'font-work-sans font-medium text-dimBlack text-center ss:text-[24px] text-[14px] leading-[30.8px]',
-  paragraphCenterMediumHero:
-    'font-work-sans font-normal text-dimBlack text-center ss:text-[17px] text-[14px] leading-[30.8px]',
+    'font-work-sans font-normal ss:text-[20px] text-[18px] leading-[60px]',
   paragraphCenter:
-    'font-work-sans font-normal text-dimBlack text-center ss:text-[16px] text-[14px] leading-[30.8px]',
+    'font-work-sans font-normal text-center ss:text-[16px] text-[14px] leading-[30.8px]',
   subtext:
     'font-work-sans font-normal text-dimGrey ss:text-[16px] text-[16px] mt-2',
   button:

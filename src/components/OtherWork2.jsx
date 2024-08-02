@@ -11,7 +11,7 @@ const OtherWork2 = () => {
         className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-nohemi font-bold text-start ss:text-[72px] text-[60px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-nohemi font-bold text-start ss:text-[72px] text-[60px] ss:leading-[100.8px] leading-[75px]">
             other <span className="text-malibu-300">work</span>
           </h1>
         </div>

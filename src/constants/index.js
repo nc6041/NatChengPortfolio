@@ -1,26 +1,5 @@
 import { facebook, linkedin, twitter, facebookdark, linkedindark, twitterdark, kasaseoul, kasaspring, worldcup, bobasocial, chasalunar, kirby } from "../assets";
 
-export const navLinks = [
-  {
-    id: '/#studies',
-    title: 'CASE STUDIES',
-  },
-  {
-    id: '/about',
-    title: 'ABOUT',
-  },
-  {
-    id: '/other',
-    title: 'OTHER WORK',
-  },
-  {
-    id: 'mailto:nataliec6041@gmail.com',
-    title: 'CONTACT',
-    // Just a little hack to style the contact link like a button
-    styleButton: true,
-  },
-]
-
 export const skills = [
   {
     id: "figma",

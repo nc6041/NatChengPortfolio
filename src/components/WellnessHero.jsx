@@ -18,7 +18,7 @@ const WellnessHero = () => {
         </a>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-nohemi font-bold text-start ss:text-[50px] text-[40px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-nohemi font-bold text-start ss:text-[50px] text-[40px] ss:leading-[100.8px] leading-[75px]">
             LIS 470: Interaction Design Case Study
           </h1>
         </div>

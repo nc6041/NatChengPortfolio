@@ -9,7 +9,7 @@ const UlineHero2 = () => {
     >
       <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>Final Decision</h1>
+          <h1 className={`flex-1 `}>Final Decision</h1>
         </div>
 
         <p className={`mb-10 w-full`}>
@@ -51,7 +51,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>Paper Prototyping</h1>
+          <h1 className={`flex-1 `}>Paper Prototyping</h1>
         </div>
 
         <p className={`mb-6 w-full`}>
@@ -73,7 +73,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>Task Flows</h1>
+          <h1 className={`flex-1 `}>Task Flows</h1>
         </div>
 
         <p className={`mb-6 w-full`}>
@@ -92,7 +92,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>Wireframes</h1>
+          <h1 className={`flex-1 `}>Wireframes</h1>
         </div>
 
         <p className={`mb-6 w-full`}>
@@ -116,7 +116,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>Interactive Mockups</h1>
+          <h1 className={`flex-1 `}>Interactive Mockups</h1>
         </div>
 
         <p className={`mb-10 w-full`}>
@@ -138,9 +138,7 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>
-            Flow 1: Onboard and Customization
-          </h1>
+          <h1 className={`flex-1 `}>Flow 1: Onboard and Customization</h1>
         </div>
 
         <p className={`mb-6 w-full`}>
@@ -163,7 +161,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>Flow 2: Getting Help</h1>
+          <h1 className={`flex-1 `}>Flow 2: Getting Help</h1>
         </div>
 
         <p className={`mb-6 w-full`}>
@@ -185,7 +183,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>Flow 3: Personal Info</h1>
+          <h1 className={`flex-1 `}>Flow 3: Personal Info</h1>
         </div>
 
         <p className={`mb-6 w-full`}>

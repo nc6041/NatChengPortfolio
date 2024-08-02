@@ -20,7 +20,7 @@ const AboutMe = () => {
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-nohemi font-bold text-start ss:text-[72px] text-[60px] text-dimBlack ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-nohemi font-bold text-start ss:text-[72px] text-[60px] ss:leading-[100.8px] leading-[75px]">
             about <span className="text-malibu-300">me</span>
           </h1>
         </div>
@@ -69,7 +69,7 @@ const AboutMe = () => {
             )
           }
           type="button"
-          className={`mt-10 py-2 pl-5 pr-7 font-poppins cursor-pointer font-semibold text-[18px] hover:text-dimBlack text-primary rounded-[10px] hover:bg-dimHover bg-dimBlack flex`}
+          className={`mt-10 py-2 pl-5 pr-7 font-poppins cursor-pointer font-semibold text-[18px] hover:text-primary rounded-[10px] hover:bg-dimHover bg-dimBlack flex`}
         >
           View Resume
           <svg

@@ -9,7 +9,7 @@ const Skills = () => {
         className={`flex-1 ${styles.flexColumns} flex-col xl:px-0 sm:pl-16 pl-6 pb-10`}
       >
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>skills</h1>
+          <h1 className={`flex-1 `}>skills</h1>
         </div>
 
         <ul className={`list-none ${styles.paragraphSkills}`}>
@@ -23,7 +23,7 @@ const Skills = () => {
         className={`flex-1 ${styles.flexColumns} flex-col xl:px-0 sm:pl-16 pl-6 pb-10`}
       >
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>hobbies</h1>
+          <h1 className={`flex-1 `}>hobbies</h1>
         </div>
 
         <ul className={`list-none ${styles.paragraphSkills}`}>

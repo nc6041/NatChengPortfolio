@@ -9,7 +9,7 @@ const UlineHero2 = () => {
     >
       <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>The Goal</h1>
+          <h1 className={`flex-1 `}>The Goal</h1>
         </div>
 
         <p className={`mb-10 w-full`}>
@@ -113,7 +113,7 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full mb-5">
-          <h1 className={`flex-1 text-dimBlack`}>Welcome Email Process</h1>
+          <h1 className={`flex-1 `}>Welcome Email Process</h1>
         </div>
 
         <p className={`mb-6 w-full`}>
@@ -138,14 +138,14 @@ const UlineHero2 = () => {
         <ul className="list-none sm:flex justify-end items-center flex-initial mb-32">
           <li className="">
             <div className="flex flex-row justify-between items-center w-full">
-              <h1 className={`flex justify-center text-dimBlack`}>Before</h1>
+              <h1 className={`flex justify-center `}>Before</h1>
             </div>
             <img src={welcomebefore} alt={'welcomebefore'} className="mb-2" />
             {/* <img src={footerbefore} alt={"footerbefore"} className="mb-2 mr-3" /> */}
           </li>
           <li className="ss:ml-3 ml-0 xs:w-auto sm:w-[580px] md:w-[620px] w-[600px]">
             <div className="flex flex-row justify-between items-center w-full">
-              <h1 className={`flex justify-center text-dimBlack`}>Sketch</h1>
+              <h1 className={`flex justify-center `}>Sketch</h1>
             </div>
             <img
               src={headerinitialsketch}
@@ -153,14 +153,14 @@ const UlineHero2 = () => {
               className="mb-2"
             />
             <div className="flex flex-row justify-between items-center w-full">
-              <h1 className={`flex justify-center text-dimBlack`}>Versions</h1>
+              <h1 className={`flex justify-center `}>Versions</h1>
             </div>
             <img src={versionsuline} alt={'versionsuline'} className="mb-2" />
           </li>
         </ul>
 
         {/* <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>
+          <h1 className={`flex-1 `}>
             Before
           </h1>
         </div>
@@ -187,7 +187,7 @@ const UlineHero2 = () => {
         </div> */}
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex justify-center text-dimBlack`}>Header After</h1>
+          <h1 className={`flex justify-center `}>Header After</h1>
         </div>
 
         <div className="flex-1 flex flex-col pb-32 pt-4">
@@ -199,7 +199,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full mb-5">
-          <h1 className={`flex-1 text-dimBlack`}>Additional Changes</h1>
+          <h1 className={`flex-1 `}>Additional Changes</h1>
         </div>
 
         <p className={`mb-6 w-full`}>
@@ -218,9 +218,7 @@ const UlineHero2 = () => {
         <ul className="list-none sm:flex justify-end items-center flex-1 mb-32">
           <li className="sm:mr-2 mr-0">
             <div className="flex flex-row justify-between items-center w-full">
-              <h1 className={`flex justify-center text-dimBlack`}>
-                Content Before
-              </h1>
+              <h1 className={`flex justify-center `}>Content Before</h1>
             </div>
             <img
               src={contentbefore}
@@ -230,9 +228,7 @@ const UlineHero2 = () => {
           </li>
           <li>
             <div className="flex flex-row justify-between items-center w-full">
-              <h1 className={`flex justify-center text-dimBlack`}>
-                Content After
-              </h1>
+              <h1 className={`flex justify-center `}>Content After</h1>
             </div>
             <img
               src={contentafter}
@@ -245,9 +241,7 @@ const UlineHero2 = () => {
         <ul className="list-none sm:flex justify-between items-center flex-1 mb-3">
           <li className="sm:mr-2 mr-0">
             <div className="flex flex-row justify-between items-center w-full">
-              <h1 className={`flex justify-center text-dimBlack`}>
-                Footer Before
-              </h1>
+              <h1 className={`flex justify-center `}>Footer Before</h1>
             </div>
           </li>
           <li>
@@ -262,9 +256,7 @@ const UlineHero2 = () => {
         <ul className="list-none sm:flex justify-between items-center flex-1 mb-32">
           <li className="sm:mr-2 mr-0">
             <div className="flex flex-row justify-between items-center w-full">
-              <h1 className={`flex justify-center text-dimBlack`}>
-                Footer After
-              </h1>
+              <h1 className={`flex justify-center `}>Footer After</h1>
             </div>
           </li>
           <li>
@@ -277,7 +269,7 @@ const UlineHero2 = () => {
         </ul>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex justify-center text-dimBlack`}>
+          <h1 className={`flex justify-center `}>
             Welcome Email Final Designs
           </h1>
         </div>
@@ -300,7 +292,7 @@ const UlineHero2 = () => {
         </ul>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>Follow Up Email Process</h1>
+          <h1 className={`flex-1 `}>Follow Up Email Process</h1>
         </div>
 
         <p className={`mb-6 w-full`}>
@@ -327,9 +319,7 @@ const UlineHero2 = () => {
         <ul className="list-none sm:flex justify-end items-center flex-1 mb-32">
           <li className="sm:mr-2 mr-0">
             <div className="flex flex-row justify-between items-center w-full">
-              <h1 className={`flex justify-center text-dimBlack`}>
-                Follow Up 1 Sketch
-              </h1>
+              <h1 className={`flex justify-center `}>Follow Up 1 Sketch</h1>
             </div>
             <img
               src={fu1sketch}
@@ -339,9 +329,7 @@ const UlineHero2 = () => {
           </li>
           <li>
             <div className="flex flex-row justify-between items-center w-full">
-              <h1 className={`flex justify-center text-dimBlack`}>
-                Follow Up 1 Raws
-              </h1>
+              <h1 className={`flex justify-center `}>Follow Up 1 Raws</h1>
             </div>
             <img src={fu1raw} alt={'fu1raw'} className="mb-2 md:ml-3 ml-0" />
           </li>
@@ -350,24 +338,20 @@ const UlineHero2 = () => {
         <ul className="list-none sm:flex justify-end items-center flex-1 mb-32">
           <li className="sm:mr-2 mr-0">
             <div className="flex flex-row justify-between items-center w-full">
-              <h1 className={`flex justify-center text-dimBlack`}>
-                Follow Up 2 Sketch
-              </h1>
+              <h1 className={`flex justify-center `}>Follow Up 2 Sketch</h1>
             </div>
             <img src={fu2sketch} alt={'fu2sketch'} className="mb-2 mr-3" />
           </li>
           <li>
             <div className="flex flex-row justify-between items-center w-full">
-              <h1 className={`flex justify-center text-dimBlack`}>
-                Follow Up 2 Raws
-              </h1>
+              <h1 className={`flex justify-center `}>Follow Up 2 Raws</h1>
             </div>
             <img src={fu2raw} alt={'fu2raw'} className="mb-2 ml-3" />
           </li>
         </ul>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex justify-center text-dimBlack`}>
+          <h1 className={`flex justify-center `}>
             Follow Up Email Final Designs
           </h1>
         </div>

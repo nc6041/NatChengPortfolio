@@ -7,7 +7,7 @@ const CaseStudies = () => (
     id="studies"
     className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6 pt-6`}
   >
-    <h2 className="font-work-sans font-medium uppercase xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] text-dimBlack mt-0 mb-20">
+    <h2 className="font-work-sans font-medium uppercase xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] mt-0 mb-20">
       Case Studies
     </h2>
     <div className="flex flex-col gap-9">

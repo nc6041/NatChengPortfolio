@@ -9,7 +9,7 @@ const UlineHero2 = () => {
     >
       <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>The Goal</h1>
+          <h1 className={`flex-1 `}>The Goal</h1>
         </div>
 
         <p className={`mb-3 w-full`}>
@@ -100,7 +100,7 @@ const UlineHero2 = () => {
         </p>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>User Personas</h1>
+          <h1 className={`flex-1 `}>User Personas</h1>
         </div>
 
         <p className={`mb-10 w-full`}>
@@ -122,7 +122,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>User Journey Maps</h1>
+          <h1 className={`flex-1 `}>User Journey Maps</h1>
         </div>
 
         <p className={`mb-10 w-full`}>
@@ -148,7 +148,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>Sketching</h1>
+          <h1 className={`flex-1 `}>Sketching</h1>
         </div>
 
         <p className={`mb-6 w-full`}>
@@ -172,7 +172,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>Wireframing</h1>
+          <h1 className={`flex-1 `}>Wireframing</h1>
         </div>
 
         <p className={`mb-10 w-full`}>
@@ -202,7 +202,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>Continuing Wireframes</h1>
+          <h1 className={`flex-1 `}>Continuing Wireframes</h1>
         </div>
 
         <p className={`mb-10 w-full`}>
@@ -246,7 +246,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>Typography & Colors</h1>
+          <h1 className={`flex-1 `}>Typography & Colors</h1>
         </div>
 
         <p className={`mb-10 w-full`}>
@@ -268,7 +268,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>In-Depth Glance</h1>
+          <h1 className={`flex-1 `}>In-Depth Glance</h1>
         </div>
 
         <p className={`mb-10 w-full`}>
@@ -284,7 +284,7 @@ const UlineHero2 = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className={`flex-1 text-dimBlack`}>Final Designs & Prototype</h1>
+          <h1 className={`flex-1 `}>Final Designs & Prototype</h1>
         </div>
         <div className="flex-1 flex flex-col pb-56 pt-4">
           <video autoPlay loop muted playsInline>
