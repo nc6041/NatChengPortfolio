@@ -239,3 +239,8 @@
     src: url('./components/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
     font-weight: 100 900;
 }
+@font-face {
+  font-family: 'NatSymbolFont-Regular';
+  src: url('./components/fonts/NatSymbolFont-Regular.ttf') format('truetype');
+  font-weight: 100;
+}
