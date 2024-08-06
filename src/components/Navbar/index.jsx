@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { close, menu } from '../../assets'
 import classNames from 'classnames'
 import { Link } from 'react-router-dom'
-import { NavLink } from './NavLink'
+import NavLink from './NavLink'
 
 const Navbar = () => {
   // Whether the title link is being hovered over
