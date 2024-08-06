@@ -1,6 +1,7 @@
 import styles from '../style'
 import classNames from 'classnames'
 import { homepageHeader } from '../assets'
+import Button from './Button'
 
 const Hero = () => {
   return (
@@ -48,9 +49,9 @@ const Hero = () => {
           {/* <span className="text-malibu-300">.</span>{" "} */}
         </p>
 
-        <a className={classNames(styles.button, 'mt-9')} href="#studies">
+        <Button className="mt-9" href="#studies" component="a">
           VIEW MY WORK
-        </a>
+        </Button>
       </div>
     </section>
   )

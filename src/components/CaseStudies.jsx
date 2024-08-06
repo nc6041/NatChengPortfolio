@@ -1,9 +1,10 @@
 import { benefitdesign, blue, PureGreenHero, uline } from '../assets'
 import styles from '../style'
 import CaseCard from './CaseCard'
+import PageSection from './PageSection'
 
 const CaseStudies = () => (
-  <section
+  <PageSection
     id="studies"
     className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6 pt-6`}
     style={{
@@ -43,7 +44,7 @@ const CaseStudies = () => (
         imgSrc={benefitdesign}
       />
     </div>
-  </section>
+  </PageSection>
 )
 
 export default CaseStudies

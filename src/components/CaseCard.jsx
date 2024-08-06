@@ -1,8 +1,4 @@
-import styles from '../style'
-import { arrowUp, uline, arrowSide } from '../assets'
-
-const roundedMinSize = 'lg'
-const roundedSuffix = '[20px]'
+import Button from './Button'
 
 const CaseCard = ({ id, title, description, whatFor, imgSrc, href = id }) => (
   <section
@@ -14,9 +10,9 @@ const CaseCard = ({ id, title, description, whatFor, imgSrc, href = id }) => (
         <h3>{title}</h3>
         <p>{description}</p>
 
-        <a href={href} className={styles.button}>
+        <Button href={href} component="a">
           View Study
-        </a>
+        </Button>
       </div>
 
       <h4>{whatFor}</h4>

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import { close, menu } from '../assets'
+import { close, menu } from '../../assets'
 import classNames from 'classnames'
 import { Link } from 'react-router-dom'
 import { NavLink } from './NavLink'

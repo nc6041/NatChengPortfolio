@@ -7,8 +7,6 @@ const styles = {
     'font-work-sans font-normal text-center ss:text-[16px] text-[14px] leading-[30.8px]',
   subtext:
     'font-work-sans font-normal text-dimGrey ss:text-[16px] text-[16px] mt-2',
-  button:
-    'rounded border-2 border-malibu-300 px-5 py-2.5 uppercase text-[16px] text-malibu-300 hover:text-white hover:bg-malibu-300 transition-colors',
 
   flexCenter: 'flex justify-center items-center',
   flexStart: 'flex justify-center items-start',

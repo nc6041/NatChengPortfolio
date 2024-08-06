@@ -8,9 +8,7 @@ const App = () => (
 
     <Hero />
 
-    <PageSection>
-      <CaseStudies />
-    </PageSection>
+    <CaseStudies />
 
     <Footer />
   </>

@@ -1,7 +1,7 @@
 import classNames from 'classnames'
 import React from 'react'
-import styles from '../style'
 import { HashLink } from 'react-router-hash-link'
+import { buttonClasses } from '../Button'
 
 interface NavLinkProps {
   title: string
@@ -11,17 +11,12 @@ interface NavLinkProps {
   setActive: (title: string | null) => void
 }
 
-export const NavLink = ({
-  title,
-  href,
-  styleButton,
-  nativeAnchor,
-}: NavLinkProps) => {
+const NavLink = ({ title, href, styleButton, nativeAnchor }: NavLinkProps) => {
   const isActive = window.location.pathname.substring(1) === href
   const classes = classNames(
     'block font-normal cursor-pointer hover:text-malibu-300 py-2 px-4',
     isActive && 'text-malibu-300',
-    styleButton ? styles.button : 'text-xl md:px-0',
+    styleButton ? buttonClasses : 'text-xl md:px-0',
   )
 
   if (nativeAnchor) {
@@ -38,3 +33,5 @@ export const NavLink = ({
     </HashLink>
   )
 }
+
+export default NavLink
