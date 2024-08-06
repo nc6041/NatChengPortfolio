@@ -11,13 +11,19 @@ const Hero = () => {
         minHeight: `calc(100vh - var(--navbar-height))`,
       }}
     >
-      {/* This div exists solely to make md:mt-8 possible */}
-      <div className="md:mt-8 flex-1 flex flex-col justify-center items-center py-16 px-8 md:px-16 relative">
-        {/* Absolutely positioned for background */}
+      <div className="md:mt-8 flex-1 flex flex-col justify-center items-center py-16 px-8 md:px-16 relative overflow-x-hidden">
         <img
           src={homepageHeader}
           aria-hidden={true}
-          className="absolute -z-10 top-0 left-0 min-w-full min-h-full object-cover mb-8"
+          className={classNames(
+            'absolute -z-10 top-0 left-0',
+            // On short wide screens, the image stretches horizontally to fill the width of the screen
+            'h-full w-full',
+          )}
+          style={{
+            // On narrow screens, the image does not shrink horizontally
+            minWidth: '150vh',
+          }}
         />
 
         <h1 className="font-nat text-8xl sm:text-9xl ss:leading-[100.8px] leading-[75px]">

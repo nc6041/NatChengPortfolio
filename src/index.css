@@ -21,7 +21,7 @@
 #root {
   /* This sets the default font for all elements because below we have * { font-family: inherit; }
   */
-  @apply font-work-sans text-neutral-700 text-base;
+  @apply font-work-sans text-neutral-700 text-base w-screen flex flex-col items-stretch;
 }
 
 * {

@@ -3,9 +3,6 @@ module.exports = {
   content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   mode: 'jit',
   theme: {
-    minWidth: {
-      32: '8rem',
-    },
     extend: {
       colors: {
         primary: '#FFFFFF',

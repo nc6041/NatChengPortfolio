@@ -2,7 +2,7 @@ import styles from "./style";
 import { Navbar, OW, Hero, Footer, CaseStudies } from './components'
 
 const App = () => (
-  <div className="w-screen overflow-hidden flex flex-col items-stretch">
+  <>
     <Navbar />
 
     <Hero />
@@ -22,7 +22,7 @@ const App = () => (
     </div>
 
     <Footer />
-  </div>
+  </>
 )
 
 
