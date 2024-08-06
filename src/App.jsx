@@ -1,5 +1,6 @@
 import styles from "./style";
 import { Navbar, OW, Hero, Footer, CaseStudies } from './components'
+import PageSection from './components/PageSection'
 
 const App = () => (
   <>
@@ -7,19 +8,9 @@ const App = () => (
 
     <Hero />
 
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <CaseStudies />
-      </div>
-    </div>
-
-    <div
-      className={`border-b border-white${styles.paddingX} ${styles.flexCenter}`}
-    >
-      <div className={`${styles.boxWidth}`}>
-        <OW />
-      </div>
-    </div>
+    <PageSection>
+      <CaseStudies />
+    </PageSection>
 
     <Footer />
   </>
