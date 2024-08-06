@@ -1,7 +1,6 @@
 import styles from '../style'
 import classNames from 'classnames'
 import { homepageHeader } from '../assets'
-import { navbarHeight } from './Navbar'
 
 const Hero = () => {
   return (
@@ -9,7 +8,7 @@ const Hero = () => {
       id="home"
       className="flex flex-col items-stretch gap-3 text-center min-h-screen"
       style={{
-        minHeight: `calc(100vh - ${navbarHeight}`,
+        minHeight: `calc(100vh - var(--navbar-height))`,
       }}
     >
       {/* This div exists solely to make md:mt-8 possible */}

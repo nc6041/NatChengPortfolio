@@ -6,6 +6,15 @@
 
 :root {
   --shadow: rgba(66, 71, 91, 0.1);
+
+  --navbar-height: 96px;
+}
+
+/* 768px is --breakpoint-sm */
+@media (min-width: 768px) {
+  :root {
+    --navbar-height: 120px;
+  }
 }
 
 /* Outermost DIV where all React is rendered */

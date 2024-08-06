@@ -54,5 +54,19 @@ module.exports = {
       fill: ['hover', 'focus'], // this line does the trick
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addBase, theme }) {
+      // Add the breakpoints as CSS variables
+      addBase({
+        ':root': {
+          '--breakpoint-xs': theme('screens.xs'),
+          '--breakpoint-ss': theme('screens.ss'),
+          '--breakpoint-sm': theme('screens.sm'),
+          '--breakpoint-md': theme('screens.md'),
+          '--breakpoint-lg': theme('screens.lg'),
+          '--breakpoint-xl': theme('screens.xl'),
+        },
+      })
+    },
+  ],
 }
