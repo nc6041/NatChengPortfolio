@@ -9,7 +9,7 @@ type ButtonProps<T extends 'button' | 'a'> = {
   ? ButtonHTMLAttributes<HTMLButtonElement>
   : AnchorHTMLAttributes<HTMLAnchorElement>)
 
-export const buttonClasses = `rounded border-2 border-malibu-300 px-5 py-2.5 uppercase text-[16px] text-malibu-300 hover:text-white hover:bg-malibu-300 transition-colors`
+export const buttonClasses = `rounded border-2 border-malibu-300 px-5 py-2 uppercase text-[16px] text-malibu-300 hover:text-white hover:bg-malibu-300 transition-colors`
 
 const Button = <T extends 'button' | 'a'>({
   children,

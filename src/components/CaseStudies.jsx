@@ -7,9 +7,6 @@ const CaseStudies = () => (
   <PageSection
     id="studies"
     className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6 pt-6`}
-    style={{
-      scrollMarginTop: 'var(--navbar-height)',
-    }}
   >
     <h2 className="font-work-sans font-medium uppercase xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] mt-0 mb-20">
       Case Studies

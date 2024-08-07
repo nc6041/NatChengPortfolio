@@ -1,13 +1,17 @@
 import classNames from 'classnames'
 import { footerBackground } from '../assets'
-import styles from '../style'
 
-const Footer = () => (
+interface FooterProps {
+  className?: string
+}
+
+const Footer = ({ className }: FooterProps) => (
   <section
     className={classNames(
       'flex flex-col justify-center items-center pt-24 pb-10 relative',
       // To cut off background image
       'overflow-y-hidden',
+      className,
     )}
   >
     {/* Background image */}

@@ -5,7 +5,7 @@ const CaseCard = ({ id, title, description, whatFor, imgSrc, href = id }) => (
   <section
     id={id}
     className={classNames(
-      'bg-neutral-100 flex flex-col sm:flex-row items-center rounded-md sm:rounded-3xl xl:mb-5 mb-0',
+      'bg-neutral-100 flex flex-col sm:flex-row rounded-md sm:rounded-3xl xl:mb-5 mb-0',
       // For border radius
       'overflow-hidden',
     )}
@@ -23,11 +23,11 @@ const CaseCard = ({ id, title, description, whatFor, imgSrc, href = id }) => (
       <h4>{whatFor}</h4>
     </div>
 
-    <a href={href} className="flex flex-1 flex-col">
+    <a href={href} className="flex flex-1 flex-col max-w-xl self-center">
       <img
         src={imgSrc}
         alt={id}
-        className={`w-full h-full relative max-w-xl sm:max-w-auto object-cover`}
+        className={`w-full h-full relative object-cover`}
       />
     </a>
   </section>

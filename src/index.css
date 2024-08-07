@@ -13,7 +13,7 @@
 /* 768px is --breakpoint-sm */
 @media (min-width: 768px) {
   :root {
-    --navbar-height: 120px;
+    --navbar-height: 156px;
   }
 }
 

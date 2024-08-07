@@ -92,6 +92,8 @@ import contentafter from './contentafter.png'
 
 import homepageHeader from './homepage-header.png'
 import footerBackground from './footer-background.png'
+import aboutOtherWorksHeader from './about-other-works-header.png'
+import ivIntern from './iv-intern.jpg'
 
 export {
   footerafter,
@@ -182,4 +184,6 @@ export {
   PGFinalMocks,
   homepageHeader,
   footerBackground,
+  aboutOtherWorksHeader,
+  ivIntern,
 }

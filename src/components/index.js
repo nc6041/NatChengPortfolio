@@ -3,26 +3,24 @@ import OW from './OtherWork'
 import OW2 from './OtherWork2'
 import CaseStudies from "./CaseStudies";
 import Footer from './Footer'
-import Hero from "./Hero";
-import About from "./AboutMe";
-import Skills from "./Skills";
-import Designs from "./Designs";
+import Hero from './Hero'
+import Designs from './Designs'
 import Photography from './Photography'
-import UlineHero from "./UlineHero";
-import UlineHero2 from "./UlineHero2";
-import UlineWhy from "./UlineWhy";
-import WellnessHero from "./WellnessHero";
-import WellnessHero2 from "./WellnessHero2";
-import WellnessHero3 from "./WellnessHero3";
-import WellnessWhy from "./WellnessWhy";
-import WellnessSketchStory from "./WellnessSketchStory";
-import HarvestHero from "./HarvestHero";
-import HarvestHero2 from "./HarvestHero2";
-import HarvestWhy from "./HarvestWhy";
+import UlineHero from './UlineHero'
+import UlineHero2 from './UlineHero2'
+import UlineWhy from './UlineWhy'
+import WellnessHero from './WellnessHero'
+import WellnessHero2 from './WellnessHero2'
+import WellnessHero3 from './WellnessHero3'
+import WellnessWhy from './WellnessWhy'
+import WellnessSketchStory from './WellnessSketchStory'
+import HarvestHero from './HarvestHero'
+import HarvestHero2 from './HarvestHero2'
+import HarvestWhy from './HarvestWhy'
 
-import BenefitHero from "./BenefitHero";
-import BenefitHero2 from "./BenefitHero2";
-import BenefitWhy from "./BenefitWhy";
+import BenefitHero from './BenefitHero'
+import BenefitHero2 from './BenefitHero2'
+import BenefitWhy from './BenefitWhy'
 
 export {
   Navbar,
@@ -31,8 +29,6 @@ export {
   CaseStudies,
   Footer,
   Hero,
-  About,
-  Skills,
   Designs,
   Photography,
   UlineHero,

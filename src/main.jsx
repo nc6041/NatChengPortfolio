@@ -2,7 +2,7 @@ import React from 'react';
 
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import AboutPage from './AboutPage';
+import About from './pages/About'
 import OtherPage from './OtherPage';
 import Uline from './Uline';
 import Wellness from './Wellness';
@@ -14,32 +14,32 @@ import {createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
-    path: "/", 
-  element: <App/>,
+    path: '/',
+    element: <App />,
   },
   {
-    path: "about", 
-  element: <AboutPage/>,
+    path: 'about',
+    element: <About />,
   },
   {
-    path: "other", 
-  element: <OtherPage/>,
+    path: 'other',
+    element: <OtherPage />,
   },
   {
-    path: "uline", 
-  element: <Uline/>,
+    path: 'uline',
+    element: <Uline />,
   },
   {
-    path: "wellness", 
-  element: <Wellness/>,
+    path: 'wellness',
+    element: <Wellness />,
   },
   {
-    path: "puregreen", 
-  element: <Harvest/>,
+    path: 'puregreen',
+    element: <Harvest />,
   },
   {
-    path: "benefit", 
-  element: <Benefit/>,
+    path: 'benefit',
+    element: <Benefit />,
   },
 ])
 
