@@ -15,7 +15,7 @@ export default function PageSection({
   ...props
 }: PageSectionProps) {
   return (
-    <div className="sm:px-16 px-6 flex flex-col items-center">
+    <div className="px-6 xs:px-10 sm:px-16 flex flex-col items-center">
       <section
         className={classNames('max-w-screen-lg', className)}
         {...props}
