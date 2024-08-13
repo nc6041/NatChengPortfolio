@@ -10,7 +10,7 @@ const CaseCard = ({ id, title, description, whatFor, imgSrc, href = id }) => (
       'overflow-hidden',
     )}
   >
-    <div className="justify-between flex-1 flex flex-col px-16 py-12">
+    <div className="justify-between gap-8 flex-1 flex flex-col px-16 py-12">
       <div className="flex flex-col gap-6 items-start">
         <h3>{title}</h3>
         <p>{description}</p>
