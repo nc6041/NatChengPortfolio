@@ -1,4 +1,8 @@
-import { benefitdesign, blue, PureGreenHero, uline } from '@/assets'
+import benefitdesign from '@/assets/benefitdesign.png'
+import blue from '@/assets/blue.png'
+import PureGreenHero from '@/assets/PGHero.png'
+import uline from '@/assets/uline.png'
+
 import PageSection from '@/components/PageSection'
 import CaseCard from './CaseCard'
 

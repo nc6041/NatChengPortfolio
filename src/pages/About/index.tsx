@@ -1,6 +1,6 @@
 import DefaultHero from '@/components/DefaultHero'
 import PageSection from '@/components/PageSection'
-import { ivIntern } from '@/assets'
+import ivIntern from '@/assets/ivIntern.jpg'
 import classNames from 'classnames'
 import Text from '@/components/Text'
 import BoldLabeled from '@/components/BoldLabeled'

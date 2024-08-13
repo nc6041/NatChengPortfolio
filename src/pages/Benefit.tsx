@@ -1,17 +1,4 @@
 import ProjectPage from '@/components/ProjectPage'
-import {
-  userjourneymap1,
-  userjourneymap2,
-  home,
-  about,
-  services,
-  resource,
-  volunteers,
-  contactus,
-  donate,
-  companalysis,
-  userpersonas,
-} from '@/assets'
 import Why from '@/components/Why'
 import Text from '@/components/Text'
 import BoldLabeled from '@/components/BoldLabeled'
@@ -19,6 +6,18 @@ import ProjectPageImage from '@/components/ProjectPageImage'
 import Title from '@/components/Title'
 import List from '@/components/List'
 import AccentSpan from '@/components/AccentSpan'
+
+import userjourneymap1 from '@/assets/userjourneymap1.png'
+import userjourneymap2 from '@/assets/userjourneymap2.png'
+import home from '@/assets/home.png'
+import about from '@/assets/about.png'
+import services from '@/assets/services.png'
+import resource from '@/assets/resource.png'
+import volunteers from '@/assets/volunteers.png'
+import contactus from '@/assets/contactus.png'
+import donate from '@/assets/donate.png'
+import companalysis from '@/assets/companalysis.png'
+import userpersonas from '@/assets/userpersonas.png'
 
 const Benefit = () => (
   <ProjectPage title="educa11y Website Redesign">

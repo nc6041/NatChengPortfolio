@@ -1,5 +1,5 @@
 import classNames from 'classnames'
-import { homepageHeader } from '@/assets'
+import homepageHeader from '@/assets/homepage-header.png'
 import PageSection from '@/components/PageSection'
 import AccentSpan from '@/components/AccentSpan'
 import ButtonLink from '@/components/ButtonLink'

@@ -1,17 +1,4 @@
 import ProjectPage from '@/components/ProjectPage'
-import {
-  finals,
-  sketch,
-  storyboard,
-  brainstorming,
-  affinitydiagram,
-  paperprototype,
-  taskflows,
-  wireframes,
-  video1,
-  video2,
-  video3,
-} from '@/assets'
 import Why from '@/components/Why'
 import Text from '@/components/Text'
 import BoldLabeled from '@/components/BoldLabeled'
@@ -19,6 +6,18 @@ import ProjectPageImage from '@/components/ProjectPageImage'
 import Title from '@/components/Title'
 import List from '@/components/List'
 import AccentSpan from '@/components/AccentSpan'
+
+import finals from '@/assets/finals.png'
+import sketch from '@/assets/sketch.png'
+import storyboard from '@/assets/storyboard.png'
+import brainstorming from '@/assets/brainstorming.jpg'
+import affinitydiagram from '@/assets/affinitydiagram.jpg'
+import paperprototype from '@/assets/paperprototype.png'
+import taskflows from '@/assets/taskflows.png'
+import wireframes from '@/assets/wireframes.png'
+import video1 from '@/assets/video1.mp4'
+import video2 from '@/assets/video2.mp4'
+import video3 from '@/assets/video3.mp4'
 
 const Wellness = () => (
   <ProjectPage title="LIS 470: Interaction Design Case Study">

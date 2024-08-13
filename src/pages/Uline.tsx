@@ -4,27 +4,27 @@ import Text from '@/components/Text'
 import ProjectPageImage from '@/components/ProjectPageImage'
 import BoldLabeled from '@/components/BoldLabeled'
 import AccentSpan from '@/components/AccentSpan'
-import {
-  initialfinaldesign,
-  followupemail,
-  finalheaderdesign,
-  prototyping,
-  fu2raw,
-  fu1sketch,
-  fu2sketch,
-  fu1raw,
-  genericwelcome,
-  foodservice,
-  welcomebefore,
-  footerbefore,
-  headerinitialsketch,
-  versionsuline,
-  contentbefore,
-  contentafter,
-  footerafter,
-} from '@/assets'
 import Title from '@/components/Title'
 import List from '@/components/List'
+
+import initialfinaldesign from '@/assets/initialfinaldesign.png'
+import followupemail from '@/assets/followupemail.png'
+import finalheaderdesign from '@/assets/finalheaderdesign.png'
+import prototyping from '@/assets/prototyping.png'
+import fu2raw from '@/assets/FU2RAW.png'
+import fu1sketch from '@/assets/FU1SKETCH.png'
+import fu2sketch from '@/assets/FU2SKETCH.png'
+import fu1raw from '@/assets/FU1RAW.png'
+import genericwelcome from '@/assets/genericwelcomefinal.jpg'
+import foodservice from '@/assets/foodservicewelcomefinal.jpg'
+import welcomebefore from '@/assets/welcomebefore.png'
+import footerbefore from '@/assets/footerbefore.png'
+import headerinitialsketch from '@/assets/headerinitialsketch.png'
+import versionsuline from '@/assets/versionsuline.png'
+import contentbefore from '@/assets/contentbefore.png'
+import contentafter from '@/assets/contentafter.png'
+import footerafter from '@/assets/footerafter.png'
+
 
 const Uline = () => (
   <ProjectPage title="Uline New Customer Retention">

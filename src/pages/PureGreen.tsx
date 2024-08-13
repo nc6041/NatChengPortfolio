@@ -1,22 +1,21 @@
 import ProjectPage from '@/components/ProjectPage'
-import {
-  Frame4,
-  Frame7,
-  PGallmocks,
-  PGDemo,
-  PGFinals,
-  PGfinalwireframes,
-  PGmocks,
-  PGsketches,
-  PGwireframes,
-  Style,
-} from '@/assets'
 import Why from '@/components/Why'
 import Text from '@/components/Text'
 import Title from '@/components/Title'
 import ProjectPageImage from '@/components/ProjectPageImage'
 import List from '@/components/List'
 import AccentSpan from '@/components/AccentSpan'
+
+import Frame4 from '@/assets/Frame4.png'
+import Frame7 from '@/assets/Frame7.png'
+import PGallmocks from '@/assets/PGallmocks.png'
+import PGDemo from '@/assets/PGDemo.mp4'
+import PGFinals from '@/assets/PGFinals.png'
+import PGfinalwireframes from '@/assets/PGfinalwireframes.png'
+import PGmocks from '@/assets/PGmocks.png'
+import PGsketches from '@/assets/PGsketches.png'
+import PGwireframes from '@/assets/PGwireframes.png'
+import Style from '@/assets/Style.png'
 
 const PureGreen = () => (
   <ProjectPage title="PureGreen App">

@@ -1,5 +1,5 @@
 import classNames from 'classnames'
-import { footerBackground } from '@/assets'
+import footerBackground from '@/assets/footer-background.png'
 
 interface FooterProps {
   className?: string

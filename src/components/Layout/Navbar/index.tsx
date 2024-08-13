@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 
-import { close, menu } from '@/assets'
+import close from '@/assets/close.svg'
+import menu from '@/assets/menu.svg'
 import classNames from 'classnames'
 import { HashLink } from 'react-router-hash-link'
 import NavLink from './NavLink'
@@ -14,7 +15,6 @@ const Navbar = () => {
   const toggle = () => setMenuOpen(!menuOpen)
 
   useEffect(() => {
-    console.log('using effect')
     window.onscroll = function () {
       setScrollPos(window.scrollY)
     }

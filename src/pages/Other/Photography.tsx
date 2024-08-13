@@ -1,12 +1,11 @@
-import {
-  beach,
-  building,
-  firework,
-  leaves,
-  mayer,
-  train,
-  secondfloor,
-} from '@/assets'
+import beach from '@/assets/beach.jpg'
+import building from '@/assets/building.jpg'
+import firework from '@/assets/firework.jpg'
+import leaves from '@/assets/leaves.jpg'
+import mayer from '@/assets/mayer.jpg'
+import train from '@/assets/train.jpg'
+import secondfloor from '@/assets/secondfloor.jpg'
+
 import PageSection from '@/components/PageSection'
 import Title from '@/components/Title'
 
