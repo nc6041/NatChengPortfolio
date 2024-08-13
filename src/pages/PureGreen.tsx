@@ -16,6 +16,7 @@ import Text from '@/components/Text'
 import Title from '@/components/Title'
 import ProjectPageImage from '@/components/ProjectPageImage'
 import List from '@/components/List'
+import AccentSpan from '@/components/AccentSpan'
 
 const PureGreen = () => (
   <ProjectPage title="PureGreen App">
@@ -154,10 +155,9 @@ const PureGreen = () => (
     </Title>
 
     <Text>
-      We created four{' '}
-      <span className="text-malibu-300 font-bold ">user personas</span> to help
-      us visualize our target audience, including basic demographic information
-      as well as a short bio, their core needs, and frustrations with other apps
+      We created four <AccentSpan>user personas</AccentSpan> to help us
+      visualize our target audience, including basic demographic information as
+      well as a short bio, their core needs, and frustrations with other apps
       and ordering in person. We took each persona's needs into account, but
       ultimately focused in on one persona, Suzie, to base the rest of our flows
       on.
@@ -171,12 +171,12 @@ const PureGreen = () => (
 
     <Text>
       After drafting our personas, we created{' '}
-      <span className="text-malibu-300 font-bold ">user journey maps</span> for
-      each of them to track their feelings throughout the possible app ordering
-      process. Our journey map stages consisted of the sections awareness &
-      needs, consideration, acquisition, and service & loyalty. For each stage
-      we noted the steps, thoughts, actions, pain points and feelings, and
-      opportunities for growth in the app.
+      <AccentSpan>user journey maps</AccentSpan> for each of them to track their
+      feelings throughout the possible app ordering process. Our journey map
+      stages consisted of the sections awareness & needs, consideration,
+      acquisition, and service & loyalty. For each stage we noted the steps,
+      thoughts, actions, pain points and feelings, and opportunities for growth
+      in the app.
     </Text>
 
     <ProjectPageImage src={Frame4} alt={'userjourneymaps'} />
@@ -191,14 +191,13 @@ const PureGreen = () => (
 
     <Text>
       Using our insights and notes from personas and journey maps we started a
-      timed <span className="text-malibu-300 font-bold ">sketching</span>{' '}
-      exercise to visuzlize possible solutions for our app. The short time span
-      allowed us to get our ideas on paper without worrying about nitty-gritty
-      details and helped us think about bigger picture ideas. To narrow things
-      down, each classmate taped their sketches for their respective apps to a
-      wall and we were given the opportunity to participate in{' '}
-      <span className="text-malibu-300 font-bold ">dot voting</span> to pick our
-      favorite sketches.
+      timed <AccentSpan>sketching</AccentSpan> exercise to visuzlize possible
+      solutions for our app. The short time span allowed us to get our ideas on
+      paper without worrying about nitty-gritty details and helped us think
+      about bigger picture ideas. To narrow things down, each classmate taped
+      their sketches for their respective apps to a wall and we were given the
+      opportunity to participate in <AccentSpan>dot voting</AccentSpan> to pick
+      our favorite sketches.
     </Text>
     <ProjectPageImage src={PGsketches} alt={'sketches'} />
 
@@ -208,13 +207,12 @@ const PureGreen = () => (
 
     <Text>
       Following the sketching, we moved into the{' '}
-      <span className="text-malibu-300 font-bold">wireframing</span> phase to
-      generate even more ideas. Over the span of a few classes, each team member
-      was given 45 minutes to develop about eight low-fidelity wireframes for 3
-      screens: the dashboard, menu, and checkout pages. After creating these
-      wireframe sets, we would consolidate as a team and narrow down the designs
-      we liked best, as well as design any other necessary screens for the task
-      of placing an order.
+      <AccentSpan>wireframing</AccentSpan> phase to generate even more ideas.
+      Over the span of a few classes, each team member was given 45 minutes to
+      develop about eight low-fidelity wireframes for 3 screens: the dashboard,
+      menu, and checkout pages. After creating these wireframe sets, we would
+      consolidate as a team and narrow down the designs we liked best, as well
+      as design any other necessary screens for the task of placing an order.
     </Text>
 
     <Text>
@@ -233,16 +231,13 @@ const PureGreen = () => (
 
     <Text>
       After narrowing down our options, we polished these wireframes and created
-      new{' '}
-      <span className="text-malibu-300 font-bold">
-        high-fidelity wireframes
-      </span>
-      . We also added new screens like product detail pages as well as
-      implementing small styles like buttons and fonts. Additionally, we created
-      overlay screens such as "item added" overlays to implement feedback to the
-      user when they add an item, giving them confirmation instead of leaving
-      them wondering if they added an item or not. Our most important features
-      from the wireframes lie in the dashboard, menu, and item detail pages.
+      new <AccentSpan>high-fidelity wireframes</AccentSpan>. We also added new
+      screens like product detail pages as well as implementing small styles
+      like buttons and fonts. Additionally, we created overlay screens such as
+      "item added" overlays to implement feedback to the user when they add an
+      item, giving them confirmation instead of leaving them wondering if they
+      added an item or not. Our most important features from the wireframes lie
+      in the dashboard, menu, and item detail pages.
     </Text>
     <Text>
       The dashboard has hero shots and would contain different specials,
@@ -271,8 +266,7 @@ const PureGreen = () => (
       PureGreen's site and logo. The colors also were taken from their website
       to promote brand identity and familiarity between the website and app. We
       finished off the prototypes by creating linkages and animations to turn
-      our designs into a{' '}
-      <span className="text-malibu-300 font-bold">useable prototype</span>.{' '}
+      our designs into a <AccentSpan>useable prototype</AccentSpan>.{' '}
     </Text>
 
     <ProjectPageImage src={Style} alt={'style'} />

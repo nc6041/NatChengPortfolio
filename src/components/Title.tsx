@@ -8,6 +8,7 @@ interface TitleProps {
   className?: string
   accent?: boolean
   style?: Style
+  center?: boolean
 }
 
 type HeadingTag = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
@@ -36,6 +37,7 @@ export default function Title({
   className,
   accent = false,
   style = 'normal',
+  center = false,
 }: TitleProps) {
   const Component: HeadingTag = `h${order}`
 
@@ -43,6 +45,7 @@ export default function Title({
     <Component
       className={classNames(
         accent && 'text-malibu-300',
+        center && 'text-center',
         styles[style][Component],
         className,
       )}

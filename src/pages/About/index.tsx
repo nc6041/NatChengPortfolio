@@ -3,10 +3,11 @@ import PageSection from '@/components/PageSection'
 import { ivIntern } from '@/assets'
 import classNames from 'classnames'
 import Text from '@/components/Text'
-import TechStackItem from './TechStackItem'
+import BoldLabeled from '@/components/BoldLabeled'
 import ThingsILoveItem from './ThingsILoveItem'
 import Layout from '@/components/Layout'
 import Title from '@/components/Title'
+import AccentSpan from '@/components/AccentSpan'
 
 const About = () => (
   <Layout>
@@ -15,7 +16,7 @@ const About = () => (
     <div className="flex flex-col gap-24 mb-24">
       <PageSection id="who-is-nat" className="w-full pt-6">
         <Title style="funky">
-          Who is <span className="text-malibu-300">Nat</span>?
+          Who is <AccentSpan>Nat</AccentSpan>?
         </Title>
         <img
           src={ivIntern}
@@ -55,22 +56,22 @@ const About = () => (
 
       <PageSection className="w-full md:text-2xl">
         <Title style="funky">
-          Tech <span className="text-malibu-300">Stack</span>
+          Tech <AccentSpan>Stack</AccentSpan>
         </Title>
-        <TechStackItem label="Design Tools">
+        <BoldLabeled label="Design Tools">
           Figma, Illustrator, InDesign, Photoshop, Lightroom
-        </TechStackItem>
-        <TechStackItem label="Programming">
+        </BoldLabeled>
+        <BoldLabeled label="Programming">
           Java, Python, HTML, CSS, JavaScript, React
-        </TechStackItem>
-        <TechStackItem label="Things I dabble in">
+        </BoldLabeled>
+        <BoldLabeled label="Things I dabble in">
           Photography, videography, video editing, collage
-        </TechStackItem>
+        </BoldLabeled>
       </PageSection>
 
       <PageSection className="flex flex-col items-center gap-16 max-w-4xl">
         <Title style="funky">
-          some things i <span className="text-malibu-300">love</span>
+          some things i <AccentSpan>love</AccentSpan>
         </Title>
 
         <div className="flex flex-row gap-24 flex-wrap justify-center">

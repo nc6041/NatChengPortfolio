@@ -2,6 +2,7 @@ import classNames from 'classnames'
 import { homepageHeader } from '@/assets'
 import Button from '@/components/Button'
 import PageSection from '@/components/PageSection'
+import AccentSpan from '@/components/AccentSpan'
 
 const Hero = () => {
   return (
@@ -31,12 +32,12 @@ const Hero = () => {
 
         <h1 className="font-nat text-8xl sm:text-9xl ss:leading-[100.8px] leading-[75px]">
           Hi,{' '}
-          <span className="text-malibu-300">
+          <AccentSpan>
             I'm Nat
             <span className="font-nat-symbol" aria-hidden>
               {/* 2 is a moon */}2
             </span>
-          </span>
+          </AccentSpan>
         </h1>
 
         <p className="max-w-[900px] text-xl md:text-2xl">
@@ -48,7 +49,6 @@ const Hero = () => {
         <p className={`max-w-[700px]`}>
           currently studying information experience design at{' '}
           <b>Pratt Institute</b>
-          {/* <span className="text-malibu-300">.</span>{" "} */}
         </p>
 
         <Button className="mt-9" href="#studies" component="a">
