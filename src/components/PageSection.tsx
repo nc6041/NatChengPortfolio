@@ -3,6 +3,7 @@ import React from 'react'
 
 interface PageSectionProps {
   children: React.ReactNode
+  component?: 'section' | 'div'
   fullWidth?: boolean
   className?: string
   style?: React.CSSProperties
@@ -12,12 +13,13 @@ interface PageSectionProps {
 export default function PageSection({
   children,
   className,
+  component: Component = 'section',
   style,
   fullWidth,
   ...props
 }: PageSectionProps) {
   const section = (
-    <section
+    <Component
       className={classNames(
         fullWidth ? 'w-screen' : 'max-w-screen-lg',
         className,
@@ -29,7 +31,7 @@ export default function PageSection({
       }}
     >
       {children}
-    </section>
+    </Component>
   )
 
   if (fullWidth) {

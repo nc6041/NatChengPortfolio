@@ -1,5 +1,5 @@
 import PageSection from '@/components/PageSection'
-import FunkyHeading from '@/components/FunkyHeading'
+import Title from '@/components/Title'
 
 interface DesignsProps {
   id: string
@@ -10,7 +10,7 @@ interface DesignsProps {
 const Designs = ({ id, title, children }: DesignsProps) => {
   return (
     <PageSection id={id}>
-      <FunkyHeading>{title}</FunkyHeading>
+      <Title style="funky">{title}</Title>
       <ul className="list-none flex flex-col sm:flex-row items-stretch gap-8 sm:gap-3">
         {children}
       </ul>

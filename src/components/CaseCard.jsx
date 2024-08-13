@@ -1,5 +1,6 @@
 import classNames from 'classnames'
 import Button from './Button'
+import Title from './Title'
 
 const CaseCard = ({ id, title, description, whatFor, imgSrc, href = id }) => (
   <section
@@ -12,7 +13,7 @@ const CaseCard = ({ id, title, description, whatFor, imgSrc, href = id }) => (
   >
     <div className="justify-between gap-8 flex-1 flex flex-col px-16 py-12">
       <div className="flex flex-col gap-6 items-start">
-        <h3>{title}</h3>
+        <h3 className="uppercase text-4xl font-medium">{title}</h3>
         <p>{description}</p>
 
         <Button href={href} component="a">

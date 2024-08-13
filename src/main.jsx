@@ -4,9 +4,9 @@ import ReactDOM from 'react-dom/client';
 import Home from './pages/Home'
 import About from './pages/About'
 import Other from './pages/Other'
+import PureGreen from './pages/PureGreen'
 import Uline from './Uline'
 import Wellness from './Wellness'
-import Harvest from './Harvest'
 import Benefit from './Benefit'
 import './index.css'
 
@@ -35,7 +35,7 @@ const router = createBrowserRouter([
   },
   {
     path: 'puregreen',
-    element: <Harvest />,
+    element: <PureGreen />,
   },
   {
     path: 'benefit',

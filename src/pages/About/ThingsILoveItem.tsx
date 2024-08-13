@@ -1,5 +1,5 @@
 import React from 'react'
-import Text from './Text'
+import Text from '@/components/Text'
 import classNames from 'classnames'
 
 interface ThingsILoveItemProps {

@@ -2,11 +2,11 @@ import DefaultHero from '@/components/DefaultHero'
 import PageSection from '@/components/PageSection'
 import { ivIntern } from '@/assets'
 import classNames from 'classnames'
-import Text from './Text'
-import FunkyHeading from '@/components/FunkyHeading'
+import Text from '@/components/Text'
 import TechStackItem from './TechStackItem'
 import ThingsILoveItem from './ThingsILoveItem'
 import Layout from '@/components/Layout'
+import Title from '@/components/Title'
 
 const About = () => (
   <Layout>
@@ -14,9 +14,9 @@ const About = () => (
 
     <div className="flex flex-col gap-24 mb-24">
       <PageSection id="who-is-nat" className="w-full pt-6">
-        <FunkyHeading>
+        <Title style="funky">
           Who is <span className="text-malibu-300">Nat</span>?
-        </FunkyHeading>
+        </Title>
         <img
           src={ivIntern}
           alt="Nat Cheng at InterVarsity holding a teddy bear"
@@ -54,9 +54,9 @@ const About = () => (
       </PageSection>
 
       <PageSection className="w-full md:text-2xl">
-        <FunkyHeading>
+        <Title style="funky">
           Tech <span className="text-malibu-300">Stack</span>
-        </FunkyHeading>
+        </Title>
         <TechStackItem label="Design Tools">
           Figma, Illustrator, InDesign, Photoshop, Lightroom
         </TechStackItem>
@@ -69,9 +69,9 @@ const About = () => (
       </PageSection>
 
       <PageSection className="flex flex-col items-center gap-16 max-w-4xl">
-        <FunkyHeading>
+        <Title style="funky">
           some things i <span className="text-malibu-300">love</span>
-        </FunkyHeading>
+        </Title>
 
         <div className="flex flex-row gap-24 flex-wrap justify-center">
           <ThingsILoveItem symbol="4" description="graphic design" accent />

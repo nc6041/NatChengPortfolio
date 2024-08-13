@@ -6,9 +6,6 @@ import WellnessHero2 from './WellnessHero2'
 import WellnessHero3 from './WellnessHero3'
 import WellnessWhy from './WellnessWhy'
 import WellnessSketchStory from './WellnessSketchStory'
-import HarvestHero from './HarvestHero'
-import HarvestHero2 from './HarvestHero2'
-import HarvestWhy from './HarvestWhy'
 
 import BenefitHero from './BenefitHero'
 import BenefitHero2 from './BenefitHero2'
@@ -23,9 +20,6 @@ export {
   WellnessHero3,
   WellnessWhy,
   WellnessSketchStory,
-  HarvestHero,
-  HarvestHero2,
-  HarvestWhy,
   BenefitHero,
   BenefitHero2,
   BenefitWhy,

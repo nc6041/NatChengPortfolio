@@ -31,19 +31,6 @@
   box-sizing: border-box;
 }
 
-h1 {
-  @apply text-6xl;
-}
-h2 {
-  @apply text-5xl;
-}
-h3 {
-  @apply font-medium text-4xl uppercase;
-}
-h4 {
-  @apply font-medium text-2xl;
-}
-
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,

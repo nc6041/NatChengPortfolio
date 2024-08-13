@@ -8,7 +8,7 @@ import {
   secondfloor,
 } from '@/assets'
 import PageSection from '@/components/PageSection'
-import FunkyHeading from '@/components/FunkyHeading'
+import Title from '@/components/Title'
 
 const imgClassName = 'w-full h-full'
 const rowClassName = 'flex flex-col sm:flex-row gap-2'
@@ -16,7 +16,7 @@ const rowClassName = 'flex flex-col sm:flex-row gap-2'
 const Photography = () => {
   return (
     <PageSection id="photography" className="w-full">
-      <FunkyHeading>photography</FunkyHeading>
+      <Title style="funky">photography</Title>
 
       <div className="flex flex-col items-stretch gap-2">
         <div className={rowClassName}>
