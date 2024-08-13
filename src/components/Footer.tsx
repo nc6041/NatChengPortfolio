@@ -7,6 +7,7 @@ interface FooterProps {
 
 const Footer = ({ className }: FooterProps) => (
   <section
+    id="footer"
     className={classNames(
       'flex flex-col justify-center items-center pt-24 pb-10 relative',
       // To cut off background image

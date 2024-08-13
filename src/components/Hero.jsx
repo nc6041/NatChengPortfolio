@@ -2,16 +2,19 @@ import styles from '../style'
 import classNames from 'classnames'
 import { homepageHeader } from '../assets'
 import Button from './Button'
+import PageSection from './PageSection'
 
 const Hero = () => {
   return (
-    <section
-      id="home"
-      className="flex flex-col items-stretch gap-3 text-center min-h-screen"
+    <PageSection
+      id="top"
+      className="flex flex-col items-stretch text-center"
+      fullWidth
       style={{
         minHeight: `calc(100vh - var(--navbar-height))`,
       }}
     >
+      {/* This inner div is needed so that the <section/> can have a min-height and the inner div can have a responsive margin-top. */}
       <div className="md:mt-8 flex-1 flex flex-col justify-center items-center py-16 px-8 md:px-16 relative overflow-x-hidden">
         <img
           src={homepageHeader}
@@ -53,7 +56,7 @@ const Hero = () => {
           VIEW MY WORK
         </Button>
       </div>
-    </section>
+    </PageSection>
   )
 }
 

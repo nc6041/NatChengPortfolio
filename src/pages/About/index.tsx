@@ -1,4 +1,3 @@
-import { Navbar, Footer } from '../../components'
 import DefaultHero from '../../components/DefaultHero'
 import PageSection from '../../components/PageSection'
 import { ivIntern } from '../../assets'
@@ -7,11 +6,10 @@ import Text from './Text'
 import FunkyHeading from './FunkyHeading'
 import TechStackItem from './TechStackItem'
 import ThingsILoveItem from './ThingsILoveItem'
+import Layout from '../../components/Layout'
 
 const About = () => (
-  <>
-    <Navbar />
-
+  <Layout>
     <DefaultHero />
 
     <PageSection id="who-is-nat" className="w-full mb-24">
@@ -84,9 +82,7 @@ const About = () => (
         <ThingsILoveItem symbol="5" description="scrapbooking" accent />
       </div>
     </PageSection>
-
-    <Footer className="mt-16" />
-  </>
+  </Layout>
 )
 
 export default About

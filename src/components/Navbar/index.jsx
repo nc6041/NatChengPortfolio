@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import { close, menu } from '../../assets'
 import classNames from 'classnames'
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import NavLink from './NavLink'
 
 const Navbar = () => {
@@ -20,8 +20,8 @@ const Navbar = () => {
             height: 'var(--navbar-height)',
           }}
         >
-          <Link
-            to="/"
+          <HashLink
+            to="/#top"
             className={`flex flex-col cursor-pointer object-contain justify-center`}
             onMouseEnter={() => setTitle(true)}
             onMouseLeave={() => setTitle(false)}
@@ -47,7 +47,7 @@ const Navbar = () => {
                 designer
               </span>
             </p>
-          </Link>
+          </HashLink>
 
           <div className="relative self-center flex">
             <button onClick={toggle} aria-hidden>
@@ -67,7 +67,7 @@ const Navbar = () => {
               )}
             >
               <NavLink href="/#studies" title="CASE STUDIES" />
-              <NavLink href="/about" title="ABOUT" />
+              <NavLink href="/about#who-is-nat" title="ABOUT" />
               <NavLink href="/other" title="OTHER WORK" />
               <NavLink
                 href="mailto:nataliec6041@gmail.com"

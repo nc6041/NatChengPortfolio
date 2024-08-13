@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import Home from './pages/Home'
 import About from './pages/About'
 import OtherPage from './OtherPage';
 import Uline from './Uline';
@@ -15,7 +15,7 @@ import {createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: <Home />,
   },
   {
     path: 'about',
