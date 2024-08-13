@@ -9,10 +9,7 @@ interface LayoutProps {
 
 export default function Layout({ children, mainClassName }: LayoutProps) {
   return (
-    <div
-      className="max-w-screen max-h-screen overflow-auto"
-      style={{ scrollPaddingTop: 'var(--navbar-height)' }}
-    >
+    <div style={{ scrollPaddingTop: 'var(--navbar-height)' }}>
       <Navbar />
       <main id="main" className={mainClassName}>
         {children}

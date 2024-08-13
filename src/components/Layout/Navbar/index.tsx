@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import { close, menu } from '@/assets'
 import classNames from 'classnames'
@@ -9,11 +9,27 @@ const Navbar = () => {
   // Whether the title link is being hovered over
   const [title, setTitle] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const [scrollPos, setScrollPos] = useState(window.scrollY)
+
   const toggle = () => setMenuOpen(!menuOpen)
+
+  useEffect(() => {
+    console.log('using effect')
+    window.onscroll = function () {
+      setScrollPos(window.scrollY)
+    }
+  }, [])
 
   return (
     <>
-      <div className="w-screen fixed bg-white border-b border-b-gray-300 z-10">
+      <div
+        className={classNames(
+          'w-screen fixed bg-white z-10',
+          // The navbar has a small drop shadow, but when the user has scrolled past the top of the
+          // page (by at least 16px)
+          scrollPos >= 16 && 'shadow-sm',
+        )}
+      >
         <nav
           className="mx-auto flex py-3 md:py-6 px-8 sm:px-16 justify-between items-stretch max-w-screen-xl"
           style={{

@@ -8,7 +8,6 @@ interface NavLinkProps {
   href: string
   styleButton?: boolean
   nativeAnchor?: boolean
-  setActive: (title: string | null) => void
 }
 
 const NavLink = ({ title, href, styleButton, nativeAnchor }: NavLinkProps) => {

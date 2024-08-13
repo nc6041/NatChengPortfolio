@@ -1,6 +1,14 @@
 import classNames from 'classnames'
-import Button from '@/components/Button'
-import Title from '@/components/Title'
+import ButtonLink from '@/components/ButtonLink'
+
+interface CaseCardProps {
+  id: string
+  title: string
+  description: string
+  whatFor: string
+  imgSrc: string
+  href?: string
+}
 
 const CaseCard = ({
   id,
@@ -9,7 +17,7 @@ const CaseCard = ({
   whatFor,
   imgSrc,
   href = `/${id}`,
-}) => (
+}: CaseCardProps) => (
   <section
     id={id}
     className={classNames(
@@ -23,12 +31,10 @@ const CaseCard = ({
         <h3 className="uppercase text-4xl font-medium">{title}</h3>
         <p>{description}</p>
 
-        <Button href={href} component="a">
-          View Study
-        </Button>
+        <ButtonLink to={href}>View Study</ButtonLink>
       </div>
 
-      <h4>{whatFor}</h4>
+      <h4 className="text-2xl font-medium">{whatFor}</h4>
     </div>
 
     <a href={href} className="flex flex-1 flex-col max-w-xl self-center">

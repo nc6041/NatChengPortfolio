@@ -5,9 +5,9 @@ import CaseCard from './CaseCard'
 const CaseStudies = () => (
   <PageSection
     id="studies"
-    className={`flex flex-row items-center flex-wrap sm:mb-20 mb-6 pt-6`}
+    className={`flex flex-col items-center sm:mb-20 mb-6 pt-6`}
   >
-    <h2 className="font-work-sans font-medium uppercase xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] mt-0 mb-20">
+    <h2 className="font-medium uppercase xs:text-4xl text-3xl mb-20">
       Case Studies
     </h2>
     <div className="flex flex-col gap-9">

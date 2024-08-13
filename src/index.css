@@ -8,6 +8,8 @@
   --shadow: rgba(66, 71, 91, 0.1);
 
   --navbar-height: 96px;
+
+  scroll-padding-top: var(--navbar-height);
 }
 
 /* 768px is --breakpoint-sm */

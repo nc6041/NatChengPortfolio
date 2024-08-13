@@ -1,8 +1,8 @@
 import classNames from 'classnames'
 import { homepageHeader } from '@/assets'
-import Button from '@/components/Button'
 import PageSection from '@/components/PageSection'
 import AccentSpan from '@/components/AccentSpan'
+import ButtonLink from '@/components/ButtonLink'
 
 const Hero = () => {
   return (
@@ -51,9 +51,9 @@ const Hero = () => {
           <b>Pratt Institute</b>
         </p>
 
-        <Button className="mt-9" href="#studies" component="a">
+        <ButtonLink className="mt-9" to="#studies">
           VIEW MY WORK
-        </Button>
+        </ButtonLink>
       </div>
     </PageSection>
   )
