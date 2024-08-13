@@ -4,7 +4,7 @@ import firework from '@/assets/firework.jpg'
 import leaves from '@/assets/leaves.jpg'
 import mayer from '@/assets/mayer.jpg'
 import train from '@/assets/train.jpg'
-import secondfloor from '@/assets/secondfloor.jpg'
+import secondfloor from '@/assets/secondfloor.png'
 
 import PageSection from '@/components/PageSection'
 import Title from '@/components/Title'

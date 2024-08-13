@@ -1,7 +1,9 @@
+import defaultHero from '@/assets/default-hero.png'
+
 const DefaultHero = () => {
   return (
     <img
-      src="/images/default-hero.jpg"
+      src={defaultHero}
       aria-hidden={true}
       className="w-screen mb-12 md:mb-32"
     />

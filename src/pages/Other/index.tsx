@@ -1,8 +1,8 @@
 import kasaseoul from '@/assets/kasaseoul.png'
 import kasaspring from '@/assets/kasaspring.png'
-import worldcup from '@/assets/worldcup.png'
-import bobasocial from '@/assets/bobasocial.png'
-import chasalunar from '@/assets/chasalunar.png'
+import worldcup from '@/assets/worldcup.jpg'
+import bobasocial from '@/assets/bobasocial.jpg'
+import chasalunar from '@/assets/chasalunar.jpg'
 import kirby from '@/assets/kirby.png'
 
 import Layout from '@/components/Layout'
