@@ -1,6 +1,6 @@
 import classNames from 'classnames'
-import Button from './Button'
-import Title from './Title'
+import Button from '@/components/Button'
+import Title from '@/components/Title'
 
 const CaseCard = ({
   id,

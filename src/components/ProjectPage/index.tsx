@@ -1,7 +1,7 @@
 import React from 'react'
-import Layout from './Layout'
-import PageSection from './PageSection'
-import Title from './Title'
+import Layout from '@/components/Layout'
+import PageSection from '@/components/PageSection'
+import Title from '@/components/Title'
 import Arrow from './Arrow'
 
 interface ProjectPageProps {
