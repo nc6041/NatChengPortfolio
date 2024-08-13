@@ -9,10 +9,10 @@ import ThingsILoveItem from './ThingsILoveItem'
 import Layout from '../../components/Layout'
 
 const About = () => (
-  <Layout>
+  <Layout mainClassName="flex flex-col gap-12 md:gap-24">
     <DefaultHero />
 
-    <PageSection id="who-is-nat" className="w-full mb-24">
+    <PageSection id="who-is-nat" className="w-full pt-6">
       <FunkyHeading>
         Who is <span className="text-malibu-300">Nat</span>?
       </FunkyHeading>
@@ -52,7 +52,7 @@ const About = () => (
       </div>
     </PageSection>
 
-    <PageSection className="w-full md:text-2xl mb-24">
+    <PageSection className="w-full md:text-2xl">
       <FunkyHeading>
         Tech <span className="text-malibu-300">Stack</span>
       </FunkyHeading>
@@ -67,7 +67,7 @@ const About = () => (
       </TechStackItem>
     </PageSection>
 
-    <PageSection className="flex flex-col items-center gap-16 max-w-4xl">
+    <PageSection className="flex flex-col items-center gap-16 max-w-4xl mb-24">
       <FunkyHeading>
         some things i <span className="text-malibu-300">love</span>
       </FunkyHeading>

@@ -4,16 +4,19 @@ import Footer from './Footer'
 
 interface LayoutProps {
   children: React.ReactNode
+  mainClassName?: string
 }
 
-export default function Layout({ children }: LayoutProps) {
+export default function Layout({ children, mainClassName }: LayoutProps) {
   return (
     <div
       className="max-w-screen max-h-screen overflow-auto"
       style={{ scrollPaddingTop: 'var(--navbar-height)' }}
     >
       <Navbar />
-      <main id="main">{children}</main>
+      <main id="main" className={mainClassName}>
+        {children}
+      </main>
       <Footer />
     </div>
   )
