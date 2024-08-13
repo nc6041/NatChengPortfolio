@@ -52,29 +52,29 @@ strong {
 
 @font-face {
   font-family: 'Work Sans';
-  src: url('./components/fonts/WorkSans-Italic-VariableFont_wght.ttf')
+  src: url('./fonts/WorkSans-Italic-VariableFont_wght.ttf')
     format('truetype');
   font-style: italic;
   font-weight: 100 900;
 }
 @font-face {
   font-family: 'Work Sans';
-  src: url('./components/fonts/WorkSans-VariableFont_wght.ttf')
+  src: url('./fonts/WorkSans-VariableFont_wght.ttf')
     format('truetype');
   font-weight: 100 900;
 }
 @font-face {
   font-family: 'Nat';
-  src: url('./components/fonts/NatFont-Regular.ttf') format('truetype');
+  src: url('./fonts/NatFont-Regular.ttf') format('truetype');
   font-weight: 400;
 }
 @font-face {
   font-family: 'Nat';
-  src: url('./components/fonts/NatFontBold-Regular.ttf') format('truetype');
+  src: url('./fonts/NatFontBold-Regular.ttf') format('truetype');
   font-weight: 700;
 }
 @font-face {
   font-family: 'Nat Symbol';
-  src: url('./components/fonts/NatSymbolFont-Regular.ttf') format('truetype');
+  src: url('./fonts/NatSymbolFont-Regular.ttf') format('truetype');
   font-weight: 400;
 }
