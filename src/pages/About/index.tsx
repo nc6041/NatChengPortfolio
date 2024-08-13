@@ -74,6 +74,12 @@ const About = () => (
 
       <PageSection className="flex flex-col items-center gap-16 max-w-4xl">
         <Title style="funky">
+          <span
+            className="font-nat font-normal text-[200px] relative top-6"
+            aria-hidden
+          >
+            ;
+          </span>{' '}
           some things i <AccentSpan>love</AccentSpan>
         </Title>
 

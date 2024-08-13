@@ -338,13 +338,7 @@ const Uline = () => (
       Follow Up Email Final Designs
     </Title>
 
-    <div className="flex-1 flex flex-col pb-32 pt-4">
-      <img
-        src={followupemail}
-        alt="followupemail"
-        className="w-[100%] h-[100%] relative"
-      />
-    </div>
+    <ProjectPageImage src={followupemail} alt="followupemail" />
 
     <Title style="projectPage">Prototyping</Title>
 

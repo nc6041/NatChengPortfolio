@@ -291,7 +291,7 @@ const Wellness = () => (
     <video autoPlay loop muted playsInline className="pb-32 pt-4">
       <source
         src={video1}
-        className="w-[100%] h-[100%] relative"
+        className="w-full h-full relative"
         type="video/mp4"
       />
     </video>
@@ -310,7 +310,7 @@ const Wellness = () => (
     <video autoPlay loop muted playsInline className="pb-32 pt-4">
       <source
         src={video2}
-        className="w-[100%] h-[100%] relative"
+        className="w-full h-full relative"
         type="video/mp4"
       />
     </video>
@@ -329,7 +329,7 @@ const Wellness = () => (
     <video autoPlay loop muted playsInline className="mb-56 pt-4">
       <source
         src={video3}
-        className="w-[100%] h-[100%] relative"
+        className="w-full h-full relative"
         type="video/mp4"
       />
     </video>

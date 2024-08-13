@@ -30,14 +30,8 @@ const Hero = () => {
           }}
         />
 
-        <h1 className="font-nat text-8xl sm:text-9xl ss:leading-[100.8px] leading-[75px]">
-          Hi,{' '}
-          <AccentSpan>
-            I'm Nat
-            <span className="font-nat-symbol" aria-hidden>
-              {/* 2 is a moon */}2
-            </span>
-          </AccentSpan>
+        <h1 className="font-nat text-8xl sm:text-9xl">
+          Hi, <AccentSpan>I'm Nat;</AccentSpan>
         </h1>
 
         <p className="max-w-[900px] text-xl md:text-2xl">
