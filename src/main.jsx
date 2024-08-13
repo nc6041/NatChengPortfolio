@@ -3,14 +3,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './pages/Home'
 import About from './pages/About'
-import OtherPage from './OtherPage';
-import Uline from './Uline';
-import Wellness from './Wellness';
-import Harvest from './Harvest';
-import Benefit from './Benefit';
-import './index.css';
+import Other from './pages/Other'
+import Uline from './Uline'
+import Wellness from './Wellness'
+import Harvest from './Harvest'
+import Benefit from './Benefit'
+import './index.css'
 
-import {createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
@@ -23,7 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: 'other',
-    element: <OtherPage />,
+    element: <Other />,
   },
   {
     path: 'uline',

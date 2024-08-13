@@ -1,8 +1,7 @@
-import styles from '../style'
 import classNames from 'classnames'
-import { homepageHeader } from '../assets'
-import Button from './Button'
-import PageSection from './PageSection'
+import { homepageHeader } from '@/assets'
+import Button from '@/components/Button'
+import PageSection from '@/components/PageSection'
 
 const Hero = () => {
   return (

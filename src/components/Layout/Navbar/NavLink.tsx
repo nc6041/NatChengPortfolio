@@ -1,7 +1,7 @@
 import classNames from 'classnames'
 import React from 'react'
 import { HashLink } from 'react-router-hash-link'
-import { buttonClasses } from '../Button'
+import { buttonClasses } from '@/components/Button'
 
 interface NavLinkProps {
   title: string

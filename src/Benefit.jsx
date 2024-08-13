@@ -1,16 +1,8 @@
 import styles from "./style";
-import {
-  Navbar,
-  BenefitHero,
-  BenefitHero2,
-  BenefitWhy,
-  Footer,
-} from './components'
+import { BenefitHero, BenefitHero2, BenefitWhy } from './components'
 
 const Benefit = () => (
   <div className="w-full overflow-hidden">
-    <Navbar />
-
     <div className={`${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <BenefitHero />
@@ -28,8 +20,6 @@ const Benefit = () => (
         <BenefitHero2 />
       </div>
     </div>
-
-    <Footer />
   </div>
 )
 

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import { close, menu } from '../../assets'
+import { close, menu } from '@/assets'
 import classNames from 'classnames'
 import { HashLink } from 'react-router-hash-link'
 import NavLink from './NavLink'
@@ -68,7 +68,7 @@ const Navbar = () => {
             >
               <NavLink href="/#studies" title="CASE STUDIES" />
               <NavLink href="/about#who-is-nat" title="ABOUT" />
-              <NavLink href="/other" title="OTHER WORK" />
+              <NavLink href="/other#designs" title="OTHER WORK" />
               <NavLink
                 href="mailto:nataliec6041@gmail.com"
                 title="CONTACT"

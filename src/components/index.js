@@ -1,11 +1,3 @@
-import Navbar from "./Navbar";
-import OW from './OtherWork'
-import OW2 from './OtherWork2'
-import CaseStudies from "./CaseStudies";
-import Footer from './Footer'
-import Hero from './Hero'
-import Designs from './Designs'
-import Photography from './Photography'
 import UlineHero from './UlineHero'
 import UlineHero2 from './UlineHero2'
 import UlineWhy from './UlineWhy'
@@ -23,14 +15,6 @@ import BenefitHero2 from './BenefitHero2'
 import BenefitWhy from './BenefitWhy'
 
 export {
-  Navbar,
-  OW,
-  OW2,
-  CaseStudies,
-  Footer,
-  Hero,
-  Designs,
-  Photography,
   UlineHero,
   UlineHero2,
   UlineWhy,

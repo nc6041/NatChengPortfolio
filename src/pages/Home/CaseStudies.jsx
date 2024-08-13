@@ -1,7 +1,7 @@
-import { benefitdesign, blue, PureGreenHero, uline } from '../assets'
-import styles from '../style'
-import CaseCard from './CaseCard'
-import PageSection from './PageSection'
+import { benefitdesign, blue, PureGreenHero, uline } from '@/assets'
+import styles from '@/style'
+import CaseCard from '@/components/CaseCard'
+import PageSection from '@/components/PageSection'
 
 const CaseStudies = () => (
   <PageSection

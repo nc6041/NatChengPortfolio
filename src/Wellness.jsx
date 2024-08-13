@@ -1,7 +1,5 @@
 import styles from "./style";
 import {
-  Navbar,
-  Footer,
   WellnessHero,
   WellnessHero2,
   WellnessHero3,
@@ -11,8 +9,6 @@ import {
 
 const Wellness = () => (
   <div className="w-full overflow-hidden">
-    <Navbar />
-
     <div className={`${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <WellnessHero />
@@ -44,8 +40,6 @@ const Wellness = () => (
         <WellnessHero3 />
       </div>
     </div>
-
-    <Footer />
   </div>
 )
 
