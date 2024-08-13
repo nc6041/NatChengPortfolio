@@ -6,7 +6,7 @@ import About from './pages/About'
 import Other from './pages/Other'
 import PureGreen from './pages/PureGreen'
 import Uline from './pages/Uline'
-import Wellness from './Wellness'
+import Wellness from './pages/Wellness'
 import Benefit from './Benefit'
 import './index.css'
 

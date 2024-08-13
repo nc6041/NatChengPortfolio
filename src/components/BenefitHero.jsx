@@ -1,5 +1,5 @@
 import styles from "../style";
-import { arrowUp, initialfinaldesign } from "../assets";
+import { initialfinaldesign } from '../assets'
 
 const BenefitHero = () => {
   return (
@@ -8,14 +8,6 @@ const BenefitHero = () => {
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
     >
       <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}>
-        <a href={`${'/'}`}>
-          <img
-            src={arrowUp}
-            alt="designs"
-            className={`sm:-translate-x-32 -translate-x-12 sm:mt-0 mt-10 mb-10 w-[130px] h-[38px] rotate-220`}
-          />
-        </a>
-
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-nohemi font-bold text-start ss:text-[50px] text-[40px] ss:leading-[100.8px] leading-[75px]">
             educa11y Website Redesign

@@ -83,7 +83,7 @@ const PureGreen = () => (
 
     <List
       numbered
-      className="text-malibu-300"
+      accent
       items={[
         'Define target audience and pain points when using other drink and food apps.',
         'Brainstorm helpful features and prioritize information to display in navigation.',

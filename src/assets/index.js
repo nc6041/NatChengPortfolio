@@ -6,7 +6,6 @@ import PGFinals from './PGFinals.png'
 import star from './Star.svg'
 import menu from './menu.svg'
 import close from './close.svg'
-import arrowUp from './arrow-up.svg'
 import arrowSide from './arrow-side.svg'
 import facebook from './facebook.svg'
 import instagram from './instagram.svg'
@@ -155,7 +154,6 @@ export {
   star,
   menu,
   close,
-  arrowUp,
   facebook,
   instagram,
   linkedin,

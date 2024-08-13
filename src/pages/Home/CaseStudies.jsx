@@ -27,7 +27,7 @@ const CaseStudies = () => (
         imgSrc={uline}
       />
       <CaseCard
-        id="lis"
+        id="wellness"
         title="Health & Wellness Chatbot"
         description="A personalized chat AI to help users find accessible healthcare and wellness options fit for them."
         whatFor="LIS 470: Interaction Design"

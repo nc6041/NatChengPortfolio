@@ -1,8 +1,8 @@
 import React from 'react'
 import Layout from './Layout'
-import { arrowUp } from '@/assets'
 import PageSection from './PageSection'
 import Title from './Title'
+import Arrow from './Arrow'
 
 interface ProjectPageProps {
   title: string
@@ -15,10 +15,9 @@ export default function ProjectPage({ title, children }: ProjectPageProps) {
       <PageSection>
         {/* An arrow button to take them back to the main page */}
         <a href={`${'/#studies'}`}>
-          <img
-            src={arrowUp}
-            alt="designs"
-            className={`sm:-translate-x-32 -translate-x-12 m-10 rotate-220`}
+          <Arrow
+            className="sm:-translate-x-32 -translate-x-12 m-10 text-malibu-300"
+            size={36}
           />
         </a>
 
