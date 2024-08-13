@@ -26,15 +26,15 @@ const CaseCard = ({
       'overflow-hidden',
     )}
   >
-    <div className="justify-between gap-8 flex-1 flex flex-col px-16 py-12">
+    <div className="justify-between gap-8 flex-1 flex flex-col p-6 xs:px-12 sm:px-16 xs:py-12">
       <div className="flex flex-col gap-6 items-start">
-        <h3 className="uppercase text-4xl font-medium">{title}</h3>
+        <h3 className="uppercase text-2xl sm:text-4xl font-medium">{title}</h3>
         <p>{description}</p>
 
         <ButtonLink to={href}>View Study</ButtonLink>
       </div>
 
-      <h4 className="text-2xl font-medium">{whatFor}</h4>
+      <h4 className="text-xl sm:text-2xl font-medium">{whatFor}</h4>
     </div>
 
     <a href={href} className="flex flex-1 flex-col max-w-xl self-center">
