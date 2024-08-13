@@ -77,7 +77,7 @@ const Footer = ({ className }: FooterProps) => (
       </a>
     </div>
 
-    <p className="text-neutral-400 mt-4">coded by Jason Fu and Zeke Jeske</p>
+    <p className="text-neutral-400 mt-4">coded by Zeke Jeske</p>
   </section>
 )
 
