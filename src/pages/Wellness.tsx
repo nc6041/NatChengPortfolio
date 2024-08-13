@@ -20,7 +20,7 @@ import Title from '@/components/Title'
 import List from '@/components/List'
 import AccentSpan from '@/components/AccentSpan'
 
-const Uline = () => (
+const Wellness = () => (
   <ProjectPage title="LIS 470: Interaction Design Case Study">
     <Text>
       Using AI to provide resources and education for accessible healthcare and
@@ -351,4 +351,4 @@ const Uline = () => (
   </ProjectPage>
 )
 
-export default Uline
+export default Wellness

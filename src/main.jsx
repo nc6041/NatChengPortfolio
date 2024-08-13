@@ -7,7 +7,7 @@ import Other from './pages/Other'
 import PureGreen from './pages/PureGreen'
 import Uline from './pages/Uline'
 import Wellness from './pages/Wellness'
-import Benefit from './Benefit'
+import Benefit from './pages/Benefit'
 import './index.css'
 
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom'

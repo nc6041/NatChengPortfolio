@@ -2,7 +2,14 @@ import classNames from 'classnames'
 import Button from './Button'
 import Title from './Title'
 
-const CaseCard = ({ id, title, description, whatFor, imgSrc, href = id }) => (
+const CaseCard = ({
+  id,
+  title,
+  description,
+  whatFor,
+  imgSrc,
+  href = `/${id}`,
+}) => (
   <section
     id={id}
     className={classNames(
