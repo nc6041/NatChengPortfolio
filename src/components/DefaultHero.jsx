@@ -4,7 +4,10 @@ const DefaultHero = () => {
   return (
     <img
       src={defaultHero}
-      aria-hidden={true}
+      // Specifying width and height prevent the page from shifting when the image loads
+      width={1379}
+      height={549}
+      aria-hidden
       className="w-screen mb-12 md:mb-32"
     />
   )
