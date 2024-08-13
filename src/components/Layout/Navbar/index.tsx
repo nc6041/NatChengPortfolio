@@ -38,7 +38,7 @@ const Navbar = () => {
         >
           <HashLink
             to="/#top"
-            className={`flex flex-col cursor-pointer object-contain justify-center`}
+            className="flex flex-col cursor-pointer object-contain justify-center"
             onMouseEnter={() => setTitle(true)}
             onMouseLeave={() => setTitle(false)}
           >

@@ -46,7 +46,7 @@ const Hero = () => {
           for a <b>complex</b> world.
         </p>
 
-        <p className={`max-w-[700px]`}>
+        <p className="max-w-[700px]">
           currently studying information experience design at{' '}
           <b>Pratt Institute</b>
         </p>

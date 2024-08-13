@@ -9,7 +9,7 @@ import CaseCard from './CaseCard'
 const CaseStudies = () => (
   <PageSection
     id="studies"
-    className={`flex flex-col items-center sm:mb-20 mb-6 pt-6`}
+    className="flex flex-col items-center sm:mb-20 mb-6 pt-6"
   >
     <h2 className="font-medium uppercase xs:text-4xl text-3xl mb-20">
       Case Studies

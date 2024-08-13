@@ -41,7 +41,7 @@ const Wellness = () => (
       the problem we initially defined.
     </Text>
 
-    <ProjectPageImage src={finals} alt={'finals'} />
+    <ProjectPageImage src={finals} alt="finals" />
 
     <Why
       theProblem={
@@ -125,7 +125,7 @@ const Wellness = () => (
       thoughts together.
     </Text>
 
-    <ProjectPageImage src={affinitydiagram} alt={'affinitydiagram'} />
+    <ProjectPageImage src={affinitydiagram} alt="affinitydiagram" />
 
     <Title style="projectPage" order={4}>
       Key Insights
@@ -170,7 +170,7 @@ const Wellness = () => (
       lifestyle.
     </Text>
 
-    <ProjectPageImage src={brainstorming} alt={'brainstorming'} />
+    <ProjectPageImage src={brainstorming} alt="brainstorming" />
 
     <Title style="projectPage" order={3}>
       Sketching + Storyboarding
@@ -182,8 +182,8 @@ const Wellness = () => (
     </Text>
 
     <div className="flex flex-col lg:flex-row">
-      <ProjectPageImage src={sketch} alt={'sketch'} />
-      <ProjectPageImage src={storyboard} alt={'storyboard'} />
+      <ProjectPageImage src={sketch} alt="sketch" />
+      <ProjectPageImage src={storyboard} alt="storyboard" />
     </div>
 
     <Title style="projectPage" order={3}>
@@ -231,7 +231,7 @@ const Wellness = () => (
       the prototype.
     </Text>
 
-    <ProjectPageImage src={paperprototype} alt={'paperprototype'} />
+    <ProjectPageImage src={paperprototype} alt="paperprototype" />
 
     <Title style="projectPage" order={3}>
       Task Flows
@@ -243,7 +243,7 @@ const Wellness = () => (
       for the screens that would be needed to complete 3 different tasks.
     </Text>
 
-    <ProjectPageImage src={taskflows} alt={'taskflows'} />
+    <ProjectPageImage src={taskflows} alt="taskflows" />
 
     <Title style="projectPage" order={3}>
       Wireframes
@@ -257,7 +257,7 @@ const Wellness = () => (
       their schedules that would sync to the user's calendar.
     </Text>
 
-    <ProjectPageImage src={wireframes} alt={'wireframes'} />
+    <ProjectPageImage src={wireframes} alt="wireframes" />
 
     <Title style="projectPage" order={3}>
       Interactive Mockups

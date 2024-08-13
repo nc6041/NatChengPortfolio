@@ -113,21 +113,21 @@ const Benefit = () => (
       Competitive Analysis
     </Title>
 
-    <ProjectPageImage src={companalysis} alt={'companalysis'} />
+    <ProjectPageImage src={companalysis} alt="companalysis" />
 
     <Title style="projectPage" order={3}>
       User Personas
     </Title>
 
-    <ProjectPageImage src={userpersonas} alt={'userpersonas'} />
+    <ProjectPageImage src={userpersonas} alt="userpersonas" />
 
     <Title style="projectPage" order={3}>
       User Journey Maps
     </Title>
 
-    <ProjectPageImage src={userjourneymap1} alt={'userjourneymap1'} />
+    <ProjectPageImage src={userjourneymap1} alt="userjourneymap1" />
 
-    <ProjectPageImage src={userjourneymap2} alt={'userjourneymap2'} />
+    <ProjectPageImage src={userjourneymap2} alt="userjourneymap2" />
 
     <Title style="projectPage">Ideation & Prototype</Title>
 
@@ -141,43 +141,43 @@ const Benefit = () => (
       Home Page
     </Title>
 
-    <ProjectPageImage src={home} alt={'home'} />
+    <ProjectPageImage src={home} alt="home" />
 
     <Title style="projectPage" order={3} center>
       About
     </Title>
 
-    <ProjectPageImage src={about} alt={'about'} />
+    <ProjectPageImage src={about} alt="about" />
 
     <Title style="projectPage" order={3} center>
       Services
     </Title>
 
-    <ProjectPageImage src={services} alt={'services'} />
+    <ProjectPageImage src={services} alt="services" />
 
     <Title style="projectPage" order={3} center>
       Resources
     </Title>
 
-    <ProjectPageImage src={resource} alt={'resource'} />
+    <ProjectPageImage src={resource} alt="resource" />
 
     <Title style="projectPage" order={3} center>
       Volunteers
     </Title>
 
-    <ProjectPageImage src={volunteers} alt={'volunteers'} />
+    <ProjectPageImage src={volunteers} alt="volunteers" />
 
     <Title style="projectPage" order={3} center>
       Contact
     </Title>
 
-    <ProjectPageImage src={contactus} alt={'contactus'} />
+    <ProjectPageImage src={contactus} alt="contactus" />
 
     <Title style="projectPage" order={3} center>
       Donate
     </Title>
 
-    <ProjectPageImage src={donate} alt={'donate'} />
+    <ProjectPageImage src={donate} alt="donate" />
 
     <Title style="projectPage">Reflection</Title>
 

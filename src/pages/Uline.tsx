@@ -65,7 +65,7 @@ const Uline = () => (
 
     <ProjectPageImage
       src={initialfinaldesign}
-      alt={'Initial and final designs'}
+      alt="Initial and final designs"
       caption="Final Designs"
     />
 
@@ -187,7 +187,7 @@ const Uline = () => (
         <Title style="projectPage" order={3} center>
           Before
         </Title>
-        <img src={welcomebefore} alt={'welcomebefore'} className="mb-2" />
+        <img src={welcomebefore} alt="welcomebefore" className="mb-2" />
       </div>
       {/* This flex-basis is the perfect amount to get the columns the same height. I know no better way of doing this. */}
       <div className="basis-[43.95%]">
@@ -196,13 +196,13 @@ const Uline = () => (
         </Title>
         <img
           src={headerinitialsketch}
-          alt={'headerinitialsketch'}
+          alt="headerinitialsketch"
           className="mb-2"
         />
         <Title style="projectPage" order={3} center>
           Versions
         </Title>
-        <img src={versionsuline} alt={'versionsuline'} className="mb-2" />
+        <img src={versionsuline} alt="versionsuline" className="mb-2" />
       </div>
     </div>
 
@@ -234,13 +234,13 @@ const Uline = () => (
         <Title style="projectPage" order={3} center>
           Content Before
         </Title>
-        <img src={contentbefore} alt={'contentbefore'} />
+        <img src={contentbefore} alt="contentbefore" />
       </div>
       <div className="flex-1">
         <Title style="projectPage" order={3} center>
           Content After
         </Title>
-        <img src={contentafter} alt={'contentafter'} />
+        <img src={contentafter} alt="contentafter" />
       </div>
     </div>
 
@@ -248,14 +248,14 @@ const Uline = () => (
       <Title style="projectPage" order={3} className="flex-none">
         Footer Before
       </Title>
-      <img src={footerbefore} alt={'footerbefore'} />
+      <img src={footerbefore} alt="footerbefore" />
     </div>
 
     <div className="flex flex-row gap-8 items-center mb-32">
       <Title style="projectPage" order={3} className="flex-none">
         Footer After
       </Title>
-      <img src={footerafter} alt={'footerafter'} />
+      <img src={footerafter} alt="footerafter" />
     </div>
 
     <Title style="projectPage" order={3} center>
@@ -266,14 +266,14 @@ const Uline = () => (
       <div className="sm:mr-2 mr-0">
         <img
           src={genericwelcome}
-          alt={'genericwelcome'}
+          alt="genericwelcome"
           className="mb-2 md:mr-3 mr-0"
         />
       </div>
       <div>
         <img
           src={foodservice}
-          alt={'foodservice'}
+          alt="foodservice"
           className="mb-2 md:ml-3 ml-0"
         />
       </div>
@@ -309,13 +309,13 @@ const Uline = () => (
         <Title style="projectPage" order={3} center>
           Follow Up 1 Sketch
         </Title>
-        <img src={fu1sketch} alt={'fu1sketch'} />
+        <img src={fu1sketch} alt="fu1sketch" />
       </div>
       <div className="flex-1">
         <Title style="projectPage" order={3} center>
           Follow Up 1 Raws
         </Title>
-        <img src={fu1raw} alt={'fu1raw'} />
+        <img src={fu1raw} alt="fu1raw" />
       </div>
     </div>
 
@@ -324,13 +324,13 @@ const Uline = () => (
         <Title style="projectPage" order={3} center>
           Follow Up 2 Sketch
         </Title>
-        <img src={fu2sketch} alt={'fu2sketch'} />
+        <img src={fu2sketch} alt="fu2sketch" />
       </div>
       <div className="flex-1">
         <Title style="projectPage" order={3} center>
           Follow Up 1 Raws
         </Title>
-        <img src={fu2raw} alt={'fu2raw'} />
+        <img src={fu2raw} alt="fu2raw" />
       </div>
     </div>
 
@@ -341,7 +341,7 @@ const Uline = () => (
     <div className="flex-1 flex flex-col pb-32 pt-4">
       <img
         src={followupemail}
-        alt={'followupemail'}
+        alt="followupemail"
         className="w-[100%] h-[100%] relative"
       />
     </div>
@@ -364,7 +364,7 @@ const Uline = () => (
       <span className="font-bold text-malibu-300">desktop and mobile</span>.
     </Text>
 
-    <ProjectPageImage src={prototyping} alt={'prototyping'} />
+    <ProjectPageImage src={prototyping} alt="prototyping" />
 
     <Title style="projectPage">Reflection</Title>
 

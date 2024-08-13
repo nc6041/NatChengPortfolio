@@ -41,7 +41,7 @@ const CaseCard = ({
       <img
         src={imgSrc}
         alt={id}
-        className={`w-full h-full relative object-cover`}
+        className="w-full h-full relative object-cover"
       />
     </a>
   </section>

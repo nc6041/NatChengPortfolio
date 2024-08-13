@@ -19,17 +19,17 @@ const Photography = () => {
 
       <div className="flex flex-col items-stretch gap-2">
         <div className={rowClassName}>
-          <img src={beach} alt={'beach'} className={imgClassName} />
-          <img src={building} alt={'building'} className={imgClassName} />
+          <img src={beach} alt="beach" className={imgClassName} />
+          <img src={building} alt="building" className={imgClassName} />
         </div>
         <div className={rowClassName}>
-          <img src={mayer} alt={'mayer'} className={imgClassName} />
-          <img src={train} alt={'train'} className={imgClassName} />
-          <img src={secondfloor} alt={'secondfloor'} className={imgClassName} />
+          <img src={mayer} alt="mayer" className={imgClassName} />
+          <img src={train} alt="train" className={imgClassName} />
+          <img src={secondfloor} alt="secondfloor" className={imgClassName} />
         </div>
         <div className={rowClassName}>
-          <img src={leaves} alt={'leaves'} className={imgClassName} />
-          <img src={firework} alt={'firework'} className={imgClassName} />
+          <img src={leaves} alt="leaves" className={imgClassName} />
+          <img src={firework} alt="firework" className={imgClassName} />
         </div>
       </div>
       <p className="text-zinc-400 text-2xl mt-3">Shot on iPhone</p>

@@ -50,7 +50,7 @@ const PureGreen = () => (
       persona.
     </Text>
 
-    <ProjectPageImage src={PGFinals} alt={'puregreen finals'} />
+    <ProjectPageImage src={PGFinals} alt="puregreen finals" />
 
     <Why
       theProblem={
@@ -162,7 +162,7 @@ const PureGreen = () => (
       on.
     </Text>
 
-    <ProjectPageImage src={Frame7} alt={'userpersonas'} />
+    <ProjectPageImage src={Frame7} alt="userpersonas" />
 
     <Title style="projectPage" order={3} className="mt-12">
       User Journey Maps
@@ -178,7 +178,7 @@ const PureGreen = () => (
       in the app.
     </Text>
 
-    <ProjectPageImage src={Frame4} alt={'userjourneymaps'} />
+    <ProjectPageImage src={Frame4} alt="userjourneymaps" />
 
     <Title style="projectPage" className="mt-12">
       Ideation
@@ -198,7 +198,7 @@ const PureGreen = () => (
       opportunity to participate in <AccentSpan>dot voting</AccentSpan> to pick
       our favorite sketches.
     </Text>
-    <ProjectPageImage src={PGsketches} alt={'sketches'} />
+    <ProjectPageImage src={PGsketches} alt="sketches" />
 
     <Title style="projectPage" order={3}>
       Wireframing
@@ -222,7 +222,7 @@ const PureGreen = () => (
       screen.
     </Text>
 
-    <ProjectPageImage src={PGwireframes} alt={'wireframes'} />
+    <ProjectPageImage src={PGwireframes} alt="wireframes" />
 
     <Title style="projectPage" order={3}>
       Continuing Wireframes
@@ -251,7 +251,7 @@ const PureGreen = () => (
       expandable extended information section. This way the user only needs to
       see exactly what they want and can pry further if necessary.
     </Text>
-    <ProjectPageImage src={PGfinalwireframes} alt={'finalwireframes'} />
+    <ProjectPageImage src={PGfinalwireframes} alt="finalwireframes" />
 
     <Title style="projectPage">Prototyping</Title>
 
@@ -268,7 +268,7 @@ const PureGreen = () => (
       our designs into a <AccentSpan>useable prototype</AccentSpan>.{' '}
     </Text>
 
-    <ProjectPageImage src={Style} alt={'style'} />
+    <ProjectPageImage src={Style} alt="style" />
 
     <Title style="projectPage" order={3}>
       In-Depth Glance
@@ -278,7 +278,7 @@ const PureGreen = () => (
       The mockups below offer some more in-depth descriptions on specific
       features of the app in some of our more important screens.
     </Text>
-    <ProjectPageImage src={PGmocks} alt={'mocks'} />
+    <ProjectPageImage src={PGmocks} alt="mocks" />
 
     <Title style="projectPage" order={3}>
       Final Designs & Prototype
@@ -288,7 +288,7 @@ const PureGreen = () => (
       <source src={PGDemo} type="video/mp4" />
     </video>
 
-    <ProjectPageImage src={PGallmocks} alt={'mocks'} />
+    <ProjectPageImage src={PGallmocks} alt="mocks" />
 
     <Title style="projectPage">Reflection</Title>
 
