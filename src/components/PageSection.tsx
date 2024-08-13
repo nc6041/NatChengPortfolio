@@ -21,7 +21,7 @@ export default function PageSection({
   const section = (
     <Component
       className={classNames(
-        fullWidth ? 'w-screen' : 'max-w-screen-lg',
+        fullWidth ? 'w-screen' : 'max-w-screen-md',
         className,
       )}
       {...props}
