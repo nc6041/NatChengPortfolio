@@ -30,8 +30,8 @@ export default function List({
         className,
       )}
     >
-      {items.map((item) => (
-        <li>{item}</li>
+      {items.map((item, i) => (
+        <li key={i}>{item}</li>
       ))}
     </Component>
   )
