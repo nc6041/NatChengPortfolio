@@ -1,4 +1,4 @@
-import { aboutOtherWorksHeader } from '../assets'
+import { aboutOtherWorksHeader } from '@/assets'
 
 const DefaultHero = () => {
   return (

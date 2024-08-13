@@ -11,7 +11,7 @@ import {
   video1,
   video2,
   video3,
-} from '../assets'
+} from '@/assets'
 import Why from '@/components/Why'
 import Text from '@/components/Text'
 import BoldLabeled from '@/components/BoldLabeled'
