@@ -9,7 +9,7 @@ import secondfloor from '@/assets/secondfloor.png'
 import PageSection from '@/components/PageSection'
 import Title from '@/components/Title'
 
-const imgClassName = 'w-full h-full'
+const imgClassName = 'w-full h-full min-w-0'
 const rowClassName = 'flex flex-col sm:flex-row gap-2'
 
 const Photography = () => {
