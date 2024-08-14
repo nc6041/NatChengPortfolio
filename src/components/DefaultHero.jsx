@@ -8,7 +8,7 @@ const DefaultHero = () => {
       width={1379}
       height={549}
       aria-hidden
-      className="w-screen mb-12 md:mb-32"
+      className="w-full mb-12 md:mb-32"
     />
   )
 }
