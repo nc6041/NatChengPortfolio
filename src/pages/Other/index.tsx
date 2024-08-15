@@ -5,15 +5,21 @@ import bobasocial from '@/assets/bobasocial.jpg'
 import chasalunar from '@/assets/chasalunar.jpg'
 import kirby from '@/assets/kirby.png'
 
+import Hero from '@/components/Hero'
 import Layout from '@/components/Layout'
-import DefaultHero from '@/components/DefaultHero'
+
 import Designs from './Designs'
 import Photography from './Photography'
 import Design from './Design'
 
 const Other = () => (
   <Layout>
-    <DefaultHero />
+    <Hero
+      title1="Other "
+      title2="Work"
+      buttonHref="#designs"
+      buttonText="View Work"
+    />
 
     <div className="flex flex-col gap-24 mb-32">
       <Designs id="designs" title="club designs">

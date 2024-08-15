@@ -31,7 +31,7 @@ const CaseCard = ({
         <h3 className="uppercase text-2xl sm:text-4xl font-medium">{title}</h3>
         <p>{description}</p>
 
-        <ButtonLink to={href}>View Study</ButtonLink>
+        <ButtonLink href={href}>View Study</ButtonLink>
       </div>
 
       <h4 className="text-xl sm:text-2xl font-medium">{whatFor}</h4>

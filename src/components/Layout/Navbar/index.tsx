@@ -83,8 +83,8 @@ const Navbar = () => {
               )}
             >
               <NavLink href="/#studies" title="CASE STUDIES" />
-              <NavLink href="/about#who-is-nat" title="ABOUT" />
-              <NavLink href="/other#designs" title="OTHER WORK" />
+              <NavLink href="/about#top" title="ABOUT" />
+              <NavLink href="/other#top" title="OTHER WORK" />
               <NavLink
                 href="mailto:nataliec6041@gmail.com"
                 title="CONTACT"

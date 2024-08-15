@@ -2,19 +2,24 @@ import classNames from 'classnames'
 
 import ivIntern from '@/assets/iv-intern.jpg'
 
-import DefaultHero from '@/components/DefaultHero'
 import PageSection from '@/components/PageSection'
 import Text from '@/components/Text'
 import BoldLabeled from '@/components/BoldLabeled'
 import Layout from '@/components/Layout'
 import Title from '@/components/Title'
 import AccentSpan from '@/components/AccentSpan'
+import Hero from '@/components/Hero'
 
 import ThingsILoveItem from './ThingsILoveItem'
 
 const About = () => (
   <Layout>
-    <DefaultHero />
+    <Hero
+      title1="About "
+      title2="Me"
+      buttonHref="https://drive.google.com/file/d/1OHuqarcNXapF3gIT-WfRb6nOd6vDGxBq/view"
+      buttonText="Resume"
+    />
 
     <div className="flex flex-col gap-24 mb-24">
       <PageSection id="who-is-nat" className="w-full pt-6">
