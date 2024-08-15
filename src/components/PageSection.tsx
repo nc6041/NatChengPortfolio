@@ -3,19 +3,23 @@ import React from 'react'
 
 interface PageSectionProps {
   children: React.ReactNode
-  component?: 'section' | 'div'
+  as?: 'section' | 'div'
   fullWidth?: boolean
   className?: string
   style?: React.CSSProperties
   id?: string
 }
 
+/**
+ * A section of a page, which is a container for content. By default, it is centered with a max
+ * width, but it can be full width if specified.
+ */
 export default function PageSection({
   children,
   className,
-  component: Component = 'section',
+  as: Component = 'section',
   style,
-  fullWidth,
+  fullWidth = false,
   ...props
 }: PageSectionProps) {
   const section = (

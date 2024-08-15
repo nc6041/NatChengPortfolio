@@ -3,28 +3,35 @@ import { HashLink, HashLinkProps } from 'react-router-hash-link'
 import { buttonClasses } from './Button'
 import classNames from 'classnames'
 
-type ButtonLinkProps = (
+type LinkProps = (
   | Omit<HashLinkProps, 'to'>
   | AnchorHTMLAttributes<HTMLAnchorElement>
 ) & {
   children: React.ReactNode
   href: string
   className?: string
-  unstyled?: boolean
+  style?: 'button' | 'unstyled'
 }
 
+/**
+ * Tries to guess whether the given href is external (as opposed to local).
+ */
 function isExternal(href: string) {
   return !href.match(/^(#|\.?\/(?!\/))/)
 }
 
-export default function ButtonLink({
+/**
+ * A versatile Link component that can handle local links, hash links, and external links and can be
+ * styled like a button.
+ */
+export default function Link({
   children,
   className,
   href,
-  unstyled,
+  style = 'unstyled',
   ...props
-}: ButtonLinkProps) {
-  const classes = classNames(!unstyled && buttonClasses, className)
+}: LinkProps) {
+  const classes = classNames(style === 'button' && buttonClasses, className)
 
   if (isExternal(href)) {
     // External link
@@ -41,7 +48,7 @@ export default function ButtonLink({
     )
   }
 
-  // Local link
+  // Local or hash link
   return (
     <HashLink
       className={classes}

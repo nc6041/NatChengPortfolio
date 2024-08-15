@@ -1,5 +1,6 @@
 import React from 'react'
-import Title from './Title'
+import Title from '@/components/Title'
+import Text from '@/components/Text'
 
 interface WhyProps {
   theProblem: string
@@ -18,13 +19,13 @@ export default function Why({ theProblem, butWhy }: WhyProps) {
         <Title style="projectPage" order={3}>
           The Problem
         </Title>
-        <p>{theProblem}</p>
+        <Text>{theProblem}</Text>
       </section>
       <section className={columnClassName}>
         <Title style="projectPage" order={3}>
           But Why?
         </Title>
-        <p>{butWhy}</p>
+        <Text>{butWhy}</Text>
       </section>
     </div>
   )

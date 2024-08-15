@@ -1,5 +1,7 @@
 import classNames from 'classnames'
-import ButtonLink from '@/components/ButtonLink'
+import Link from '@/components/Link'
+import Text from '@/components/Text'
+import Title from '@/components/Title'
 
 interface CaseCardProps {
   id: string
@@ -28,13 +30,15 @@ const CaseCard = ({
   >
     <div className="justify-between gap-8 flex-1 flex flex-col p-6 xs:px-12 sm:px-16 xs:py-12">
       <div className="flex flex-col gap-6 items-start">
-        <h3 className="uppercase text-2xl sm:text-4xl font-medium">{title}</h3>
-        <p>{description}</p>
+        <Title style="homepage">{title}</Title>
+        <Text>{description}</Text>
 
-        <ButtonLink href={href}>View Study</ButtonLink>
+        <Link href={href} style="button">
+          View Study
+        </Link>
       </div>
 
-      <h4 className="text-xl sm:text-2xl font-medium">{whatFor}</h4>
+      <Title style="homepage">{whatFor}</Title>
     </div>
 
     <a href={href} className="flex flex-1 flex-col max-w-xl self-center">

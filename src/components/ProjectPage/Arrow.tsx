@@ -7,6 +7,9 @@ interface ArrowProps {
   size?: number
 }
 
+/**
+ * Basic SVG arrow pointing in a specified direction.
+ */
 export default function Arrow({
   className,
   direction = 'W',

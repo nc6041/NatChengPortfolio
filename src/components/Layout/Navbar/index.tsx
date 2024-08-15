@@ -5,7 +5,11 @@ import menu from '@/assets/menu.svg'
 import classNames from 'classnames'
 import { HashLink } from 'react-router-hash-link'
 import NavLink from './NavLink'
+import Text from '@/components/Text'
 
+/**
+ * The page's sticky navbar header, which is shown on every page.
+ */
 const Navbar = () => {
   // Whether the title link is being hovered over
   const [title, setTitle] = useState(false)
@@ -55,14 +59,14 @@ const Navbar = () => {
                 cheng
               </span>
             </h1>
-            <p>
+            <Text>
               <span className={classNames(!title && 'text-malibu-300')}>
                 UX{' '}
               </span>
               <span className={classNames(title && 'text-malibu-300')}>
                 designer
               </span>
-            </p>
+            </Text>
           </HashLink>
 
           <div className="relative self-center flex">

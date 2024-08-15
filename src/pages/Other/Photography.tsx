@@ -8,6 +8,7 @@ import secondfloor from '@/assets/secondfloor.png'
 
 import PageSection from '@/components/PageSection'
 import Title from '@/components/Title'
+import Text from '@/components/Text'
 
 const imgClassName = 'w-full h-full min-w-0'
 const rowClassName = 'flex flex-col sm:flex-row gap-2'
@@ -32,7 +33,7 @@ const Photography = () => {
           <img src={firework} alt="firework" className={imgClassName} />
         </div>
       </div>
-      <p className="text-zinc-400 text-2xl mt-3">Shot on iPhone</p>
+      <Text className="text-zinc-400 text-2xl mt-3">Shot on iPhone</Text>
     </PageSection>
   )
 }

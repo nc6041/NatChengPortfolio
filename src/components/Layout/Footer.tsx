@@ -1,10 +1,14 @@
 import classNames from 'classnames'
 import footerBackground from '@/assets/footer-background.png'
+import Text from '@/components/Text'
 
 interface FooterProps {
   className?: string
 }
 
+/**
+ * The website footer, which contains contact information and social media links.
+ */
 const Footer = ({ className }: FooterProps) => (
   <section
     id="footer"
@@ -23,15 +27,15 @@ const Footer = ({ className }: FooterProps) => (
     />
 
     <h1 className="font-nat text-6xl text-black">Let's Chat!</h1>
-    <p className="text-black">Talk with me about anything</p>
-    <p>
+    <Text className="text-black">Talk with me about anything</Text>
+    <Text>
       <a
         href="mailto:nataliec6041@gmail.com"
         className="block text-malibu-300 cursor-pointer hover:underline"
       >
         nataliec6041@gmail.com
       </a>
-    </p>
+    </Text>
 
     <div className="flex flex-row gap-12 justify-center items-center pt-6">
       {/* facebook */}
@@ -77,7 +81,7 @@ const Footer = ({ className }: FooterProps) => (
       </a>
     </div>
 
-    <p className="text-neutral-400 mt-4">coded by Zeke Jeske</p>
+    <Text className="text-neutral-400 mt-4">coded by Zeke Jeske</Text>
   </section>
 )
 

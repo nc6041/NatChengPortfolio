@@ -8,8 +8,8 @@ type ListProps = {
 } & ({ numbered: true } | { bulleted: true })
 
 /**
- * This is a flexible component for ordered and unordered lists. Use this instead of <ol> or <ul>
- * because it implements the preferred styles.
+ * A flexible component for ordered and unordered lists. Use this instead of <ol> or <ul> because it
+ * implements the preferred styles.
  */
 export default function List({
   items,

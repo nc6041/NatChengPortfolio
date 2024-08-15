@@ -7,6 +7,9 @@ interface LayoutProps {
   mainClassName?: string
 }
 
+/**
+ * The site layout, which is used on every page and includes a navbar and footer.
+ */
 export default function Layout({ children, mainClassName }: LayoutProps) {
   return (
     <div style={{ scrollPaddingTop: 'var(--navbar-height)' }}>

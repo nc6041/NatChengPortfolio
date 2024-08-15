@@ -15,7 +15,7 @@ export default function ThingsILoveItem({
 }: ThingsILoveItemProps) {
   return (
     <div className="flex flex-col items-center">
-      <p
+      <Text
         aria-hidden
         className={classNames(
           'font-nat-symbol text-9xl',
@@ -23,8 +23,8 @@ export default function ThingsILoveItem({
         )}
       >
         {symbol}
-      </p>
-      <p className="font-nat text-4xl">{description}</p>
+      </Text>
+      <Text className="font-nat text-4xl">{description}</Text>
     </div>
   )
 }

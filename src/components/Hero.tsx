@@ -2,7 +2,7 @@ import classNames from 'classnames'
 import homepageImg from '@/assets/homepage-header.png'
 import defaultImg from '@/assets/default-hero.png'
 import PageSection from '@/components/PageSection'
-import ButtonLink from '@/components/ButtonLink'
+import Link from '@/components/Link'
 import AccentSpan from './AccentSpan'
 
 type HeroProps = {
@@ -61,15 +61,14 @@ const Hero = ({
 
         {children}
 
-        <ButtonLink
-          className={classNames(
-            // Add a margin-top to separate the button if there is content between it and the title
-            children && 'mt-9',
-          )}
+        <Link
+          // Add a margin-top to separate the button if there is content between it and the title
+          className={classNames(children && 'mt-9')}
           href={buttonHref}
+          style="button"
         >
           {buttonText}
-        </ButtonLink>
+        </Link>
       </div>
     </PageSection>
   )

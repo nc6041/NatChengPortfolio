@@ -10,6 +10,10 @@ interface ProjectPageProps {
   children?: React.ReactNode
 }
 
+/**
+ * Template component for the various case study pages. Includes a back button to the home page and
+ * a title.
+ */
 export default function ProjectPage({ title, children }: ProjectPageProps) {
   return (
     <Layout>

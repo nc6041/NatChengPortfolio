@@ -1,6 +1,6 @@
 import classNames from 'classnames'
 import React from 'react'
-import ButtonLink from '@/components/ButtonLink'
+import Link from '@/components/Link'
 import { Location, useLocation } from 'react-router-dom'
 import { topId } from '@/components/Hero'
 
@@ -11,6 +11,13 @@ interface NavLinkProps {
   styleButton?: boolean
 }
 
+/**
+ * Determines whether this NavLink should be styled as active.
+ *
+ * @param location The current window.location object.
+ * @param href The href of this navbar item.
+ * @returns true if it's active, false otherwise.
+ */
 function isActive(location: Location, href: string) {
   const { pathname, hash } = location
   const [hrefPathname, hrefHash] = href.split('#')
@@ -22,6 +29,9 @@ function isActive(location: Location, href: string) {
   )
 }
 
+/**
+ * A styled link to be used in the Navbar.
+ */
 const NavLink = ({ title, href, styleButton }: NavLinkProps) => {
   const location = useLocation()
   const classes = classNames(
@@ -31,9 +41,13 @@ const NavLink = ({ title, href, styleButton }: NavLinkProps) => {
   )
 
   return (
-    <ButtonLink href={href} className={classes} unstyled={!styleButton}>
+    <Link
+      href={href}
+      className={classes}
+      style={styleButton ? 'button' : 'unstyled'}
+    >
       {title}
-    </ButtonLink>
+    </Link>
   )
 }
 

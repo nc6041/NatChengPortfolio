@@ -5,15 +5,14 @@ import uline from '@/assets/uline.png'
 
 import PageSection from '@/components/PageSection'
 import CaseCard from './CaseCard'
+import Title from '@/components/Title'
 
 const CaseStudies = () => (
   <PageSection
     id="studies"
     className="flex flex-col items-center sm:mb-20 mb-6 pt-6"
   >
-    <h2 className="font-medium uppercase xs:text-4xl text-3xl mb-20">
-      Case Studies
-    </h2>
+    <Title style="homepage">Case Studies</Title>
     <div className="flex flex-col gap-9">
       <CaseCard
         id="puregreen"

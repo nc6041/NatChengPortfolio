@@ -7,7 +7,8 @@ interface BoldLabeledProps {
 }
 
 /**
- * A simple component for a bold label with a colon followed by some text.
+ * A simple component for a bold label with a colon followed by some text. This is used on the case
+ * study pages as well as the About page.
  */
 export default function BoldLabeled({ label, children }: BoldLabeledProps) {
   return (
