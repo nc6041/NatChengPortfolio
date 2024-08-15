@@ -22,8 +22,6 @@ function isActive(location: Location, href: string) {
   const { pathname, hash } = location
   const [hrefPathname, hrefHash] = href.split('#')
 
-  console.log('running isActive')
-
   return (
     pathname === hrefPathname && (hrefHash == topId || hash === `#${hrefHash}`)
   )

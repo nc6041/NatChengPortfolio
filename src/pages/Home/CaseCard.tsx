@@ -21,7 +21,7 @@ const CaseCard = ({
   imgSrc,
   href = `/${id}`,
 }: CaseCardProps) => {
-  const fullHref = `${href}#${topId}`
+  const fullHref = `${href}`
 
   return (
     <section

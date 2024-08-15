@@ -6,6 +6,7 @@ import classNames from 'classnames'
 import { HashLink } from 'react-router-hash-link'
 import NavLink from './NavLink'
 import Text from '@/components/Text'
+import Link from '@/components/Link'
 
 /**
  * The page's sticky navbar header, which is shown on every page.
@@ -40,8 +41,8 @@ const Navbar = () => {
             height: 'var(--navbar-height)',
           }}
         >
-          <HashLink
-            to="/#top"
+          <Link
+            href="/#top"
             className="flex flex-col cursor-pointer object-contain justify-center"
             onMouseEnter={() => setTitle(true)}
             onMouseLeave={() => setTitle(false)}
@@ -67,7 +68,7 @@ const Navbar = () => {
                 designer
               </span>
             </Text>
-          </HashLink>
+          </Link>
 
           <div className="relative self-center flex">
             <button onClick={toggle} aria-hidden>

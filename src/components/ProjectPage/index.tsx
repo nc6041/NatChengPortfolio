@@ -2,9 +2,9 @@ import React from 'react'
 import Layout from '@/components/Layout'
 import PageSection from '@/components/PageSection'
 import Title from '@/components/Title'
+import Link from '@/components/Link'
+import { topId } from '@/components/Hero'
 import Arrow from './Arrow'
-import { HashLink } from 'react-router-hash-link'
-import { topId } from '../Hero'
 
 interface ProjectPageProps {
   title: string
@@ -20,12 +20,12 @@ export default function ProjectPage({ title, children }: ProjectPageProps) {
     <Layout>
       <PageSection id={topId}>
         {/* An arrow button to take them back to the main page */}
-        <HashLink to="/#studies">
+        <Link href="/#studies">
           <Arrow
             className="sm:-translate-x-32 -translate-x-12 m-10 text-malibu-300"
             size={36}
           />
-        </HashLink>
+        </Link>
 
         <Title order={1}>{title}</Title>
         {children}
