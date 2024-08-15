@@ -4,6 +4,7 @@ import PageSection from '@/components/PageSection'
 import Title from '@/components/Title'
 import Arrow from './Arrow'
 import { HashLink } from 'react-router-hash-link'
+import { topId } from '../Hero'
 
 interface ProjectPageProps {
   title: string
@@ -17,7 +18,7 @@ interface ProjectPageProps {
 export default function ProjectPage({ title, children }: ProjectPageProps) {
   return (
     <Layout>
-      <PageSection>
+      <PageSection id={topId}>
         {/* An arrow button to take them back to the main page */}
         <HashLink to="/#studies">
           <Arrow

@@ -2,6 +2,7 @@ import classNames from 'classnames'
 import Link from '@/components/Link'
 import Text from '@/components/Text'
 import Title from '@/components/Title'
+import { topId } from '@/components/Hero'
 
 interface CaseCardProps {
   id: string
@@ -18,7 +19,7 @@ const CaseCard = ({
   description,
   whatFor,
   imgSrc,
-  href = `/${id}`,
+  href = `/${id}#${topId}`,
 }: CaseCardProps) => (
   <section
     id={id}
