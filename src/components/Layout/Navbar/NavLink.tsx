@@ -1,7 +1,8 @@
 import classNames from 'classnames'
 import React from 'react'
-import { HashLink } from 'react-router-hash-link'
 import ButtonLink from '@/components/ButtonLink'
+import { Location, useLocation } from 'react-router-dom'
+import { topId } from '@/components/Hero'
 
 interface NavLinkProps {
   title: string
@@ -10,11 +11,22 @@ interface NavLinkProps {
   styleButton?: boolean
 }
 
+function isActive(location: Location, href: string) {
+  const { pathname, hash } = location
+  const [hrefPathname, hrefHash] = href.split('#')
+
+  console.log('running isActive')
+
+  return (
+    pathname === hrefPathname && (hrefHash == topId || hash === `#${hrefHash}`)
+  )
+}
+
 const NavLink = ({ title, href, styleButton }: NavLinkProps) => {
-  const isActive = window.location.pathname.substring(1) === href
+  const location = useLocation()
   const classes = classNames(
     'block font-normal cursor-pointer hover:text-malibu-300 py-2 px-4',
-    isActive && 'text-malibu-300',
+    isActive(location, href) && 'text-malibu-300',
     !styleButton && 'text-xl md:px-0',
   )
 

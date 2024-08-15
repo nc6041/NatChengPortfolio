@@ -16,6 +16,9 @@ type HeroProps = {
   buttonText: string
 }
 
+// DRY code!
+export const topId = 'top'
+
 const Hero = ({
   title1,
   title2,
@@ -28,7 +31,7 @@ const Hero = ({
 
   return (
     <PageSection
-      id="top"
+      id={topId}
       className="flex flex-col items-stretch text-center"
       fullWidth
       style={{

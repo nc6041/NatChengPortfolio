@@ -27,7 +27,6 @@ export default function ButtonLink({
   const classes = classNames(!unstyled && buttonClasses, className)
 
   if (isExternal(href)) {
-    console.log('external: ', children)
     // External link
     return (
       <a
