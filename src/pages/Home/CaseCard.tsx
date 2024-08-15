@@ -19,7 +19,7 @@ const CaseCard = ({
   description,
   whatFor,
   imgSrc,
-  href = `/${id}#${topId}`,
+  href = `/${id}`,
 }: CaseCardProps) => (
   <section
     id={id}
@@ -46,7 +46,10 @@ const CaseCard = ({
       </Title>
     </div>
 
-    <a href={href} className="flex flex-1 flex-col max-w-xl self-center">
+    <a
+      href={`${href}#${topId}`}
+      className="flex flex-1 flex-col max-w-xl self-center"
+    >
       <img
         src={imgSrc}
         alt={id}
