@@ -30,7 +30,9 @@ const CaseCard = ({
   >
     <div className="justify-between gap-8 flex-1 flex flex-col p-6 xs:px-12 sm:px-16 xs:py-12">
       <div className="flex flex-col gap-6 items-start">
-        <Title style="homepage">{title}</Title>
+        <Title style="homepage" order={3}>
+          {title}
+        </Title>
         <Text>{description}</Text>
 
         <Link href={href} style="button">
@@ -38,7 +40,9 @@ const CaseCard = ({
         </Link>
       </div>
 
-      <Title style="homepage">{whatFor}</Title>
+      <Title style="homepage" order={4}>
+        {whatFor}
+      </Title>
     </div>
 
     <a href={href} className="flex flex-1 flex-col max-w-xl self-center">
