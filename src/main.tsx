@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/client'
 import Home from './pages/Home'
 import About from './pages/About'
 import Other from './pages/Other'
@@ -43,6 +43,9 @@ const router = createBrowserRouter([
   },
 ])
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
-);
+const root = document.getElementById('root')
+if (root === null) {
+  throw new Error('No root element found')
+}
+
+ReactDOM.createRoot(root).render(<RouterProvider router={router} />)
