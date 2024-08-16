@@ -21,7 +21,8 @@ const CaseCard = ({
   imgSrc,
   href = `/${id}`,
 }: CaseCardProps) => {
-  const fullHref = `${href}`
+  // Go to the top of the page whenever a case is clicked
+  const fullHref = `${href}#${topId}`
 
   return (
     <section
