@@ -54,7 +54,7 @@ const Hero = ({
           }}
         />
 
-        <h1 className="font-nat text-8xl sm:text-9xl">
+        <h1 className="font-nat text-8xl sm:text-9xl mt-2">
           {title1}
           <AccentSpan>{title2}</AccentSpan>
         </h1>
@@ -63,7 +63,7 @@ const Hero = ({
 
         <Link
           // Add a margin-top to separate the button if there is content between it and the title
-          className={classNames(children && 'mt-9')}
+          className={classNames(children && 'mt-4 mb-2')}
           href={buttonHref}
           style="button"
         >

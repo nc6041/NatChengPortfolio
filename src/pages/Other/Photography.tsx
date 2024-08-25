@@ -15,7 +15,7 @@ const rowClassName = 'flex flex-col sm:flex-row gap-2'
 
 const Photography = () => {
   return (
-    <PageSection id="photography" className="w-full">
+    <PageSection id="photography" className="w-full px-12">
       <Title style="funky">photography</Title>
 
       <div className="flex flex-col items-stretch gap-2">
