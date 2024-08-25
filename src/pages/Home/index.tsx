@@ -13,7 +13,7 @@ const Home = () => (
       buttonHref="#studies"
       buttonText="View My Work"
     >
-      <Text className="max-w-[900px] text-xl md:text-2xl">
+      <Text className="max-w-[900px] text-xl md:text-xl">
         a UX designer dedicated to creating <b>simple</b> solutions{' '}
         <br className="sm:block hidden" />
         for a <b>complex</b> world.

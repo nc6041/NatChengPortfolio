@@ -9,9 +9,9 @@ interface DesignProps {
 
 export default function Design({ img, title, year }: DesignProps) {
   return (
-    <li className="hover:scale-105 flex flex-col gap-2 text-2xl">
+    <li className="hover:scale-105 flex flex-col gap-2 text-xl">
       <img src={img} alt={title} />
-      <Text className="text-black font-medium">{title}</Text>
+      <Text className="text-black font-medium mb-1">{title}</Text>
       <Text className="font-normal text-zinc-400">{year}</Text>
     </li>
   )

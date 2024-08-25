@@ -22,7 +22,7 @@ export default function ProjectPage({ title, children }: ProjectPageProps) {
         {/* An arrow button to take them back to the main page */}
         <Link href="/#studies">
           <Arrow
-            className="sm:-translate-x-32 -translate-x-12 m-10 text-malibu-300"
+            className="sm:-translate-x-12 -translate-x-12 m-10 text-malibu-300"
             size={36}
           />
         </Link>

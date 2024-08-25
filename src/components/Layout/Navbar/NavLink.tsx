@@ -35,7 +35,7 @@ const NavLink = ({ title, href, styleButton }: NavLinkProps) => {
   const classes = classNames(
     'block font-normal cursor-pointer hover:text-malibu-300 py-2 px-4',
     isActive(location, href) && 'text-malibu-300',
-    !styleButton && 'text-xl md:px-0',
+    !styleButton && 'text-base md:px-0',
   )
 
   return (

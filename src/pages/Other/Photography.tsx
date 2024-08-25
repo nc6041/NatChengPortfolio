@@ -33,7 +33,7 @@ const Photography = () => {
           <img src={firework} alt="firework" className={imgClassName} />
         </div>
       </div>
-      <Text className="text-zinc-400 text-2xl mt-3">Shot on iPhone</Text>
+      <Text className="text-zinc-400 text-base mt-3">Shot on iPhone</Text>
     </PageSection>
   )
 }

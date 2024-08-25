@@ -12,7 +12,7 @@ const CaseStudies = () => (
     id="studies"
     className="flex flex-col items-center sm:mb-20 mb-6 pt-6"
   >
-    <Title style="homepage">Case Studies</Title>
+    <Title style="homepage">CASE STUDIES</Title>
     <div className="flex flex-col gap-9">
       <CaseCard
         id="puregreen"

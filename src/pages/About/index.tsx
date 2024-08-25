@@ -17,7 +17,7 @@ const About = () => (
     <Hero
       title1="About "
       title2="Me"
-      buttonHref="https://drive.google.com/file/d/1OHuqarcNXapF3gIT-WfRb6nOd6vDGxBq/view"
+      buttonHref="https://drive.google.com/file/d/1VBzrN1CZDxYAaFya-XipJ4eEUCe2Rp8P/view?usp=sharing"
       buttonText="Resume"
     />
 
@@ -36,33 +36,34 @@ const About = () => (
             'lg:ml-32',
           )}
         />
-        <div className="md:text-2xl">
+        <div className="md:text-base">
           <Text>
-            I'm currently a first-year graduate student pursuing a Master&apos;s
-            in <b>information experience design</b> at Pratt Institute in New
+            I'm currently a first-year graduate student pursuing a Master&apos;s of Science
+            in <b>Information Experience Design</b> at Pratt Institute in New
             York City. I recently graduated from the University of
             Wisconsin&ndash;Madison with a B.A. in <b>computer science</b> and a
             certificate in <b>graphic design</b>.
           </Text>
 
           <Text>
-            My most recent role was at ULINE as a web design intern where I
-            created brand-consistent designs for their web homepage, internal
-            platform, and emails to increase user engagement with the site and
-            product sales across multiple industries.
+            My most recent role was at InterVarsity as a digital product design intern where I
+            designed new give site features to improve user engagement in the giving process, 
+            wrote up multiple in-depth user research plans to improve internal organization communication,
+            and updated and used the design system in landing pages and other digital products.
           </Text>
 
           <Text>
             I grew up loving all things creative and was raised in a culture
-            that's all about caring for others. In college, I discovered the
-            field of user experience design where I fell in love with the
-            concept of designing for people. It was the perfect professional
-            intersection between my passions and my skills.
+            that always puts others first. In college, I discovered that
+            there is a career in designing for people, and found it to be the perfect
+            intersection between my passions and my skills. Now, I strive to 
+            design products and experiences that solve real problems and produce joy in 
+            human-to-tech relationships.
           </Text>
         </div>
       </PageSection>
 
-      <PageSection className="w-full md:text-2xl">
+      <PageSection className="w-full md:text-base">
         <Title style="funky">
           Tech <AccentSpan>Stack</AccentSpan>
         </Title>

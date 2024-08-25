@@ -25,8 +25,8 @@ const styles: StyleRecord = {
     h4: 'text-2xl mb-2',
   },
   homepage: {
-    h2: 'text-3xl xs:text-4xl font-medium uppercase mb-20',
-    h3: 'text-2xl sm:text-4xl font-medium uppercase',
+    h2: 'text-3xl xs:text-4xl font-medium  mb-20',
+    h3: 'text-2xl sm:text-4xl font-medium ',
     h4: 'text-xl sm:text-2xl font-medium',
   },
   projectPage: {
@@ -35,7 +35,7 @@ const styles: StyleRecord = {
     h4: 'text-3xl font-light text-malibu-300 mb-2',
   },
   funky: {
-    h2: 'text-5xl font-nat font-bold sm:text-6xl md:text-8xl mb-3',
+    h2: 'text-4xl font-nat font-bold sm:text-6xl md:text-6xl mb-3',
   },
 }
 

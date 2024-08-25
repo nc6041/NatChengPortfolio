@@ -29,7 +29,7 @@ const Other = () => (
       </Designs>
 
       <Designs id="posters" title="posters">
-        <Design img={kirby} title="Kirby" year={2023} />
+        <Design img={kirby} title="Kirby SSB" year={2023} />
         <Design img={worldcup} title="World Cup Qatar x SK" year={2022} />
         <Design img={bobasocial} title="AAIV Boba Social Flyer" year={2021} />
       </Designs>

@@ -38,6 +38,7 @@ const Navbar = () => {
         <nav
           className="mx-auto flex py-3 md:py-6 px-8 sm:px-16 justify-between items-stretch max-w-screen-lg"
           style={{
+            // padding: '60px',
             height: 'var(--navbar-height)',
           }}
         >
@@ -47,7 +48,7 @@ const Navbar = () => {
             onMouseEnter={() => setTitle(true)}
             onMouseLeave={() => setTitle(false)}
           >
-            <h1 className="font-nat font-bold text-5xl">
+            <h1 className="font-nat font-bold text-4xl">
               <span
                 className={classNames(
                   'whitespace-pre',

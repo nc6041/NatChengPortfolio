@@ -16,7 +16,7 @@ module.exports = {
           100: '#e2f0fc',
           200: '#bfe2f8',
           // This, malibu-300, is our accent color
-          300: '#83c8f3',
+          300: '#209CE9',
           400: '#45aeeb',
           500: '#1d93da',
           600: '#1076b9',
@@ -37,6 +37,9 @@ module.exports = {
         130: '130deg',
         40: '40deg',
         220: '220deg',
+      },
+      padding: {
+        'global': '20px',
       },
     },
     screens: {
