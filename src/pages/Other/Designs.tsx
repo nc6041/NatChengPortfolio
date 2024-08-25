@@ -9,7 +9,7 @@ interface DesignsProps {
 
 const Designs = ({ id, title, children }: DesignsProps) => {
   return (
-    <PageSection id={id}>
+    <PageSection id={id} className="px-12">
       <Title style="funky">{title}</Title>
       <ul className="list-none flex flex-col sm:flex-row items-stretch gap-8 sm:gap-3">
         {children}

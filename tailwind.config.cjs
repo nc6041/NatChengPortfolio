@@ -39,7 +39,7 @@ module.exports = {
         220: '220deg',
       },
       padding: {
-        'global': '20px',
+        'global': '50px',
       },
     },
     screens: {

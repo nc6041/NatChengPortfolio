@@ -22,7 +22,7 @@ const About = () => (
     />
 
     <div className="flex flex-col gap-24 mb-24">
-      <PageSection id="who-is-nat" className="w-full pt-6">
+      <PageSection id="who-is-nat" className="w-full pt-6 px-12">
         <Title style="funky">
           Who is <AccentSpan>Nat</AccentSpan>?
         </Title>
@@ -63,7 +63,7 @@ const About = () => (
         </div>
       </PageSection>
 
-      <PageSection className="w-full md:text-base">
+      <PageSection className="w-full md:text-base px-12">
         <Title style="funky">
           Tech <AccentSpan>Stack</AccentSpan>
         </Title>
@@ -78,7 +78,7 @@ const About = () => (
         </BoldLabeled>
       </PageSection>
 
-      <PageSection className="flex flex-col items-center gap-16 max-w-4xl">
+      <PageSection className="flex flex-col items-center max-w-4xl">
         <Title style="funky">
           <span
             className="font-nat font-normal text-[200px] relative top-6"
@@ -89,7 +89,7 @@ const About = () => (
           some things i <AccentSpan>love</AccentSpan>
         </Title>
 
-        <div className="flex flex-row gap-24 flex-wrap justify-center">
+        <div className="flex flex-row gap-24 flex-wrap justify-center px-12">
           <ThingsILoveItem symbol="4" description="graphic design" accent />
           <ThingsILoveItem symbol="3" description="photography" />
           <ThingsILoveItem symbol="1" description="longboarding" accent />

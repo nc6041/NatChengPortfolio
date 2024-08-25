@@ -36,7 +36,7 @@ const Navbar = () => {
         )}
       >
         <nav
-          className="mx-auto flex py-3 md:py-6 px-8 sm:px-16 justify-between items-stretch max-w-screen-lg"
+          className="mx-auto flex py-3 md:py-6 px-8 sm:px-16 justify-between items-stretch max-w-screen-md"
           style={{
             // padding: '60px',
             height: 'var(--navbar-height)',

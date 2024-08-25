@@ -10,7 +10,7 @@ import Title from '@/components/Title'
 const CaseStudies = () => (
   <PageSection
     id="studies"
-    className="flex flex-col items-center sm:mb-20 mb-6 pt-6"
+    className="flex flex-col items-center sm:mb-20 mb-6 pt-6 p-global"
   >
     <Title style="homepage">CASE STUDIES</Title>
     <div className="flex flex-col gap-9">
