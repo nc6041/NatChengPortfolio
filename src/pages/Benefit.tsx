@@ -21,6 +21,7 @@ import userpersonas from '@/assets/userpersonas.png'
 
 const Benefit = () => (
   <ProjectPage title="educa11y Website Redesign">
+    <div className="w-full px-12">
     <Text>
       Providing non-profits with accessible design resources through the
       benefit.design volunteer program.
@@ -191,6 +192,7 @@ const Benefit = () => (
       with the stakeholder, but the project was still a valuable experience
       regardless.
     </Text>
+    </div>
   </ProjectPage>
 )
 

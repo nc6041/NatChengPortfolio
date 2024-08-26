@@ -18,6 +18,7 @@ interface ProjectPageProps {
 export default function ProjectPage({ title, children }: ProjectPageProps) {
   return (
     <Layout>
+      <div className="w-full px-24">
       <PageSection id={topId}>
         {/* An arrow button to take them back to the main page */}
         <Link href="/#studies">
@@ -30,6 +31,7 @@ export default function ProjectPage({ title, children }: ProjectPageProps) {
         <Title order={1}>{title}</Title>
         {children}
       </PageSection>
+      </div>
     </Layout>
   )
 }
