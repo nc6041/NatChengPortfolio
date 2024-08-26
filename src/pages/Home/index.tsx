@@ -12,9 +12,10 @@ const Home = () => (
       img="homepage"
       buttonHref="#studies"
       buttonText="View My Work"
+      
     >
       <Text className="max-w-[900px] text-xl md:text-xl">
-        a UX designer dedicated to creating <b>simple</b> solutions{' '}
+        a UX designer and playful spirit dedicated to creating <b>simple</b> solutions{' '}
         <br className="sm:block hidden" />
         for a <b>complex</b> world.
       </Text>
