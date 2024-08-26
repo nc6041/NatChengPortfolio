@@ -15,9 +15,9 @@ const Home = () => (
       
     >
       <Text className="max-w-[900px] text-xl md:text-xl">
-        a UX designer and playful spirit dedicated to creating <b>simple</b> solutions{' '}
+        a UX designer and playful spirit dedicated to creating {' '}
         <br className="sm:block hidden" />
-        for a <b>complex</b> world.
+        <b>simple</b> solutions for a <b>complex</b> world.
       </Text>
 
       <Text className="max-w-[700px]">
