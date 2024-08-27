@@ -14,7 +14,7 @@ const columnClassName = 'flex-1'
  */
 export default function Why({ theProblem, butWhy }: WhyProps) {
   return (
-    <div className="flex flex-col sm:flex-row gap-16 sm:gap-48 xl:gap-96 w-full my-16">
+    <div className="flex flex-col sm:flex-row gap-16 sm:gap-48 xl:gap-128 w-full my-16">
       <section className={columnClassName}>
         <Title style="projectPage" order={3}>
           The Problem
