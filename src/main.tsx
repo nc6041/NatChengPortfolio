@@ -8,6 +8,7 @@ import PureGreen from './pages/PureGreen'
 import Uline from './pages/Uline'
 import Wellness from './pages/Wellness'
 import Benefit from './pages/Benefit'
+import InterVarsity from './pages/InterVarsity'
 import './index.css'
 
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom'
@@ -38,8 +39,8 @@ const router = createBrowserRouter([
     element: <PureGreen />,
   },
   {
-    path: 'benefit',
-    element: <Benefit />,
+    path: 'intervarsity',
+    element: <InterVarsity />,
   },
 ])
 

@@ -30,12 +30,14 @@ const styles: StyleRecord = {
     h4: 'text-xl sm:text-2xl font-medium',
   },
   projectPage: {
-    h2: 'text-4xl xs:text-5xl font-semibold text-malibu-300 mt-32 mb-10',
-    h3: 'text-4xl font-semibold mb-4',
+    h2: 'text-4xl xs:text-5xl font-semibold text-malibu-300 mt-16 mb-10',
+    h3: 'text-4xl font-semibold mb-8 mt-12',
     h4: 'text-3xl font-light text-malibu-300 mb-2',
+    h5: 'text-2xl font-semibold mb-4'
   },
   funky: {
     h2: 'text-4xl font-nat font-bold sm:text-6xl md:text-6xl mb-3',
+    h3: 'text-2xl font-nat font-regular sm:text-6xl md:text-6xl mb-3',
   },
 }
 

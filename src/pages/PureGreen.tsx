@@ -284,7 +284,8 @@ const PureGreen = () => (
       Final Designs & Prototype
     </Title>
 
-    <video autoPlay loop muted playsInline className="pb-56 pt-4">
+    <video autoPlay loop muted playsInline className="pb-8 mx-auto"
+     style={{ maxWidth: '80%', maxHeight: '80%' }}>
       <source src={PGDemo} type="video/mp4" />
     </video>
 
@@ -320,6 +321,8 @@ const PureGreen = () => (
       would definitely like to test the app with more people or even ask
       PureGreen about the app and further consolidate with them.
     </Text>
+    <Title style='funky' order={3}>Nat;</Title>
+
   </ProjectPage>
 )
 

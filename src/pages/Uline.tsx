@@ -383,6 +383,8 @@ const Uline = () => (
       I hope to apply the design skills I picked up on this project and at this
       internship to create even better user-centric designs in the future.
     </Text>
+    <Title style='funky' order={3}>Nat;</Title>
+
   </ProjectPage>
 )
 

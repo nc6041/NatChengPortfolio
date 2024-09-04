@@ -288,7 +288,8 @@ const Wellness = () => (
       to.
     </Text>
 
-    <video autoPlay loop muted playsInline className="pb-32 pt-4">
+    <video autoPlay loop muted playsInline className="pb-16 mx-auto"
+     style={{ maxWidth: '80%', maxHeight: '80%' }}>
       <source
         src={video1}
         className="w-full h-full relative"
@@ -307,7 +308,9 @@ const Wellness = () => (
       book appointments with the suggestions with just a few taps.
     </Text>
 
-    <video autoPlay loop muted playsInline className="pb-32 pt-4">
+    <video autoPlay loop muted playsInline className="pb-16 mx-auto"
+     style={{ maxWidth: '80%', maxHeight: '80%' }}
+     >
       <source
         src={video2}
         className="w-full h-full relative"
@@ -326,7 +329,8 @@ const Wellness = () => (
       they need, when they need it.
     </Text>
 
-    <video autoPlay loop muted playsInline className="mb-56 pt-4">
+    <video autoPlay loop muted playsInline className="mb-8 mx-auto"
+     style={{ maxWidth: '80%', maxHeight: '80%' }}>
       <source
         src={video3}
         className="w-full h-full relative"
@@ -347,6 +351,8 @@ const Wellness = () => (
       however my team and I were still able to create a design we can really be
       proud of.
     </Text>
+    <Title style='funky' order={3}>Nat;</Title>
+
   </ProjectPage>
 )
 

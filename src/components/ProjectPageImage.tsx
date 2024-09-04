@@ -15,7 +15,7 @@ export default function ProjectPageImage({
   ...props
 }: ProjectPageImageProps) {
   return (
-    <div className="pb-10 lg:px-20 pt-4 mb-16">
+    <div className="pb-10 lg:px-20 pt-4">
       <img {...props} />
       {caption && <p className="text-zinc-400">{caption}</p>}
     </div>

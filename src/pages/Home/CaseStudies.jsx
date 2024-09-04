@@ -1,4 +1,4 @@
-import benefitdesign from '@/assets/benefitdesign.png'
+import intervarsityhero from '@/assets/intervarsityhero.png'
 import blue from '@/assets/blue.png'
 import PureGreenHero from '@/assets/PGHero.png'
 import uline from '@/assets/uline.png'
@@ -14,6 +14,14 @@ const CaseStudies = () => (
   >
     <Title style="homepage">CASE STUDIES</Title>
     <div className="flex flex-col gap-9">
+    <CaseCard
+        id="intervarsity"
+        title="Give Site: Progress Tracker"
+        description="Creating digital products for the benefit of internal teams, campus staff ministers, and students."
+        whatFor="InterVarsity"
+        imgSrc={intervarsityhero}
+        href="/intervarsity"
+      />
       <CaseCard
         id="puregreen"
         title="PureGreen App"
@@ -35,14 +43,7 @@ const CaseStudies = () => (
         whatFor="LIS 470: Interaction Design"
         imgSrc={blue}
       />
-      <CaseCard
-        id="educa11y"
-        title="Digital Accessibility Website"
-        description="Helping non-profits provide education and resources for digital accessibility."
-        whatFor="educa11y"
-        imgSrc={benefitdesign}
-        href="/benefit"
-      />
+
     </div>
   </PageSection>
 )
