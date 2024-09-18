@@ -1,7 +1,9 @@
-import intervarsityhero from '@/assets/intervarsityhero.png'
-import blue from '@/assets/blue.png'
+import intervarsityhero from '@/assets/GiveSiteMockup.png'
+import blue from '@/assets/WEMock.png'
 import PureGreenHero from '@/assets/PGHero.png'
 import uline from '@/assets/uline.png'
+import UlineMockup from '@/assets/UlineMockup.png'
+
 
 import PageSection from '@/components/PageSection'
 import CaseCard from './CaseCard'
@@ -34,7 +36,7 @@ const CaseStudies = () => (
         title="New Customer Retention"
         description="Rethinking Uline's welcome campaign to keep new customers coming back for more."
         whatFor="Uline Intern Project"
-        imgSrc={uline}
+        imgSrc={UlineMockup}
       />
       <CaseCard
         id="wellness"
