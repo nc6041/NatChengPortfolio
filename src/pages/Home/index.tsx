@@ -10,7 +10,7 @@ const Home = () => (
       title1="Hi, "
       title2="I'm Nat;"
       img="homepage"
-      buttonHref="studies"
+      buttonHref="#studies"
       buttonText="View My Work"
       
     >

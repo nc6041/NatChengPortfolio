@@ -88,7 +88,7 @@ const Navbar = () => {
                 'md:flex md:gap-8 md:border-0 md:flex-row md:static md:mt-0 md:items-center md:z-auto md:py-0',
               )}
             >
-              <NavLink href="/studies" title="CASE STUDIES" />
+              <NavLink href="/#studies" title="CASE STUDIES" />
               <NavLink href="/about#top" title="ABOUT" />
               <NavLink href="/other#top" title="OTHER WORK" />
               <NavLink
