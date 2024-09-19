@@ -21,7 +21,7 @@ export default function ProjectPage({ title, children }: ProjectPageProps) {
       <div className="w-full px-24">
       <PageSection id={topId}>
         {/* An arrow button to take them back to the main page */}
-        <Link href="/studies">
+        <Link href="/#studies">
           <Arrow
             className="sm:-translate-x-12 -translate-x-12 m-10 text-malibu-300"
             size={36}
