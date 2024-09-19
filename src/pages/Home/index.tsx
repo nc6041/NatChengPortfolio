@@ -10,12 +10,12 @@ const Home = () => (
       title1="Hi, "
       title2="I'm Nat;"
       img="homepage"
-      buttonHref="#studies"
+      buttonHref="studies"
       buttonText="View My Work"
       
     >
       <Text className="max-w-[900px] text-xl md:text-xl">
-        a UX & Product designer and playful spirit dedicated to creating {' '}
+        a UX/Product designer and playful spirit dedicated to creating {' '}
         <br className="sm:block hidden" />
         <b>simple</b> solutions for a <b>complex</b> world.
       </Text>
