@@ -26,6 +26,7 @@ const About = () => (
         <Title style="funky">
           Who is <AccentSpan>Nat</AccentSpan>?
         </Title>
+        
         <img
           src={ivIntern}
           alt="Nat Cheng at InterVarsity holding a teddy bear"
@@ -57,13 +58,13 @@ const About = () => (
             that always puts others first. In college, I discovered that
             there is a career in designing for people, and found it to be the perfect
             intersection between my passions and my skills. Now, I strive to 
-            design products and experiences that solve real problems and produce joy in 
+            design products <br/> and experiences that solve real problems and produce<br/>  joy in 
             human-to-tech relationships.
           </Text>
         </div>
       </PageSection>
 
-      <PageSection className="w-full md:text-base px-12">
+      <PageSection className="w-full md:text-base px-12" marginBottom="-25px" marginTop='-50px'>
         <Title style="funky">
           Tech <AccentSpan>Stack</AccentSpan>
         </Title>
@@ -78,7 +79,7 @@ const About = () => (
         </BoldLabeled>
       </PageSection>
 
-      <PageSection className="flex flex-col items-center max-w-4xl">
+      <PageSection className="flex flex-col items-center max-w-4xl" marginTop="-50px">
         <Title style="funky">
           <span
             className="font-nat font-normal text-[200px] relative top-6"

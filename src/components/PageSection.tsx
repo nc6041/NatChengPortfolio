@@ -8,6 +8,8 @@ interface PageSectionProps {
   className?: string
   style?: React.CSSProperties
   id?: string
+  marginTop?: string
+  marginBottom?: string
 }
 
 /**
@@ -20,6 +22,8 @@ export default function PageSection({
   as: Component = 'section',
   style,
   fullWidth = false,
+  marginTop = '0',
+  marginBottom = '0',
   ...props
 }: PageSectionProps) {
   const section = (
@@ -30,6 +34,8 @@ export default function PageSection({
       )}
       {...props}
       style={{
+        marginTop, // Apply the marginTop
+        marginBottom,
         // scrollMarginTop: 'var(--navbar-height)',
         ...style,
       }}
