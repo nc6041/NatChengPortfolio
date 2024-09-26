@@ -39,17 +39,15 @@ const Footer = ({ className }: FooterProps) => (
 
     <div className="flex flex-row gap-12 justify-center items-center pt-6">
       {/* facebook */}
-      <a href="https://www.facebook.com/natalie.cheng.545?mibextid=LQQJ4d">
-        <svg
+      <a href="https://medium.com/@natjcheng">
+      <svg 
           className="w-[45px] h-[45px] object-contain cursor-pointer fill-current hover:text-malibu-300"
-          width="21"
-          height="21"
-          viewBox="0 0 21 21"
+          xmlns="http://www.w3.org/2000/svg" 
+          width="25"
+          height="25"
           fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M10.5001 0C4.7011 0 0 4.72075 0 10.544C0 15.7667 3.78548 20.092 8.74886 20.9296V12.7437H6.21594V9.79796H8.74886V7.62588C8.74886 5.10564 10.2817 3.73225 12.5209 3.73225C13.5934 3.73225 14.515 3.8125 14.7826 3.84784V6.48217L13.2295 6.48292C12.012 6.48292 11.7773 7.06377 11.7773 7.91643V9.79645H14.6824L14.3035 12.7422H11.7773V21C16.9724 20.3651 21 15.9296 21 10.5409C21 4.72075 16.2989 0 10.5001 0Z" />
-        </svg>
+          viewBox="0 0 640 512">
+        <path d="M180.5 74.3C80.8 74.3 0 155.6 0 256S80.8 437.7 180.5 437.7 361 356.4 361 256 280.2 74.3 180.5 74.3zm288.3 10.6c-49.8 0-90.2 76.6-90.2 171.1s40.4 171.1 90.3 171.1 90.3-76.6 90.3-171.1H559C559 161.5 518.6 84.9 468.8 84.9zm139.5 17.8c-17.5 0-31.7 68.6-31.7 153.3s14.2 153.3 31.7 153.3S640 340.6 640 256C640 171.4 625.8 102.7 608.3 102.7z"/></svg>
       </a>
 
       {/* X */}
