@@ -39,30 +39,39 @@ const About = () => (
         />
         <div className="md:text-base">
           <Text>
-          I’m a designer that reshapes the way people live with simple and 
-          intuitive solutions. My purpose is to make people's lives easier by targeting the <i>real</i> issue through research, 
-          analysis, and iterative design methodologies so that the right problems are being solved.
-            I'm currently a graduate student studying <b>Information Experience Design</b> at Pratt Institute in New
+          I’m a designer that reshapes the way people live through simplicity and 
+          innovation. My purpose is to make people's lives easier by developing the <i>right</i> solutions
+          to the <i>right</i> problems using research, analysis, and iterative design. 
+          
+
+            {/* I'm currently a graduate student studying <b>Information Experience Design</b> at Pratt Institute in New
             York City. I recently graduated from the University of
             Wisconsin&ndash;Madison with a B.A. in <b>computer science</b> and a
-            certificate in <b>graphic design</b>.
+            certificate in <b>graphic design</b>. */}
+          </Text>
+          
+          <Text>
+          Why? Well, living is hard.
+          We both know that. But the world doesn't need to be so complex. I believe that for 
+          every product, every system, every task, a <i>simpler solution is waiting to be found</i>. 
+          In a world where we are constantly moving on from one struggle to the next, I design so that
+          life doesn't have to be so hard. 
           </Text>
 
-
-          <Text>
+          {/* <Text>
             I grew up loving all things creative and was raised in a culture
             that always puts others first. I found design to be the perfect
             intersection between my passions and my skills, and it allowed me to care for people in 
             a world where we are constantly moving on from one struggle to the next. Now, I strive to 
             create products and experiences that solve real problems and produce joy in 
             human-to-tech relationships.
-          </Text>
+          </Text> */}
 
           <Text>
             My most recent role was at InterVarsity as a digital product design intern where I
-            designed new give site  features to boost user engagement in the giving process, 
-            drafted multiple in-depth user research plans to improve internal organization communication,
-            as well as updating and implementing the design system in landing pages and other products.
+            created new give site features to boost user engagement in the giving process, 
+            drafted user research plans to improve internal organization communication,
+            and updated the design system for enhanced implementation.
           </Text>
         </div>
       </PageSection>

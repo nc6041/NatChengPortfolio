@@ -15,14 +15,13 @@ const Home = () => (
       
     >
       <Text className="max-w-[900px] text-xl md:text-xl">
-        a UX/Product designer and playful spirit dedicated to creating {' '}
-        <br className="sm:block hidden" />
-        <b>simple</b> solutions for a <b>complex</b> world.
+        a designer dedicated to making life a little easier.{' '}
+        {/* <br className="sm:block hidden" /> */}
       </Text>
 
       <Text className="max-w-[700px]">
         currently studying information experience design at{' '}
-        <b>Pratt Institute</b>
+        <b>Pratt Institute</b> and on a mission to find the best lemon tea in New York City.
       </Text>
     </Hero>
     <CaseStudies />
