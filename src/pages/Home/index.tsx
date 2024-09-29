@@ -21,7 +21,7 @@ const Home = () => (
 
       <Text className="max-w-[700px]">
         currently studying information experience design at{' '}
-        <b>Pratt Institute</b> and on a mission to find the best lemon tea in New York City.
+        <b>Pratt Institute</b> <br/>and ranking every lemon tea in New York City.
       </Text>
     </Hero>
     <CaseStudies />

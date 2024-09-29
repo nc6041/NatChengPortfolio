@@ -26,8 +26,8 @@ const Footer = ({ className }: FooterProps) => (
       className="absolute -z-10 top-0 left-0 min-w-full min-h-full object-cover"
     />
 
-    <h1 className="font-nat text-6xl text-black">Let's Chat!</h1>
-    <Text className="text-black">Talk with me about anything</Text>
+    <h1 className="font-nat text-6xl text-black mt-12">Let's Chat!</h1>
+    <Text className="text-black">Talk with me about anything, especially about HK lemon tea.</Text>
     <Text>
       <a
         href="mailto:nataliec6041@gmail.com"

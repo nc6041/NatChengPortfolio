@@ -19,7 +19,7 @@ const CaseStudies = () => (
     <CaseCard
         id="intervarsity"
         title="Give Site: Progress Tracker"
-        description="Creating digital products for the benefit of internal teams, campus staff ministers, and students."
+        description="Empowering donors by visualizing fundraising progress to enhance engagement and drive fundraising efforts."
         whatFor="InterVarsity"
         imgSrc={intervarsityhero}
         href="/intervarsity"
@@ -27,7 +27,7 @@ const CaseStudies = () => (
       <CaseCard
         id="puregreen"
         title="PureGreen App"
-        description="A mobile app that allows users to smoothly and quickly order from PureGreen, a smoothie shop."
+        description="A mobile app that enables users to effortlessly order from PureGreen, a smoothie shop."
         whatFor="Art 575: UX for Graphic Design"
         imgSrc={PureGreenHero}
       />
@@ -41,7 +41,7 @@ const CaseStudies = () => (
       <CaseCard
         id="wellness"
         title="Health & Wellness Chatbot"
-        description="A personalized chat AI to help users find accessible healthcare and wellness options fit for them."
+        description="Utilizing AI to make healthcare and wellness personal and accessible to everyone."
         whatFor="LIS 470: Interaction Design"
         imgSrc={blue}
       />
