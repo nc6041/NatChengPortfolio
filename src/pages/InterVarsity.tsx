@@ -101,8 +101,8 @@ const InterVarsity = () => (
     
     <Text>
         For context, this is what the give site form looked like before. The only “push” that exists 
-        is a small blue banner with some words of encouragement. Even then, some simple A/B testing showed that 
-        gift quality or frequency did not change whether or not the banner was there. The site needed something more.
+        is a small blue banner with some words of encouragement. Even then, it's not very engaging at all and does nothing
+        to involve the user in the donation process. 
     </Text>
 
     <ProjectPageImage src={IVBefore} alt="before" />
