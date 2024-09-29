@@ -123,19 +123,21 @@ const InterVarsity = () => (
     <Text>
     Because the timeline did not allow for us to conduct our own research, I did some quick research online to ensure that progress 
     cues are actually motivators for donors. After digging around on NextAfter, a fundraising research lab, I was able to confirm that 
-    the addition of a progress bar in one experiment resulted in a donation increase of 20.5% among those giving, and in other cases, 
-    the presence of progress bars resulted in higher quality donations. You can view the articles&nbsp;
+    the addition of a progress bar in&nbsp; 
     <a href="https://www.nextafter.com/experiments/how-an-animated-progress-bar-impacted-visits-to-the-website/" 
        target="_blank" 
        style={{ textDecoration: 'underline', color: '#209CE9' }}>
-        here
-    </a> 
-    &nbsp;and&nbsp;
-    <a href="https://www.nextafter.com/experiments/how-removing-a-progress-thermometer-to-a-donation-page-affects-donation-rates-during-a-high-urgency-campaign/" 
+     one experiment 
+    </a>
+    &nbsp;resulted in a donation increase of 20.5% among those giving, and in&nbsp;
+    <a href="https://www.nextafter.com/experiments/how-an-animated-progress-bar-impacted-visits-to-the-website/" 
        target="_blank" 
        style={{ textDecoration: 'underline', color: '#209CE9' }}>
-        here
-    </a>.
+    other cases
+    </a>, 
+  the presence of progress bars resulted in higher quality donations.
+    
+  
 </Text>
 
 <Text>
