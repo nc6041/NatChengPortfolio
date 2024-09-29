@@ -328,7 +328,7 @@ const Uline = () => (
       </div>
       <div className="flex-1">
         <Title style="projectPage" order={3} center>
-          Follow Up 1 Raws
+          Follow Up 2 Raws
         </Title>
         <img src={fu2raw} alt="fu2raw" />
       </div>
