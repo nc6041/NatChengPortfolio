@@ -24,6 +24,8 @@ import IVWF2 from '@/assets/IVWF2.png'
 import onehundred from '@/assets/onehundred.png'
 import Components from '@/assets/Components.png'
 import Prototype from '@/assets/Prototype.png'
+import s1 from '@/assets/s1.png'
+import s2 from '@/assets/s2.png'
 import Video from '@/assets/IVVideo.mp4'
 
 const InterVarsity = () => (
@@ -204,7 +206,9 @@ The insights I found were based on the answers to my questions as well as the pr
     the InterVarsity logo, and a text-only approach.
     </Text>
 
-    <ProjectPageImage src={IVIdeation} alt="ideation" />
+    {/* <ProjectPageImage src={IVIdeation} alt="ideation" /> */}
+    <ProjectPageImage src={s1} alt="s1" />
+    <ProjectPageImage src={s2} alt="s2"/>
 
 
     <Text>
