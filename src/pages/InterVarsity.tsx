@@ -231,14 +231,7 @@ The insights I found were based on the answers to my questions as well as the pr
     </Title>
 
     <Text>
-      After narrowing down our options, we polished these wireframes and created
-      new <AccentSpan>high-fidelity wireframes</AccentSpan>. We also added new
-      screens like product detail pages as well as implementing small styles
-      like buttons and fonts. Additionally, we created overlay screens such as
-      "item added" overlays to implement feedback to the user when they add an
-      item, giving them confirmation instead of leaving them wondering if they
-      added an item or not. Our most important features from the wireframes lie
-      in the dashboard, menu, and item detail pages.
+    Using the sketches as a base, I turned to Figma and InterVarsity’s design system to develop some low-fidelity wireframes for each style in various states that would help the client visualize the final product more clearly. 
     </Text>
 
     <ProjectPageImage src={IVWF} alt="wireframes" />
