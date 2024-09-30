@@ -31,7 +31,7 @@ import Video from '@/assets/IVVideo.mp4'
 const InterVarsity = () => (
   <ProjectPage title="InterVarsity">
     <Text>Inspiring ministry partners through the visualization of staff and campaign fundraising journeys.</Text>
-
+    <ProjectPageImage src={GiveSiteMockup1} alt="Progress tracker mockups" />
     <Text>
       <strong>Collaborators:</strong> Ashley Crutcher (Experience Director & Manager), Rachel Lance (Product Owner), 
       Nathan Lens (Lead Developer)
@@ -56,7 +56,7 @@ const InterVarsity = () => (
     was creating a progress tracker to monitor the donation progress for marketing campaigns and InterVarsity staff.
     </Text>
 
-    <ProjectPageImage src={GiveSiteMockup1} alt="Progress tracker mockups" />
+    {/* <ProjectPageImage src={GiveSiteMockup1} alt="Progress tracker mockups" /> */}
 
     <Why
       theProblem={

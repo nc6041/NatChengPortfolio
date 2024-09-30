@@ -20,6 +20,7 @@ import Style from '@/assets/Style.png'
 const PureGreen = () => (
   <ProjectPage title="PureGreen App">
     <Text>A simple way to view, compare, and order items from PureGreen.</Text>
+    <ProjectPageImage src={PGFinals} alt="puregreen finals" />
 
     <Text>
       <strong>Team:</strong> Atilano Escobar, Caroline Marx, Jamie Wolfson
@@ -50,7 +51,7 @@ const PureGreen = () => (
       persona.
     </Text>
 
-    <ProjectPageImage src={PGFinals} alt="puregreen finals" />
+    {/* <ProjectPageImage src={PGFinals} alt="puregreen finals" /> */}
 
     <Why
       theProblem={

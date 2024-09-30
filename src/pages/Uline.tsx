@@ -32,7 +32,11 @@ const Uline = () => (
       Rethinking Uline's welcome campaign by targetting specific industries in
       order to improve new customer retention.
     </Text>
-
+    <ProjectPageImage
+      src={initialfinaldesign}
+      alt="Initial and final designs"
+      // caption="Final Designs"
+    />
     <BoldLabeled label="Team">
       Uline Creative Interns (10 members total)
     </BoldLabeled>
@@ -61,11 +65,11 @@ const Uline = () => (
       piece since we didn't have a web production or print design intern.
     </Text>
 
-    <ProjectPageImage
+    {/* <ProjectPageImage
       src={initialfinaldesign}
       alt="Initial and final designs"
       caption="Final Designs"
-    />
+    /> */}
 
     <Why
       theProblem={

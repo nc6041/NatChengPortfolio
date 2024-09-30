@@ -25,7 +25,7 @@ const Wellness = () => (
       Using AI to provide resources and education for accessible healthcare and
       wellness options for every kind of person.
     </Text>
-
+    <ProjectPageImage src={finals} alt="finals" />
     <BoldLabeled label="Team">Emma Freisberg, Megan Wu</BoldLabeled>
     <BoldLabeled label="My Role">UI/UX Design</BoldLabeled>
     <BoldLabeled label="Timeline">February 2023 - May 2023</BoldLabeled>
@@ -41,7 +41,7 @@ const Wellness = () => (
       the problem we initially defined.
     </Text>
 
-    <ProjectPageImage src={finals} alt="finals" />
+    {/* <ProjectPageImage src={finals} alt="finals" /> */}
 
     <Why
       theProblem={
