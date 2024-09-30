@@ -58,9 +58,7 @@ const Uline = () => (
       <AccentSpan bold>design new emails</AccentSpan> and{' '}
       <AccentSpan bold>landing page banners</AccentSpan> for the project, but I
       also took on the role of coding the landing pages and designing a print
-      piece since we didn't have a web production or print design intern. I will
-      describe the overview and process of this project, but unfortunately,
-      cannot share all the specifics.
+      piece since we didn't have a web production or print design intern.
     </Text>
 
     <ProjectPageImage
