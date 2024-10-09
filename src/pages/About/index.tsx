@@ -17,7 +17,7 @@ const About = () => (
     <Hero
       title1="About "
       title2="Me"
-      buttonHref="https://drive.google.com/file/d/1Ik_UoELOOMonRP9IsHSTcI2_pzC5_IUD/view?usp=sharing"
+      buttonHref="https://drive.google.com/file/d/1whzecB6TlnZLoNYCJtoQZIcYI8wLls-4/view?usp=sharing"
       buttonText="Resume"
     />
 
